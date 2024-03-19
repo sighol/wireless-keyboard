@@ -136,11 +136,11 @@
 	(footprint "PCM_Switch_Keyboard_Hotswap_Kailh:SW_Hotswap_Kailh_Choc_V1V2_1.00u"
 		(layer "F.Cu")
 		(uuid "0546ee9f-9a10-4ad0-acec-e488cf81d12d")
-		(at 135.015 143.547)
+		(at 133.265 143.547)
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
 		(property "Reference" "CH28"
-			(at 0 -9 360)
+			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "eb56414f-ea2b-45a9-9245-744cf18d9e1c")
 			(effects
@@ -151,7 +151,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "11dad45e-813f-43d4-8b58-ba4eedd24729")
 			(effects
@@ -1262,7 +1262,7 @@
 			(uuid "fdcdb8ca-543a-4c06-9458-299b7fd262dc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "d232d00d-732e-4acf-a6fc-9c986ce56702")
 			(effects
@@ -1353,7 +1353,7 @@
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
 		(property "Reference" "CH1"
-			(at 0 -9 360)
+			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "42485c2f-2698-41c4-b1d1-e454846df5ea")
 			(effects
@@ -1364,7 +1364,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "11fa061b-ab27-4178-972e-546e1f2bd2be")
 			(effects
@@ -2475,7 +2475,7 @@
 			(uuid "8bf5e07a-23a4-4977-b7ea-6b066a1ea1a7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "195b49b1-09ea-4a78-b324-89ba1e2cbd01")
 			(effects
@@ -2566,7 +2566,7 @@
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
 		(property "Reference" "CH8"
-			(at 0 -9 360)
+			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "5b7c0dc9-29d9-4a0f-9c8c-48a9ab8f3713")
 			(effects
@@ -2577,7 +2577,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "23351978-cfaf-43c9-9c40-f0587a8171c3")
 			(effects
@@ -3688,7 +3688,7 @@
 			(uuid "de4cba95-85f4-4075-add9-35edee672548")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "7e8df065-5c56-43f8-a26a-6820c3144cfc")
 			(effects
@@ -3779,7 +3779,7 @@
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
 		(property "Reference" "CH18"
-			(at 0 -9 360)
+			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "ebbfbf25-4711-4204-b5a5-c6dddace1f3c")
 			(effects
@@ -3790,7 +3790,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "230c68be-512c-4516-8b68-506a20505457")
 			(effects
@@ -4901,7 +4901,7 @@
 			(uuid "904b6f01-bfda-4341-8bc7-7da04893a279")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "a732c7a0-5d3c-40ef-bf72-39ed16c693be")
 			(effects
@@ -4992,7 +4992,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D11"
-			(at 3.81 -2.12 270)
+			(at 3.81 -2.12 -90)
 			(layer "F.SilkS")
 			(uuid "136b693b-57bf-44ce-b826-1fd73a8f0a1b")
 			(effects
@@ -5003,7 +5003,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 3.81 2.12 270)
+			(at 3.81 2.12 -90)
 			(layer "F.Fab")
 			(uuid "07b4b3cb-6a9e-49bf-b177-3cd2e72924fe")
 			(effects
@@ -5301,7 +5301,7 @@
 			(uuid "2a1550d5-cdc1-41a2-9c4b-ee2c202222fe")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(uuid "5e3e06c2-2879-4252-b6a5-77ad57d078f9")
 			(effects
@@ -5312,7 +5312,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 270)
+			(at 4.11 0 -90)
 			(layer "F.Fab")
 			(uuid "b0230aa7-f693-4bcc-b5c6-c3bb692a9054")
 			(effects
@@ -5323,7 +5323,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.Fab")
 			(uuid "b5272364-b2e8-4390-8c65-856b06885f3c")
 			(effects
@@ -5374,7 +5374,7 @@
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
 		(property "Reference" "CH23"
-			(at 0 -9 360)
+			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "7a2548c7-e566-4cb3-99a5-e6bd437114c8")
 			(effects
@@ -5385,7 +5385,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "3981e9e4-6441-4693-b55c-f613194ec2ba")
 			(effects
@@ -6496,7 +6496,7 @@
 			(uuid "fa98cb0c-eb91-4e9b-a3ef-faa187e0e46d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "db95cf72-fd6b-4d28-ae7c-7c5113b04137")
 			(effects
@@ -6583,11 +6583,11 @@
 	(footprint "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
 		(layer "F.Cu")
 		(uuid "259da31e-dac1-45ce-b107-fbc3f1202086")
-		(at 126.015 84.487 -90)
+		(at 126.015 92.107 90)
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D10"
-			(at 3.81 -2.12 90)
+			(at 3.81 -2.12 -90)
 			(layer "F.SilkS")
 			(uuid "9d25ab9e-93df-4a71-849a-319089f23611")
 			(effects
@@ -6598,7 +6598,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 3.81 2.12 90)
+			(at 3.81 2.12 -90)
 			(layer "F.Fab")
 			(uuid "d7ece836-7ad2-404b-a890-b8e3890bbe38")
 			(effects
@@ -6609,7 +6609,7 @@
 			)
 		)
 		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6621,7 +6621,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 0 0 -90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6633,7 +6633,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6645,7 +6645,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6658,7 +6658,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 0 0 -90)
+			(at 0 0 90)
 			(unlocked yes)
 			(layer "F.Fab")
 			(hide yes)
@@ -6676,74 +6676,14 @@
 		(sheetfile "sighol-split2.kicad_sch")
 		(attr through_hole)
 		(fp_line
-			(start 1.69 1.12)
-			(end 5.93 1.12)
+			(start 5.93 -1.12)
+			(end 1.69 -1.12)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "71b7bb6a-d846-4729-a267-7cea9c215d4f")
-		)
-		(fp_line
-			(start 5.93 1.12)
-			(end 5.93 -1.12)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "5d120bed-bc77-4d84-b9a0-6d22d2bb604e")
-		)
-		(fp_line
-			(start 1.04 0)
-			(end 1.69 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "6fa15a0a-c849-4df8-8a00-4a54ec6d2c2a")
-		)
-		(fp_line
-			(start 6.58 0)
-			(end 5.93 0)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "241701e5-e5b1-4240-bd07-042874444d6f")
-		)
-		(fp_line
-			(start 1.69 -1.12)
-			(end 1.69 1.12)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "dd72c921-766b-433e-bf59-9a6cdc9bb019")
-		)
-		(fp_line
-			(start 2.29 -1.12)
-			(end 2.29 1.12)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "313dddbc-d039-4694-89d8-cfdda2e6bcef")
-		)
-		(fp_line
-			(start 2.41 -1.12)
-			(end 2.41 1.12)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "F.SilkS")
-			(uuid "29fc96f1-8827-4674-a925-b59336e97816")
+			(uuid "9750242d-bfee-483f-8968-c5c4b794b6b3")
 		)
 		(fp_line
 			(start 2.53 -1.12)
@@ -6756,44 +6696,74 @@
 			(uuid "a8a0c100-149a-4f15-a3ad-dfda92f76f70")
 		)
 		(fp_line
-			(start 5.93 -1.12)
-			(end 1.69 -1.12)
+			(start 2.41 -1.12)
+			(end 2.41 1.12)
 			(stroke
 				(width 0.12)
 				(type solid)
 			)
 			(layer "F.SilkS")
-			(uuid "9750242d-bfee-483f-8968-c5c4b794b6b3")
+			(uuid "29fc96f1-8827-4674-a925-b59336e97816")
 		)
 		(fp_line
-			(start -1.05 1.25)
-			(end 8.67 1.25)
+			(start 2.29 -1.12)
+			(end 2.29 1.12)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "39abc7d7-d1b9-4ac0-8583-ce89263bf406")
+			(layer "F.SilkS")
+			(uuid "313dddbc-d039-4694-89d8-cfdda2e6bcef")
 		)
 		(fp_line
-			(start 8.67 1.25)
-			(end 8.67 -1.25)
+			(start 1.69 -1.12)
+			(end 1.69 1.12)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "06d2c3cc-00de-4ec0-91c7-5fe7a3c9c0c7")
+			(layer "F.SilkS")
+			(uuid "dd72c921-766b-433e-bf59-9a6cdc9bb019")
 		)
 		(fp_line
-			(start -1.05 -1.25)
-			(end -1.05 1.25)
+			(start 6.58 0)
+			(end 5.93 0)
 			(stroke
-				(width 0.05)
+				(width 0.12)
 				(type solid)
 			)
-			(layer "F.CrtYd")
-			(uuid "c47407c4-d4b2-4b8d-a951-3d322e33c67b")
+			(layer "F.SilkS")
+			(uuid "241701e5-e5b1-4240-bd07-042874444d6f")
+		)
+		(fp_line
+			(start 1.04 0)
+			(end 1.69 0)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "6fa15a0a-c849-4df8-8a00-4a54ec6d2c2a")
+		)
+		(fp_line
+			(start 5.93 1.12)
+			(end 5.93 -1.12)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "5d120bed-bc77-4d84-b9a0-6d22d2bb604e")
+		)
+		(fp_line
+			(start 1.69 1.12)
+			(end 5.93 1.12)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "F.SilkS")
+			(uuid "71b7bb6a-d846-4729-a267-7cea9c215d4f")
 		)
 		(fp_line
 			(start 8.67 -1.25)
@@ -6806,74 +6776,44 @@
 			(uuid "1232d5ad-3852-4df2-88d1-01938a04c1c7")
 		)
 		(fp_line
-			(start 1.81 1)
-			(end 5.81 1)
+			(start -1.05 -1.25)
+			(end -1.05 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "aaefcfd9-1d46-4a31-a4c7-5a40c18faac8")
+			(layer "F.CrtYd")
+			(uuid "c47407c4-d4b2-4b8d-a951-3d322e33c67b")
 		)
 		(fp_line
-			(start 5.81 1)
-			(end 5.81 -1)
+			(start 8.67 1.25)
+			(end 8.67 -1.25)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "12638beb-ae29-4f72-9eda-1901ebd2fae3")
+			(layer "F.CrtYd")
+			(uuid "06d2c3cc-00de-4ec0-91c7-5fe7a3c9c0c7")
 		)
 		(fp_line
-			(start 0 0)
-			(end 1.81 0)
+			(start -1.05 1.25)
+			(end 8.67 1.25)
 			(stroke
-				(width 0.1)
+				(width 0.05)
 				(type solid)
 			)
-			(layer "F.Fab")
-			(uuid "7f853326-bbdb-4014-89b8-ab7fee00fdff")
+			(layer "F.CrtYd")
+			(uuid "39abc7d7-d1b9-4ac0-8583-ce89263bf406")
 		)
 		(fp_line
-			(start 7.62 0)
-			(end 5.81 0)
+			(start 5.81 -1)
+			(end 1.81 -1)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "abe74e97-f423-40cf-bebf-51055459dfcd")
-		)
-		(fp_line
-			(start 1.81 -1)
-			(end 1.81 1)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "d55153d2-bbf2-43ed-815f-a6cf2ffb0ee6")
-		)
-		(fp_line
-			(start 2.31 -1)
-			(end 2.31 1)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "99cbb914-5073-493d-9d5f-784420edc6bf")
-		)
-		(fp_line
-			(start 2.41 -1)
-			(end 2.41 1)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "F.Fab")
-			(uuid "f3374ec4-0a83-4e83-afa6-ad6daf8c8313")
+			(uuid "8ac39b97-8a1a-4d39-8a95-8982bbba3337")
 		)
 		(fp_line
 			(start 2.51 -1)
@@ -6886,17 +6826,77 @@
 			(uuid "eb9ebd19-9b39-4c76-a8cb-47eebe87eed4")
 		)
 		(fp_line
-			(start 5.81 -1)
-			(end 1.81 -1)
+			(start 2.41 -1)
+			(end 2.41 1)
 			(stroke
 				(width 0.1)
 				(type solid)
 			)
 			(layer "F.Fab")
-			(uuid "8ac39b97-8a1a-4d39-8a95-8982bbba3337")
+			(uuid "f3374ec4-0a83-4e83-afa6-ad6daf8c8313")
+		)
+		(fp_line
+			(start 2.31 -1)
+			(end 2.31 1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "99cbb914-5073-493d-9d5f-784420edc6bf")
+		)
+		(fp_line
+			(start 1.81 -1)
+			(end 1.81 1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "d55153d2-bbf2-43ed-815f-a6cf2ffb0ee6")
+		)
+		(fp_line
+			(start 7.62 0)
+			(end 5.81 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "abe74e97-f423-40cf-bebf-51055459dfcd")
+		)
+		(fp_line
+			(start 0 0)
+			(end 1.81 0)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "7f853326-bbdb-4014-89b8-ab7fee00fdff")
+		)
+		(fp_line
+			(start 5.81 1)
+			(end 5.81 -1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "12638beb-ae29-4f72-9eda-1901ebd2fae3")
+		)
+		(fp_line
+			(start 1.81 1)
+			(end 5.81 1)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "F.Fab")
+			(uuid "aaefcfd9-1d46-4a31-a4c7-5a40c18faac8")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 90)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(uuid "f48abaf1-b97b-456a-953b-a94e7441cf5d")
 			(effects
@@ -6907,7 +6907,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 90)
+			(at 4.11 0 -90)
 			(layer "F.Fab")
 			(uuid "9f1738b6-9d6b-435b-bd53-32893f6f81b1")
 			(effects
@@ -6918,7 +6918,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 90)
+			(at 0 -1.8 -90)
 			(layer "F.Fab")
 			(uuid "a17ddf42-f14f-437d-827e-1ec453b83f2d")
 			(effects
@@ -6929,7 +6929,7 @@
 			)
 		)
 		(pad "1" thru_hole rect
-			(at 0 0 270)
+			(at 0 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -6940,7 +6940,7 @@
 			(uuid "45849c1e-b4b0-475a-8204-5acb9399dc33")
 		)
 		(pad "2" thru_hole oval
-			(at 7.62 0 270)
+			(at 7.62 0 90)
 			(size 1.6 1.6)
 			(drill 0.8)
 			(layers "*.Cu" "*.Mask")
@@ -6969,7 +6969,7 @@
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
 		(property "Reference" "CH14"
-			(at 0 -9 360)
+			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "1c2c6b5b-9d45-4d49-8c19-bb7d9d8a0894")
 			(effects
@@ -6980,7 +6980,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "f26930c3-712e-40d0-9cba-26a3bd9e829c")
 			(effects
@@ -8091,7 +8091,7 @@
 			(uuid "642b708f-bbe6-4594-baca-4cc6bfc248eb")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "8199a617-c741-43b4-a9c7-8bb197b4c3a5")
 			(effects
@@ -8182,7 +8182,7 @@
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
 		(property "Reference" "CH11"
-			(at 0 -9 360)
+			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "808a32f2-7a4a-42d3-976e-cc10118b2a15")
 			(effects
@@ -8193,7 +8193,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "4817193d-8e99-43cf-b74d-b8f381375959")
 			(effects
@@ -9304,7 +9304,7 @@
 			(uuid "3822b06f-70db-4521-8bfb-8bd0c253d19a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "411102db-5fdf-4577-8f29-05de2ce11886")
 			(effects
@@ -9395,7 +9395,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D28"
-			(at 3.81 -2.12 270)
+			(at 3.81 -2.12 -90)
 			(layer "F.SilkS")
 			(uuid "3091fe60-8cfa-4a15-9eeb-47c4b592cce4")
 			(effects
@@ -9406,7 +9406,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 3.81 2.12 270)
+			(at 3.81 2.12 -90)
 			(layer "F.Fab")
 			(uuid "9960c50e-d535-4938-95ab-648fface063f")
 			(effects
@@ -9704,7 +9704,7 @@
 			(uuid "14d84291-5641-49fb-9e52-63e6b8e95ac9")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(uuid "f18a8c67-2357-4a36-945b-fccfe861ba32")
 			(effects
@@ -9715,7 +9715,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 270)
+			(at 4.11 0 -90)
 			(layer "F.Fab")
 			(uuid "538c5a41-8c87-4647-84c3-b0fdf30eb787")
 			(effects
@@ -9726,7 +9726,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.Fab")
 			(uuid "9f9ba4a7-a181-4754-a54d-50a47865c81f")
 			(effects
@@ -9777,7 +9777,7 @@
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
 		(property "Reference" "CH24"
-			(at 0 -9 360)
+			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "4254efbe-a5bc-40dd-a7e3-94575658ea1f")
 			(effects
@@ -9788,7 +9788,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "b6b2c2be-3980-4d66-89b0-b4270d8038c6")
 			(effects
@@ -10899,7 +10899,7 @@
 			(uuid "d40a52af-a0bf-4a79-b66d-0ed946279f7d")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "6bee254d-1410-45aa-a60e-a8d9f172f781")
 			(effects
@@ -10990,7 +10990,7 @@
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
 		(property "Reference" "CH9"
-			(at 0 -9 360)
+			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "7fc42abd-7cbd-4be2-ae19-0468ab43f733")
 			(effects
@@ -11001,7 +11001,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "d89958c4-7f65-4629-ab2e-b9ad4757db65")
 			(effects
@@ -12112,7 +12112,7 @@
 			(uuid "e4036d86-a25d-4f8f-8b6a-1dc1cae6a6dc")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "444d965b-81d6-42a1-a0f8-e7ed50edecca")
 			(effects
@@ -12203,7 +12203,7 @@
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
 		(property "Reference" "CH13"
-			(at 0 -9 360)
+			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "94e9e755-24dd-4dd3-8d7a-e097a0af3ae3")
 			(effects
@@ -12214,7 +12214,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "34712816-8acb-479c-b025-a892201f5edf")
 			(effects
@@ -13325,7 +13325,7 @@
 			(uuid "4e28b613-ce26-4063-b776-0cbe317dda7c")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "5179c837-8b2a-45c3-bddc-7cc2497fd5db")
 			(effects
@@ -13416,7 +13416,7 @@
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
 		(property "Reference" "CH17"
-			(at 0 -9 360)
+			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "eaec5cb8-83e7-4d83-88dc-847a51f1b874")
 			(effects
@@ -13427,7 +13427,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "fdc25a40-0da1-4d39-ba4f-d40998c11618")
 			(effects
@@ -14538,7 +14538,7 @@
 			(uuid "7a5c94f7-e794-4548-b316-56eca4853100")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "c7af3e76-822f-47b1-9971-5a2f511cde30")
 			(effects
@@ -15842,7 +15842,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D20"
-			(at 3.81 -2.12 270)
+			(at 3.81 -2.12 -90)
 			(layer "F.SilkS")
 			(uuid "70c813ae-0195-4f18-85cc-8fe2627e26f0")
 			(effects
@@ -15853,7 +15853,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 3.81 2.12 270)
+			(at 3.81 2.12 -90)
 			(layer "F.Fab")
 			(uuid "b46a5aef-06a6-40b7-8137-fdc1126a3cdb")
 			(effects
@@ -16151,7 +16151,7 @@
 			(uuid "833426c4-1840-4e06-a7ea-222e42a2f08f")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(uuid "8d3d1443-af84-49e8-a0bd-dd47559a455f")
 			(effects
@@ -16162,7 +16162,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 270)
+			(at 4.11 0 -90)
 			(layer "F.Fab")
 			(uuid "45101fa2-3c8b-4b3b-a402-2a841851ad5c")
 			(effects
@@ -16173,7 +16173,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.Fab")
 			(uuid "6e172ea3-884d-44f5-844d-4ea416bf7f20")
 			(effects
@@ -16224,7 +16224,7 @@
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
 		(property "Reference" "CH3"
-			(at 0 -9 360)
+			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "0508a30e-7f55-4fdd-a21a-5b8cd61f375b")
 			(effects
@@ -16235,7 +16235,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "e377348b-3cad-4999-8564-baacfc987566")
 			(effects
@@ -17346,7 +17346,7 @@
 			(uuid "0bf45d53-38c8-4b3c-9c52-e9cc66ffbba4")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "ff8536b3-7430-4359-a35c-6eb2b977503b")
 			(effects
@@ -17437,7 +17437,7 @@
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
 		(property "Reference" "CH20"
-			(at 0 -9 360)
+			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "907359c1-539c-4381-a2f1-a17d28bf3d84")
 			(effects
@@ -17448,7 +17448,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "00c747cf-a485-4dc7-bae5-a32c9c704fbf")
 			(effects
@@ -18559,7 +18559,7 @@
 			(uuid "9ff975db-2266-4ed4-8c93-0ec4191fafef")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "381fa9fe-071e-4cad-a108-0fb30f6cbdd0")
 			(effects
@@ -18646,7 +18646,7 @@
 	(footprint "PCM_marbastlib-xp-various:CON_MJ-4PP-9"
 		(layer "F.Cu")
 		(uuid "792175df-a9e2-42e9-9bf6-b8b29c911ecd")
-		(at 174.155 105.297 180)
+		(at 180.015 98.922 180)
 		(descr "TRRS Jack")
 		(tags "TRRS jack 3.5mm headphone connector")
 		(property "Reference" "J1"
@@ -18868,7 +18868,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D6"
-			(at 3.81 -2.12 270)
+			(at 3.81 -2.12 -90)
 			(layer "F.SilkS")
 			(uuid "cf2adde1-de7e-46b8-90e0-3c0a607fe1ed")
 			(effects
@@ -18879,7 +18879,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 3.81 2.12 270)
+			(at 3.81 2.12 -90)
 			(layer "F.Fab")
 			(uuid "beeb46ba-720e-4ae8-a7ea-265721a646e0")
 			(effects
@@ -19177,7 +19177,7 @@
 			(uuid "4295132c-6a1f-48d7-8238-075bd2538827")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(uuid "b93487d7-8e8e-4b10-8d2b-ff38b7750ff1")
 			(effects
@@ -19188,7 +19188,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 270)
+			(at 4.11 0 -90)
 			(layer "F.Fab")
 			(uuid "0d1ba0dd-7f93-42d9-adab-15c8f9e5ec53")
 			(effects
@@ -19199,7 +19199,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.Fab")
 			(uuid "ecce3a92-48ac-44a9-86e1-695e22d75734")
 			(effects
@@ -19250,7 +19250,7 @@
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
 		(property "Reference" "CH7"
-			(at 0 -9 360)
+			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "c9a817b8-7cad-4d9b-acc5-f6cf99a72728")
 			(effects
@@ -19261,7 +19261,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "ac707a8f-9566-4124-bdcb-78326ac89bac")
 			(effects
@@ -20372,7 +20372,7 @@
 			(uuid "88529dc0-9c5e-4a98-9d21-922404360992")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "3a47718c-d301-4326-b76e-872ee6527325")
 			(effects
@@ -20463,7 +20463,7 @@
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
 		(property "Reference" "CH4"
-			(at 0 -9 360)
+			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "368fb3bd-8b57-4d16-be1a-29e2f93dde89")
 			(effects
@@ -20474,7 +20474,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "f841bce6-e0e6-4f68-b570-8413fac1e4b2")
 			(effects
@@ -21585,7 +21585,7 @@
 			(uuid "4a275b26-45d7-43fd-97a4-2ebd50a331de")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "0828cddb-f1ba-45f2-b59a-0106687cddef")
 			(effects
@@ -21676,7 +21676,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D14"
-			(at 3.81 -2.12 270)
+			(at 3.81 -2.12 -90)
 			(layer "F.SilkS")
 			(uuid "cab7e6e8-ec37-474e-96f9-0507e411f515")
 			(effects
@@ -21687,7 +21687,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 3.81 2.12 270)
+			(at 3.81 2.12 -90)
 			(layer "F.Fab")
 			(uuid "733ecb44-ea23-4b37-a48d-f19a0a7e51dd")
 			(effects
@@ -21985,7 +21985,7 @@
 			(uuid "e36cbc26-b189-4ad3-8e45-36c236a57258")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(uuid "9a7e1fcb-c82c-4192-b958-448bed102ae9")
 			(effects
@@ -21996,7 +21996,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 270)
+			(at 4.11 0 -90)
 			(layer "F.Fab")
 			(uuid "e167d221-718e-493c-a0d4-aa554d07116c")
 			(effects
@@ -22007,7 +22007,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.Fab")
 			(uuid "f78a1e5e-613d-46c2-9b00-5c457b1f4379")
 			(effects
@@ -22058,7 +22058,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D12"
-			(at 3.81 -2.12 270)
+			(at 3.81 -2.12 -90)
 			(layer "F.SilkS")
 			(uuid "09a0e161-a58e-4439-9e20-be56314a5523")
 			(effects
@@ -22069,7 +22069,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 3.81 2.12 270)
+			(at 3.81 2.12 -90)
 			(layer "F.Fab")
 			(uuid "2fe5a5f6-feab-4dd2-9c03-5b99f5422cc6")
 			(effects
@@ -22367,7 +22367,7 @@
 			(uuid "1fa0aec0-8558-450c-b56b-41cccfea5df5")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(uuid "6a0721d0-09ed-47d7-b69f-0a64315146ed")
 			(effects
@@ -22378,7 +22378,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 270)
+			(at 4.11 0 -90)
 			(layer "F.Fab")
 			(uuid "299d2361-4f62-43de-b550-a806197cabb3")
 			(effects
@@ -22389,7 +22389,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.Fab")
 			(uuid "6ddfc312-e2b7-4833-a344-f85e446aef27")
 			(effects
@@ -22440,7 +22440,7 @@
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
 		(property "Reference" "CH10"
-			(at 0 -9 360)
+			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "1f8bdb68-63dd-48ac-bf2c-e5af129bf06e")
 			(effects
@@ -22451,7 +22451,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "3fd9f89e-2079-49ea-a8b9-5479b1e9fb9e")
 			(effects
@@ -23562,7 +23562,7 @@
 			(uuid "e22d7d05-322c-4d6f-9e66-e316df697943")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "963132f6-f06d-48da-9a47-2dfdf38c0b2a")
 			(effects
@@ -24035,7 +24035,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D8"
-			(at 3.81 -2.12 270)
+			(at 3.81 -2.12 -90)
 			(layer "F.SilkS")
 			(uuid "4ae9e85e-2821-4c81-ac3c-e88a25e24d0e")
 			(effects
@@ -24046,7 +24046,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 3.81 2.12 270)
+			(at 3.81 2.12 -90)
 			(layer "F.Fab")
 			(uuid "cb8cae2d-78e5-4d99-bd78-2e2013169df9")
 			(effects
@@ -24344,7 +24344,7 @@
 			(uuid "27217e36-643d-4ef4-96eb-a38dad82e5a0")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(uuid "3bd9cd96-558b-45b9-be72-8e879d66979b")
 			(effects
@@ -24355,7 +24355,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.Fab")
 			(uuid "88cbe909-2775-4c93-ab3a-4cb664d22c29")
 			(effects
@@ -24366,7 +24366,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 270)
+			(at 4.11 0 -90)
 			(layer "F.Fab")
 			(uuid "9ed2572c-fa7f-42f6-a4a8-bee0a58c8580")
 			(effects
@@ -24417,7 +24417,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D1"
-			(at 3.81 -2.12 270)
+			(at 3.81 -2.12 -90)
 			(layer "F.SilkS")
 			(uuid "56050dcd-b745-4cc3-93b8-d74c94795ed1")
 			(effects
@@ -24428,7 +24428,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 3.81 2.12 270)
+			(at 3.81 2.12 -90)
 			(layer "F.Fab")
 			(uuid "375c8d84-0165-4f3f-a6a0-d4bf55528a65")
 			(effects
@@ -24726,7 +24726,7 @@
 			(uuid "b32f3a1e-0afd-451a-9611-878520c94561")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(uuid "ee19b884-aba9-4bc2-93d5-3a0c904e2810")
 			(effects
@@ -24737,7 +24737,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.Fab")
 			(uuid "50198002-080a-4951-ac49-cb50785ea68e")
 			(effects
@@ -24748,7 +24748,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 270)
+			(at 4.11 0 -90)
 			(layer "F.Fab")
 			(uuid "c64b8346-9869-4fa0-ab33-8670c6737cce")
 			(effects
@@ -24799,7 +24799,7 @@
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
 		(property "Reference" "CH2"
-			(at 0 -9 360)
+			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "1f942d8c-01d4-4ca8-a151-167219ed0d88")
 			(effects
@@ -24810,7 +24810,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "8528fc52-bac5-4a6c-91fb-8524d47aff37")
 			(effects
@@ -25921,7 +25921,7 @@
 			(uuid "7e48a045-044b-47e1-902e-b525b5b4f7c7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "3a4569b4-3a55-45fe-99e7-ba05017bf7f0")
 			(effects
@@ -26012,7 +26012,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D2"
-			(at 3.81 -2.12 270)
+			(at 3.81 -2.12 -90)
 			(layer "F.SilkS")
 			(uuid "ad6d0851-6d6f-4dfc-9277-6408542f452e")
 			(effects
@@ -26023,7 +26023,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 3.81 2.12 270)
+			(at 3.81 2.12 -90)
 			(layer "F.Fab")
 			(uuid "052cee20-d4b1-473c-adb8-4b67e02fafb1")
 			(effects
@@ -26321,7 +26321,7 @@
 			(uuid "5ec43239-0be7-4ef2-b087-dafbfab423e6")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(uuid "5e135e56-8d77-456f-b622-83020de070ca")
 			(effects
@@ -26332,7 +26332,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.Fab")
 			(uuid "50c43a37-33f2-4cf0-8ce2-9a71c87a9857")
 			(effects
@@ -26343,7 +26343,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 270)
+			(at 4.11 0 -90)
 			(layer "F.Fab")
 			(uuid "a7d87b10-9f5c-4437-aad2-8819c18585c3")
 			(effects
@@ -26394,7 +26394,7 @@
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
 		(property "Reference" "CH5"
-			(at 0 -9 360)
+			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "568300f7-c7b6-4dd1-92a6-2970d11d37c8")
 			(effects
@@ -26405,7 +26405,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "b754d8e3-3d24-4156-8f51-3a9bc43f313c")
 			(effects
@@ -27516,7 +27516,7 @@
 			(uuid "c4f7ba1b-b11b-468e-b1dc-ea2fb40c91d7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "6ae80774-d43b-4cfd-b141-b311b4eecb67")
 			(effects
@@ -27607,7 +27607,7 @@
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
 		(property "Reference" "CH12"
-			(at 0 -9 360)
+			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "1470be21-2d9e-4420-86bb-76736746e7d9")
 			(effects
@@ -27618,7 +27618,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "01043f42-1423-4739-bea2-d4638dbab136")
 			(effects
@@ -28729,7 +28729,7 @@
 			(uuid "4ef165ac-d191-4452-8244-1633a07a6c68")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "08d845b4-5824-4fe6-8f18-1add486f6ecb")
 			(effects
@@ -28820,7 +28820,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D9"
-			(at 3.81 -2.12 270)
+			(at 3.81 -2.12 -90)
 			(layer "F.SilkS")
 			(uuid "d1f83bf0-c57f-4877-bd0c-ac639b5d58b0")
 			(effects
@@ -28831,7 +28831,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 3.81 2.12 270)
+			(at 3.81 2.12 -90)
 			(layer "F.Fab")
 			(uuid "c96c0723-4316-42e2-889c-839510bf6f02")
 			(effects
@@ -29129,7 +29129,7 @@
 			(uuid "eca2338c-3f4a-4c38-bb38-9a957d7c593e")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(uuid "50393391-b918-4898-956e-724399b89486")
 			(effects
@@ -29140,7 +29140,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 270)
+			(at 4.11 0 -90)
 			(layer "F.Fab")
 			(uuid "9161e65e-7ff1-42ea-903c-8dfef5df48cd")
 			(effects
@@ -29151,7 +29151,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.Fab")
 			(uuid "cfb83a83-6b01-4bc4-8c15-15197674ba94")
 			(effects
@@ -29202,7 +29202,7 @@
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
 		(property "Reference" "CH21"
-			(at 0 -9 360)
+			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "3b908674-ef66-4404-82e9-014151a2a7b3")
 			(effects
@@ -29213,7 +29213,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "4adc8831-5850-4250-927a-839440d47ea0")
 			(effects
@@ -30324,7 +30324,7 @@
 			(uuid "0a44b175-e202-4516-b8ba-19c36478ca19")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "7ee6454b-35bc-4a33-9670-77849a5c24d4")
 			(effects
@@ -30415,7 +30415,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D5"
-			(at 3.81 -2.12 270)
+			(at 3.81 -2.12 -90)
 			(layer "F.SilkS")
 			(uuid "5f9922db-2911-4ddc-a595-8833c3e9d0ce")
 			(effects
@@ -30426,7 +30426,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 3.81 2.12 270)
+			(at 3.81 2.12 -90)
 			(layer "F.Fab")
 			(uuid "778196f5-524c-4420-b220-3c4775e782a8")
 			(effects
@@ -30724,7 +30724,7 @@
 			(uuid "0f9ce096-b82f-437d-9171-50abec47c81e")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(uuid "4dd786e4-ecce-4cbc-868a-c23d9c236f3b")
 			(effects
@@ -30735,7 +30735,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.Fab")
 			(uuid "7a43fe5e-3bb6-49a5-b965-f9722ee65796")
 			(effects
@@ -30746,7 +30746,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 270)
+			(at 4.11 0 -90)
 			(layer "F.Fab")
 			(uuid "d4a3f910-c3da-4fea-997d-e92b805325d9")
 			(effects
@@ -30797,7 +30797,7 @@
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
 		(property "Reference" "CH6"
-			(at 0 -9 360)
+			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "ffc73c64-451c-4d29-b0ee-06f3ab097136")
 			(effects
@@ -30808,7 +30808,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "054ef394-59fe-419f-9e6c-3e6279070175")
 			(effects
@@ -31919,7 +31919,7 @@
 			(uuid "ecfd0df6-d414-4171-add0-d2e22298c3a9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "3d094185-2cef-4502-a969-66cbb9a1d10c")
 			(effects
@@ -32010,7 +32010,7 @@
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
 		(property "Reference" "CH22"
-			(at 0 -9 360)
+			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "b0783a3e-55e5-4c50-a555-f3694fde079a")
 			(effects
@@ -32021,7 +32021,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "6790363e-9a95-42dd-b60e-6a286c25238c")
 			(effects
@@ -33132,7 +33132,7 @@
 			(uuid "41aaea6f-d76e-40e6-b0cb-367f451fa30b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "845c5d37-8184-4a3e-bafb-90ea0a62d81b")
 			(effects
@@ -33223,7 +33223,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D13"
-			(at 3.81 -2.12 270)
+			(at 3.81 -2.12 -90)
 			(layer "F.SilkS")
 			(uuid "c310eb28-5daf-4ca2-90ba-7c8059e7a157")
 			(effects
@@ -33234,7 +33234,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 3.81 2.12 270)
+			(at 3.81 2.12 -90)
 			(layer "F.Fab")
 			(uuid "a9930e54-398b-4bb1-b48e-acfd6b50e826")
 			(effects
@@ -33532,7 +33532,7 @@
 			(uuid "7d9e5d35-c12a-443c-aa75-43449d924bcf")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(uuid "bf8a06d2-8eed-4e9c-8264-463c11f2c2a9")
 			(effects
@@ -33543,7 +33543,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.Fab")
 			(uuid "b5847a30-68d3-40f9-b8d6-588bfe561e73")
 			(effects
@@ -33554,7 +33554,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 270)
+			(at 4.11 0 -90)
 			(layer "F.Fab")
 			(uuid "f6d6bbcc-714e-4cf7-93b8-086418af49a8")
 			(effects
@@ -33605,7 +33605,7 @@
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
 		(property "Reference" "CH16"
-			(at 0 -9 360)
+			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "5f6a4e16-a547-4026-8b8c-a4d25c235dcc")
 			(effects
@@ -33616,7 +33616,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "be48a107-2a6f-427a-a201-f730614ab10b")
 			(effects
@@ -34727,7 +34727,7 @@
 			(uuid "66e97b0f-64f3-4d89-ad87-3ef42dded24b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "7f76c091-4293-458f-866b-b5919e5e2200")
 			(effects
@@ -35060,16 +35060,6 @@
 			(uuid "0076e4c8-5a57-4522-8f58-88bb83448986")
 		)
 		(fp_line
-			(start 2.546001 -7.282)
-			(end 2.633 -6.844)
-			(stroke
-				(width 0.12)
-				(type solid)
-			)
-			(layer "B.SilkS")
-			(uuid "567e8049-d040-40cf-a879-fc0bd46eed0f")
-		)
-		(fp_line
 			(start 3.682 -6.146)
 			(end 6.482 -6.146)
 			(stroke
@@ -35078,6 +35068,16 @@
 			)
 			(layer "B.SilkS")
 			(uuid "28d73e35-1619-4cde-9066-fcf97a881097")
+		)
+		(fp_line
+			(start 2.546001 -7.282)
+			(end 2.633 -6.844)
+			(stroke
+				(width 0.12)
+				(type solid)
+			)
+			(layer "B.SilkS")
+			(uuid "567e8049-d040-40cf-a879-fc0bd46eed0f")
 		)
 		(fp_line
 			(start 1.670999 -8.266)
@@ -35800,16 +35800,6 @@
 			(uuid "7371eb6d-8a95-44a3-ad8b-32f712bf59c5")
 		)
 		(fp_line
-			(start 2.475 -7.275)
-			(end 2.566001 -6.816)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "B.Fab")
-			(uuid "aa120e82-e23e-4ac9-9b3e-1d077e121757")
-		)
-		(fp_line
 			(start 3.674999 -6.075)
 			(end 6.475 -6.075)
 			(stroke
@@ -35818,6 +35808,16 @@
 			)
 			(layer "B.Fab")
 			(uuid "0c99d314-9570-464f-914f-7081e8045ed5")
+		)
+		(fp_line
+			(start 2.475 -7.275)
+			(end 2.566001 -6.816)
+			(stroke
+				(width 0.1)
+				(type solid)
+			)
+			(layer "B.Fab")
+			(uuid "aa120e82-e23e-4ac9-9b3e-1d077e121757")
 		)
 		(fp_line
 			(start 7.574999 -2.224999)
@@ -36413,7 +36413,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D22"
-			(at 3.81 -2.12 270)
+			(at 3.81 -2.12 -90)
 			(layer "F.SilkS")
 			(uuid "e1aa25b4-df5e-4881-b02c-000462f9fd91")
 			(effects
@@ -36424,7 +36424,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 3.81 2.12 270)
+			(at 3.81 2.12 -90)
 			(layer "F.Fab")
 			(uuid "f2e0f140-a225-45e9-b32d-a2d14872c426")
 			(effects
@@ -36722,7 +36722,7 @@
 			(uuid "60f091da-1194-4ed2-a0d8-b4514c82154e")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(uuid "8e9b4318-1a66-4fc7-9523-671b8e9aa408")
 			(effects
@@ -36733,7 +36733,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.Fab")
 			(uuid "1351067e-7ee2-4453-ac29-b102e9ce1fce")
 			(effects
@@ -36744,7 +36744,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 270)
+			(at 4.11 0 -90)
 			(layer "F.Fab")
 			(uuid "ebfe081c-6313-41d4-8f61-96459b96f8aa")
 			(effects
@@ -36795,7 +36795,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D15"
-			(at 3.81 -2.12 270)
+			(at 3.81 -2.12 -90)
 			(layer "F.SilkS")
 			(uuid "21ba760e-7465-4180-a930-5576b7883588")
 			(effects
@@ -36806,7 +36806,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 3.81 2.12 270)
+			(at 3.81 2.12 -90)
 			(layer "F.Fab")
 			(uuid "eb3e9b9c-3dec-4b4a-8b63-961484d5fca4")
 			(effects
@@ -37104,7 +37104,7 @@
 			(uuid "f90fbb9f-0300-4bcd-8231-5936dd770762")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(uuid "db533361-773c-4298-a745-59bb4b3d8df9")
 			(effects
@@ -37115,7 +37115,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.Fab")
 			(uuid "42f4dcc9-61e6-4093-9d3c-2099a799bf2f")
 			(effects
@@ -37126,7 +37126,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 270)
+			(at 4.11 0 -90)
 			(layer "F.Fab")
 			(uuid "bb155913-6ca5-43b2-a318-7a50a333cadc")
 			(effects
@@ -37177,7 +37177,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D24"
-			(at 3.81 -2.12 270)
+			(at 3.81 -2.12 -90)
 			(layer "F.SilkS")
 			(uuid "979e66f2-90b3-4503-b0d1-ccbd16fe288e")
 			(effects
@@ -37188,7 +37188,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 3.81 2.12 270)
+			(at 3.81 2.12 -90)
 			(layer "F.Fab")
 			(uuid "a5da1251-2ee1-4356-834b-19843fe93752")
 			(effects
@@ -37486,7 +37486,7 @@
 			(uuid "180a1880-ded8-4cd2-89c3-3971c7e57fc6")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(uuid "793d929c-332e-4f1f-875d-8dc15db9fcbf")
 			(effects
@@ -37497,7 +37497,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.Fab")
 			(uuid "693fb964-896a-4158-b179-658c0ae08648")
 			(effects
@@ -37508,7 +37508,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 270)
+			(at 4.11 0 -90)
 			(layer "F.Fab")
 			(uuid "95166eca-bd31-403d-912c-203a0eb65640")
 			(effects
@@ -37559,7 +37559,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D7"
-			(at 3.81 -2.12 270)
+			(at 3.81 -2.12 -90)
 			(layer "F.SilkS")
 			(uuid "da1fa359-b947-4964-9beb-8187e8c53592")
 			(effects
@@ -37570,7 +37570,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 3.81 2.12 270)
+			(at 3.81 2.12 -90)
 			(layer "F.Fab")
 			(uuid "975aac51-8fa0-4028-a01f-38e9fd29910b")
 			(effects
@@ -37868,7 +37868,7 @@
 			(uuid "7722a978-c057-4468-a3f0-79b08c475af6")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(uuid "aeae695c-f857-4973-b6d7-ab2ab4f09298")
 			(effects
@@ -37879,7 +37879,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.Fab")
 			(uuid "24fab9b9-0932-4089-93fd-63954b2edfd3")
 			(effects
@@ -37890,7 +37890,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 270)
+			(at 4.11 0 -90)
 			(layer "F.Fab")
 			(uuid "e1a5c667-3cf5-428e-bbf6-1bca89ada892")
 			(effects
@@ -37941,7 +37941,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D3"
-			(at 3.81 -2.12 270)
+			(at 3.81 -2.12 -90)
 			(layer "F.SilkS")
 			(uuid "db63324a-7b9b-4504-9dde-420562337e16")
 			(effects
@@ -37952,7 +37952,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 3.81 2.12 270)
+			(at 3.81 2.12 -90)
 			(layer "F.Fab")
 			(uuid "591f6fc8-1c9b-44d9-ab92-8d4ad54f558f")
 			(effects
@@ -38250,7 +38250,7 @@
 			(uuid "16fd34f4-f518-4e23-9943-9615499761a3")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(uuid "99395570-7896-4e58-b87c-48ec4538e918")
 			(effects
@@ -38261,7 +38261,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.Fab")
 			(uuid "528b76c4-0526-491f-8699-147a8f13f4bf")
 			(effects
@@ -38272,7 +38272,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 270)
+			(at 4.11 0 -90)
 			(layer "F.Fab")
 			(uuid "d585ea87-01fc-490f-8edb-284e49f6b84d")
 			(effects
@@ -38323,7 +38323,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D23"
-			(at 3.81 -2.12 270)
+			(at 3.81 -2.12 -90)
 			(layer "F.SilkS")
 			(uuid "01fb8f21-e5fc-4773-896d-3b3b4f62392d")
 			(effects
@@ -38334,7 +38334,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 3.81 2.12 270)
+			(at 3.81 2.12 -90)
 			(layer "F.Fab")
 			(uuid "b4e81337-da53-4b0a-8eeb-d91546c83704")
 			(effects
@@ -38632,7 +38632,7 @@
 			(uuid "6b4fcea4-0a07-4fbf-8abc-87af9f1354fc")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(uuid "e6182389-2e00-4265-86d1-cee125cf6d61")
 			(effects
@@ -38643,7 +38643,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 270)
+			(at 4.11 0 -90)
 			(layer "F.Fab")
 			(uuid "60d84343-f8c1-4e9a-85f4-de19ba96bdcf")
 			(effects
@@ -38654,7 +38654,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.Fab")
 			(uuid "75c86f71-5ea1-47ea-8817-b1e07aff4bf4")
 			(effects
@@ -38705,7 +38705,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D19"
-			(at 3.81 -2.12 270)
+			(at 3.81 -2.12 -90)
 			(layer "F.SilkS")
 			(uuid "02863d68-3b2a-4476-8685-68a29e8dd644")
 			(effects
@@ -38716,7 +38716,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 3.81 2.12 270)
+			(at 3.81 2.12 -90)
 			(layer "F.Fab")
 			(uuid "77cbd863-04c3-43e4-bd33-87d8ce690072")
 			(effects
@@ -39014,7 +39014,7 @@
 			(uuid "42e2df9b-6ecc-47ba-9769-176f559485ce")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(uuid "4d91af5a-541b-49f3-84f9-3359f5e08298")
 			(effects
@@ -39025,7 +39025,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 270)
+			(at 4.11 0 -90)
 			(layer "F.Fab")
 			(uuid "d19da5e2-434d-455e-b035-122108109fe9")
 			(effects
@@ -39036,7 +39036,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.Fab")
 			(uuid "dcef79cb-33bc-41a5-9777-7ad6975d7c65")
 			(effects
@@ -39087,7 +39087,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D18"
-			(at 3.81 -2.12 270)
+			(at 3.81 -2.12 -90)
 			(layer "F.SilkS")
 			(uuid "99a62406-7ff4-4ab0-8fff-10b1fd798d36")
 			(effects
@@ -39098,7 +39098,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 3.81 2.12 270)
+			(at 3.81 2.12 -90)
 			(layer "F.Fab")
 			(uuid "55263785-bf38-4cfa-92f7-e92d2786950c")
 			(effects
@@ -39396,7 +39396,7 @@
 			(uuid "2ee1bf2b-60ba-46a3-8041-6cb0e7577724")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(uuid "ebc6608d-1bf8-4313-b983-b11cdc74dcd0")
 			(effects
@@ -39407,7 +39407,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 270)
+			(at 4.11 0 -90)
 			(layer "F.Fab")
 			(uuid "8c4a0ade-e738-4f74-afa1-f480cb0e359c")
 			(effects
@@ -39418,7 +39418,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.Fab")
 			(uuid "d6de676d-2bb9-4367-b8a4-6eb0d8113cd3")
 			(effects
@@ -40100,7 +40100,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D17"
-			(at 3.81 -2.12 270)
+			(at 3.81 -2.12 -90)
 			(layer "F.SilkS")
 			(uuid "04bb62cf-3d63-4227-84c2-109cd86f611b")
 			(effects
@@ -40111,7 +40111,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 3.81 2.12 270)
+			(at 3.81 2.12 -90)
 			(layer "F.Fab")
 			(uuid "a97b2332-d07f-4d7e-abaf-9b9cc5ca0338")
 			(effects
@@ -40409,7 +40409,7 @@
 			(uuid "741a5cc1-8686-4804-929c-ccde48d669f5")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(uuid "d5ac7920-047a-410b-9a8d-4f9d365b6998")
 			(effects
@@ -40420,7 +40420,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 270)
+			(at 4.11 0 -90)
 			(layer "F.Fab")
 			(uuid "8c547d26-aaa8-472b-bf68-36173d584619")
 			(effects
@@ -40431,7 +40431,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.Fab")
 			(uuid "f79ca79c-9192-40b7-aa65-b626fe802d05")
 			(effects
@@ -40482,7 +40482,7 @@
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
 		(property "Reference" "CH15"
-			(at 0 -9 360)
+			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "dc0bf212-394b-4b6c-9eb2-0df3684669cd")
 			(effects
@@ -40493,7 +40493,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "b587c8f5-111e-4d28-9ba2-30fa671aa1d3")
 			(effects
@@ -41604,7 +41604,7 @@
 			(uuid "c6319db1-e6a9-4f20-a1ce-c8ebae42d5d9")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "33e64c65-2286-4221-b2af-416693b339c9")
 			(effects
@@ -41695,7 +41695,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D21"
-			(at 3.81 -2.12 270)
+			(at 3.81 -2.12 -90)
 			(layer "F.SilkS")
 			(uuid "4d1237ce-1abc-4d14-bff4-cf6b60ed764f")
 			(effects
@@ -41706,7 +41706,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 3.81 2.12 270)
+			(at 3.81 2.12 -90)
 			(layer "F.Fab")
 			(uuid "225da069-ebf5-49f7-9d2a-79522b401f6d")
 			(effects
@@ -42004,7 +42004,7 @@
 			(uuid "6ae2f922-116e-488f-8a26-d830e219ae43")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(uuid "840347fd-096c-46f8-a886-109cc26331d0")
 			(effects
@@ -42015,7 +42015,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.Fab")
 			(uuid "502bf111-7005-4eea-bf91-28e1b401510f")
 			(effects
@@ -42026,7 +42026,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 270)
+			(at 4.11 0 -90)
 			(layer "F.Fab")
 			(uuid "9af4ae3b-089e-49ce-9b7a-3aa6830493d2")
 			(effects
@@ -42077,7 +42077,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D4"
-			(at 3.81 -2.12 270)
+			(at 3.81 -2.12 -90)
 			(layer "F.SilkS")
 			(uuid "2c5778ec-585f-4912-bdac-8369e181747b")
 			(effects
@@ -42088,7 +42088,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 3.81 2.12 270)
+			(at 3.81 2.12 -90)
 			(layer "F.Fab")
 			(uuid "104f838f-bc83-46b5-8a4d-8345c2fc68a4")
 			(effects
@@ -42386,7 +42386,7 @@
 			(uuid "ffe0dd0c-27a1-4c8f-9e51-05905c8d970c")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(uuid "b7b4a92e-fede-45d3-893c-5c57eb1b68f8")
 			(effects
@@ -42397,7 +42397,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 270)
+			(at 4.11 0 -90)
 			(layer "F.Fab")
 			(uuid "d3f9892f-d722-484e-9187-515a24b821b5")
 			(effects
@@ -42408,7 +42408,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.Fab")
 			(uuid "f2357a2f-74b6-49a9-9054-726205132bf9")
 			(effects
@@ -42459,7 +42459,7 @@
 		(descr "Kailh Choc keyswitch V1V2 CPG1350 V1 CPG1353 V2 Hotswap Keycap 1.00u")
 		(tags "Kailh Choc Keyswitch Switch CPG1350 V1 CPG1353 V2 Hotswap Cutout Keycap 1.00u")
 		(property "Reference" "CH19"
-			(at 0 -9 360)
+			(at 0 -9 0)
 			(layer "F.SilkS")
 			(uuid "1d94179b-2a10-4d81-81e4-76c1631b1767")
 			(effects
@@ -42470,7 +42470,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 0 9 360)
+			(at 0 9 0)
 			(layer "F.Fab")
 			(uuid "1b6a9efb-3c4c-4b14-9958-10aeb1432647")
 			(effects
@@ -43581,7 +43581,7 @@
 			(uuid "42ed05e7-5cf8-46b5-a77a-beaa3cad6dab")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "f742aaf2-1f91-43d5-b250-cb124e1d0b43")
 			(effects
@@ -43672,7 +43672,7 @@
 		(descr "Diode, DO-35_SOD27 series, Axial, Horizontal, pin pitch=7.62mm, , length*diameter=4*2mm^2, , http://www.diodes.com/_files/packages/DO-35.pdf")
 		(tags "Diode DO-35_SOD27 series Axial Horizontal pin pitch 7.62mm  length 4mm diameter 2mm")
 		(property "Reference" "D16"
-			(at 3.81 -2.12 270)
+			(at 3.81 -2.12 -90)
 			(layer "F.SilkS")
 			(uuid "41719a78-444b-4ea8-a63e-91475a48e4ab")
 			(effects
@@ -43683,7 +43683,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 3.81 2.12 270)
+			(at 3.81 2.12 -90)
 			(layer "F.Fab")
 			(uuid "a8650456-2878-4784-9c2b-9af2e0a58f92")
 			(effects
@@ -43981,7 +43981,7 @@
 			(uuid "bff776a7-c416-4cc2-9291-b03c5ee39ec7")
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.SilkS")
 			(uuid "d96d73c8-9736-4f3b-a7f6-749d54b1660f")
 			(effects
@@ -43992,7 +43992,7 @@
 			)
 		)
 		(fp_text user "K"
-			(at 0 -1.8 270)
+			(at 0 -1.8 -90)
 			(layer "F.Fab")
 			(uuid "bc53119c-5526-4e45-8f3b-846e9ac8a181")
 			(effects
@@ -44003,7 +44003,7 @@
 			)
 		)
 		(fp_text user "${REFERENCE}"
-			(at 4.11 0 270)
+			(at 4.11 0 -90)
 			(layer "F.Fab")
 			(uuid "f6eff65d-cf3c-4426-9c19-59bf791f66be")
 			(effects
@@ -44177,15 +44177,1972 @@
 		(layer "Edge.Cuts")
 		(uuid "f0e5c705-aca1-4a6e-aacf-020c070a6ab5")
 	)
-	(gr_text "${REFERENCE}"
-		(at 183.315 39.562 270)
-		(layer "F.Fab")
-		(uuid "96b5c8a9-8fba-4443-a906-8d342c38b157")
-		(effects
-			(font
-				(size 0.8 0.8)
-				(thickness 0.12)
-			)
-		)
+	(segment
+		(start 66.14 79.172)
+		(end 66.14 70.797)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "174c0f54-5283-4d83-aa3a-c4dff667c221")
+	)
+	(segment
+		(start 59.515 69.547)
+		(end 59.515 120.547)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "25af5051-9b63-40c6-a019-f201c166dc9b")
+	)
+	(segment
+		(start 73.415 63.522)
+		(end 108.230256 63.522)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "283324f0-c5f8-4dcd-b3d8-e3185594c07a")
+	)
+	(segment
+		(start 139.877001 58.659001)
+		(end 144.74 63.522)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "295f060d-73fd-48b2-b040-5424ec292344")
+	)
+	(segment
+		(start 144.74 63.522)
+		(end 160.349744 63.522)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "2acb4ecf-d201-434b-bb9e-c4bc2aa60769")
+	)
+	(segment
+		(start 164.265 67.437256)
+		(end 164.265 79.797)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "2cbac7aa-5e13-41d5-bac3-2595364ae38f")
+	)
+	(segment
+		(start 108.230256 63.522)
+		(end 113.093255 58.659001)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "55ae87f5-8b63-482c-bad9-f28972c18857")
+	)
+	(segment
+		(start 164.265 79.797)
+		(end 167.47 79.797)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "58f0b490-3e5f-4712-8c8c-05f09b72e945")
+	)
+	(segment
+		(start 66.515 79.547)
+		(end 66.14 79.172)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "9101382d-adc6-4466-be36-7dea477c320c")
+	)
+	(segment
+		(start 167.47 79.797)
+		(end 168.765 78.502)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "92be9122-a29b-4696-a06e-c6fdf0907145")
+	)
+	(segment
+		(start 113.093255 58.659001)
+		(end 139.877001 58.659001)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "9328bb42-ea66-44ba-93be-02ecc2326e0c")
+	)
+	(segment
+		(start 66.14 70.797)
+		(end 73.415 63.522)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "d0d89570-47e1-4ea3-b496-96c43fb410db")
+	)
+	(segment
+		(start 160.349744 63.522)
+		(end 164.265 67.437256)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "dede9814-d98a-4f51-96fe-3ed21d45aa1f")
+	)
+	(segment
+		(start 59.515 86.547)
+		(end 66.515 79.547)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 1)
+		(uuid "f504c47f-a3ac-40f8-a043-0aceac76ddc8")
+	)
+	(segment
+		(start 72.015 72.247)
+		(end 71.515 71.747)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "40159c27-a1db-4142-ad4e-1d90fc9b3524")
+	)
+	(segment
+		(start 72.015 75.987)
+		(end 72.015 72.247)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "6ce56bed-3df4-4d26-b68b-7683453211a6")
+	)
+	(segment
+		(start 71.515 71.747)
+		(end 71.565 71.747)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "71570a81-fefe-424b-aba8-111ad3f56f3a")
+	)
+	(segment
+		(start 71.565 71.747)
+		(end 72.015 71.297)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 2)
+		(uuid "8fd4fd35-654f-41d3-a56f-a0fcde4bbfa6")
+	)
+	(segment
+		(start 93.015 85.422)
+		(end 100.43835 85.422)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "5f9f2973-df1a-48d1-8247-7b04180c35b2")
+	)
+	(segment
+		(start 104.68835 81.172)
+		(end 118.43835 81.172)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "6b961b03-bb2e-47bf-8604-245782b9c0ea")
+	)
+	(segment
+		(start 122.79165 78.372)
+		(end 124.94165 80.522)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "6ef2f845-24d6-4d5c-9309-7b0f739624cc")
+	)
+	(segment
+		(start 118.43835 81.172)
+		(end 121.23835 78.372)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "c2170093-2ccc-4282-b515-ace06758c22e")
+	)
+	(segment
+		(start 121.23835 78.372)
+		(end 122.79165 78.372)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "c7ba14e9-de36-4209-a88e-9444fcfc5948")
+	)
+	(segment
+		(start 100.43835 85.422)
+		(end 104.68835 81.172)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "d2c5212f-c190-44ba-9d0f-408e3a613bf0")
+	)
+	(segment
+		(start 90.015 86.172)
+		(end 92.265 86.172)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "dbf0a71c-b138-4c3b-9265-7b9b833c4c1a")
+	)
+	(segment
+		(start 124.94165 80.522)
+		(end 161.29 80.522)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "e4af92c4-2adf-4d10-ba84-5914b7da187d")
+	)
+	(segment
+		(start 161.29 80.522)
+		(end 162.015 79.797)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "ecbfe381-850d-4875-a817-a1288a4162d2")
+	)
+	(segment
+		(start 92.265 86.172)
+		(end 93.015 85.422)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 3)
+		(uuid "f400507d-081f-4d08-981c-30f6bea38f3c")
+	)
+	(via
+		(at 90.015 86.172)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 3)
+		(uuid "760bba35-f799-48ab-b626-efab33b69c59")
+	)
+	(via
+		(at 162.015 79.797)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 3)
+		(uuid "f99c395f-d4b5-4518-bf6b-10e87157f189")
+	)
+	(segment
+		(start 163.26 81.042)
+		(end 168.765 81.042)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "01e4bf09-6584-4686-be9c-df88800d10da")
+	)
+	(segment
+		(start 88.615 84.772)
+		(end 90.015 86.172)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "30b078d7-59fd-414f-a752-6db744997e6a")
+	)
+	(segment
+		(start 77.515 86.547)
+		(end 79.29 84.772)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "336a2a04-4172-4252-a5f7-35d5ae3e9efb")
+	)
+	(segment
+		(start 79.29 84.772)
+		(end 88.615 84.772)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "54ef3f6b-be53-43e0-bf53-5403b58cc40b")
+	)
+	(segment
+		(start 162.015 79.797)
+		(end 163.26 81.042)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "5bc3be1d-e111-42e0-984d-fa978cdd0bc2")
+	)
+	(segment
+		(start 77.515 69.547)
+		(end 77.515 120.547)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 3)
+		(uuid "980dac11-2db6-4529-91b6-4855a1a49ba8")
+	)
+	(segment
+		(start 108.015 67.997)
+		(end 107.515 67.497)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 5)
+		(uuid "23d016ac-8b83-4af8-89d1-d9525662cb76")
+	)
+	(segment
+		(start 108.015 71.297)
+		(end 108.015 67.997)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 5)
+		(uuid "64cea52b-cd9c-4c33-ad9f-e8c42a701feb")
+	)
+	(segment
+		(start 150.14 87.106136)
+		(end 151.972486 85.27365)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 6)
+		(uuid "02a23cc1-e14a-4331-8bba-205829b6b3b5")
+	)
+	(segment
+		(start 119.022664 80.022)
+		(end 121.372665 77.672)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 6)
+		(uuid "2de52dbc-b74f-43e2-be34-4dcda6a2861b")
+	)
+	(segment
+		(start 133.099031 90.446895)
+		(end 133.824136 91.172)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 6)
+		(uuid "57c65d14-bfc8-4e6c-ba8b-fe2d4bcb447b")
+	)
+	(segment
+		(start 150.14 89.172)
+		(end 150.14 87.106136)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 6)
+		(uuid "6b565b53-ba21-4b49-b7b7-cfd1f07e03e1")
+	)
+	(segment
+		(start 151.972486 85.27365)
+		(end 154.16335 85.27365)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 6)
+		(uuid "700c5d66-9587-403b-b001-83a9804c680c")
+	)
+	(segment
+		(start 103.74 80.022)
+		(end 119.022664 80.022)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 6)
+		(uuid "7c136da6-0d5b-491e-a63b-24fb8b9167e2")
+	)
+	(segment
+		(start 112.525161 90.446895)
+		(end 133.099031 90.446895)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 6)
+		(uuid "7cc64d2d-47dd-4d8e-b6a2-8f471bbde94a")
+	)
+	(segment
+		(start 133.824136 91.172)
+		(end 148.14 91.172)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 6)
+		(uuid "8eff1ae7-d46d-4449-baa4-f3965a3ff9ea")
+	)
+	(segment
+		(start 146.265 77.672)
+		(end 148.515 77.672)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 6)
+		(uuid "a311091c-e3aa-41d4-889e-8d05bd70c8d9")
+	)
+	(segment
+		(start 148.14 91.172)
+		(end 150.14 89.172)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 6)
+		(uuid "bb3f7393-32c6-402a-a048-9928e9f2a0bd")
+	)
+	(segment
+		(start 154.16335 85.27365)
+		(end 157.515 81.922)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 6)
+		(uuid "d239a027-a4f5-4807-87f6-3833277ca566")
+	)
+	(segment
+		(start 148.515 77.672)
+		(end 157.515 77.672)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 6)
+		(uuid "df0989ab-bbb8-43b2-bdb6-1acf1c8ff7ed")
+	)
+	(segment
+		(start 121.372665 77.672)
+		(end 139.515 77.672)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 6)
+		(uuid "ed8993a5-0455-42c5-b351-71c56f7879e2")
+	)
+	(segment
+		(start 103.515 79.797)
+		(end 103.74 80.022)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 6)
+		(uuid "fb95fe03-bdc1-4f48-b95e-1f48c6459837")
+	)
+	(via
+		(at 112.525161 90.446895)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 6)
+		(uuid "22568640-775a-4e21-9be3-51096f2047b8")
+	)
+	(via
+		(at 146.265 77.672)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 6)
+		(uuid "3713ee5c-7dd2-40fd-852c-86d0a25868b6")
+	)
+	(via
+		(at 103.515 79.797)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 6)
+		(uuid "59d7e3fd-d1ed-4125-9990-2941cef7398a")
+	)
+	(via
+		(at 157.515 77.672)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 6)
+		(uuid "800ba5ae-a360-46d5-aace-63b606c8fb48")
+	)
+	(via
+		(at 139.515 77.672)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 6)
+		(uuid "c2fd2dc3-6e26-45f9-a60b-cacf26882e02")
+	)
+	(via
+		(at 157.515 81.922)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 6)
+		(uuid "f62a92e9-7060-4433-a7a3-7f64d00bdcb1")
+	)
+	(segment
+		(start 162.263529 79.197)
+		(end 163.611472 80.544943)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "27d969bc-55e2-4847-a574-3e940b64213e")
+	)
+	(segment
+		(start 95.515 92.547)
+		(end 110.425056 92.547)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "2b02f1cc-8d5c-428f-b04e-29338b65daee")
+	)
+	(segment
+		(start 110.425056 92.547)
+		(end 112.525161 90.446895)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "420e48f9-a04e-4cb3-b1ac-09f564e5ca93")
+	)
+	(segment
+		(start 163.611472 80.544943)
+		(end 167.565 80.544943)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "4c052fcd-e3f6-418d-9048-1f4fcdfaca77")
+	)
+	(segment
+		(start 168.267943 79.842)
+		(end 182.805 79.842)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "563d98b3-561d-488d-81b7-e39ceef83a14")
+	)
+	(segment
+		(start 159.04 79.197)
+		(end 162.263529 79.197)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "67456a5e-c14e-414e-b177-4cd8844c1bae")
+	)
+	(segment
+		(start 95.515 92.547)
+		(end 95.515 116.297)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "7a6c4a44-92b4-4ace-96f6-a3fe897a2474")
+	)
+	(segment
+		(start 95.515 82.297)
+		(end 97.29 80.522)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "7a7d1ed3-148d-4d98-8b1b-dcb51faa4600")
+	)
+	(segment
+		(start 139.515 77.672)
+		(end 146.265 77.672)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "7b74f2c8-306e-4a64-9c22-d29877f781b8")
+	)
+	(segment
+		(start 182.805 79.842)
+		(end 184.005 81.042)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "9386bd3e-49df-4f60-abe3-3016efd52dfb")
+	)
+	(segment
+		(start 157.515 77.672)
+		(end 159.04 79.197)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "9c534c8d-113a-4138-916f-602b654c98a1")
+	)
+	(segment
+		(start 97.29 80.522)
+		(end 102.79 80.522)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "a61bb729-1d15-4713-85bc-038c2641e600")
+	)
+	(segment
+		(start 157.515 81.922)
+		(end 157.515 80.722)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "c6d3abce-3399-4de1-a1a9-f4bfaef6b37a")
+	)
+	(segment
+		(start 157.515 80.722)
+		(end 159.04 79.197)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "d00e1967-74f1-4592-8840-c8c1bb4e0957")
+	)
+	(segment
+		(start 102.79 80.522)
+		(end 103.515 79.797)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "f3392c58-d035-454f-b45d-d197f180717e")
+	)
+	(segment
+		(start 167.565 80.544943)
+		(end 168.267943 79.842)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "f577643e-7933-41f9-b2e8-e5c1386162ef")
+	)
+	(segment
+		(start 95.515 65.297)
+		(end 95.515 92.547)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 6)
+		(uuid "fbe9fd5f-c42f-4c87-ab50-099dba2612cc")
+	)
+	(segment
+		(start 130.515 86.172)
+		(end 131.41335 85.27365)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 7)
+		(uuid "0ecf4849-d7d1-42a5-b8df-7792769bba43")
+	)
+	(segment
+		(start 153.714821 84.87365)
+		(end 157.266471 81.322)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 7)
+		(uuid "3716f7bc-01f9-43b5-8d91-1f32ed870ced")
+	)
+	(segment
+		(start 147.215 82.622)
+		(end 149.46665 84.87365)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 7)
+		(uuid "582c4f7e-8802-4661-bd1a-0965ec45dccc")
+	)
+	(segment
+		(start 149.46665 84.87365)
+		(end 153.714821 84.87365)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 7)
+		(uuid "6c91e5d5-a4bb-47f0-883e-0ab8b83c9b57")
+	)
+	(segment
+		(start 157.266471 81.322)
+		(end 160.94 81.322)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 7)
+		(uuid "7e0fb6b3-27c1-41e2-ae6c-caa3107cde76")
+	)
+	(segment
+		(start 131.41335 85.27365)
+		(end 136.5867 85.27365)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 7)
+		(uuid "817a5aed-4ba9-4c7d-b9cd-24ca3915d3b6")
+	)
+	(segment
+		(start 136.5867 85.27365)
+		(end 139.23835 82.622)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 7)
+		(uuid "b563fcca-3277-4130-ba0e-5dff27a96f5b")
+	)
+	(segment
+		(start 160.94 81.322)
+		(end 163.665 84.047)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 7)
+		(uuid "d56f19ee-7d4e-4ab8-81ba-b39298eb91fb")
+	)
+	(segment
+		(start 139.23835 82.622)
+		(end 147.215 82.622)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 7)
+		(uuid "d985d4a3-1ed7-4a02-a707-199ae3f99072")
+	)
+	(via
+		(at 163.665 84.047)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 7)
+		(uuid "5c0e731c-a899-49c2-a738-ef62fd5958a4")
+	)
+	(via
+		(at 130.515 86.172)
+		(size 0.6)
+		(drill 0.3)
+		(layers "F.Cu" "B.Cu")
+		(net 7)
+		(uuid "87ac62b7-9c9d-46b2-adc1-458d173732e5")
+	)
+	(segment
+		(start 114.815 86.997)
+		(end 129.69 86.997)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 7)
+		(uuid "020988f1-b11d-4efb-894f-c32f09b1a314")
+	)
+	(segment
+		(start 185.205 79.702)
+		(end 184.005 78.502)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 7)
+		(uuid "0301af82-6640-4f30-be65-47a7fb6a37aa")
+	)
+	(segment
+		(start 113.515 88.297)
+		(end 113.515 112.047)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 7)
+		(uuid "03690c45-5ff6-41dd-9d15-fe62ce759dbf")
+	)
+	(segment
+		(start 129.69 86.997)
+		(end 130.515 86.172)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 7)
+		(uuid "14d25672-d3d5-434c-a243-a2c55ceaf3c9")
+	)
+	(segment
+		(start 185.205 81.539057)
+		(end 185.205 79.702)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 7)
+		(uuid "24386e60-087d-471b-90c7-ba0e7451ff45")
+	)
+	(segment
+		(start 113.515 112.047)
+		(end 113.515 118.612864)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 7)
+		(uuid "6533e600-b007-4f37-9ede-d3f041dc396b")
+	)
+	(segment
+		(start 182.697057 84.047)
+		(end 185.205 81.539057)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 7)
+		(uuid "6d49a592-fcb4-485d-8c38-bc6668c997a5")
+	)
+	(segment
+		(start 163.665 84.047)
+		(end 182.697057 84.047)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 7)
+		(uuid "91cd00af-d689-4533-84fb-9fa0dd89f378")
+	)
+	(segment
+		(start 113.515 61.047)
+		(end 113.515 88.297)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 7)
+		(uuid "b561b0b4-5648-4785-bf07-632adeab421e")
+	)
+	(segment
+		(start 130.515 86.172)
+		(end 130.39 86.172)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 7)
+		(uuid "d1bdcdfb-523b-4afc-8d09-5ce6a8e34e3c")
+	)
+	(segment
+		(start 113.515 118.612864)
+		(end 129.765 134.862864)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 7)
+		(uuid "d5bda0f9-f8a5-4a9a-8eaa-21274d93b31f")
+	)
+	(segment
+		(start 113.515 88.297)
+		(end 114.815 86.997)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 7)
+		(uuid "d6233f03-9e21-4b6c-a955-edff579891df")
+	)
+	(segment
+		(start 129.765 134.862864)
+		(end 129.765 137.547)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 7)
+		(uuid "d879ea34-5dc6-4186-b0bc-165b9c0ca6e7")
+	)
+	(segment
+		(start 126.015 67.047)
+		(end 126.015 63.747)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 8)
+		(uuid "0a754c75-20da-4c6b-89c4-f753b0965625")
+	)
+	(segment
+		(start 126.015 63.747)
+		(end 125.515 63.247)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 8)
+		(uuid "4478d256-0583-43ef-858b-6a156d17f386")
+	)
+	(segment
+		(start 144.015 71.737)
+		(end 144.015 67.997)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 9)
+		(uuid "70be368c-9177-4f94-88a0-6936487d2e03")
+	)
+	(segment
+		(start 144.015 67.997)
+		(end 143.515 67.497)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 9)
+		(uuid "f691fc32-f912-4490-8554-3f3eba677c26")
+	)
+	(segment
+		(start 148.515 132.961829)
+		(end 157.139629 141.586458)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 10)
+		(uuid "2bc1be1d-b0e4-4fd3-b649-9e2b89eedd7f")
+	)
+	(segment
+		(start 148.515 132.922)
+		(end 148.515 132.961829)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 10)
+		(uuid "5f4a8a87-9178-4b6d-a348-92dd0fb9f5a0")
+	)
+	(segment
+		(start 131.515 125.172)
+		(end 139.265 132.922)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 10)
+		(uuid "6e7b97df-3207-4466-8c34-35934a27a5d4")
+	)
+	(segment
+		(start 139.265 132.922)
+		(end 148.515 132.922)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 10)
+		(uuid "e5da2d04-4d96-4083-867f-dd827ae65c74")
+	)
+	(segment
+		(start 131.515 116.297)
+		(end 131.515 125.172)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 10)
+		(uuid "eb535b90-b85d-409f-9f9e-666e80fe67ed")
+	)
+	(segment
+		(start 131.515 65.297)
+		(end 131.515 116.297)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 10)
+		(uuid "fa98107f-1936-46d1-909b-4d72c075d613")
+	)
+	(segment
+		(start 179.796855 155.578855)
+		(end 182.136322 155.578855)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 11)
+		(uuid "0ba8fd07-c210-4689-98c1-254b1b07a878")
+	)
+	(segment
+		(start 149.515 116.297)
+		(end 149.515 125.297)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 11)
+		(uuid "11accdaf-ee14-4838-b57c-d235dfe6ee63")
+	)
+	(segment
+		(start 149.515 65.297)
+		(end 149.515 116.297)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 11)
+		(uuid "13e990c5-3e4a-44d0-8081-d3a9520cd350")
+	)
+	(segment
+		(start 149.515 125.297)
+		(end 179.796855 155.578855)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 11)
+		(uuid "cff96d70-0bdb-45d5-ad64-4a9673c5ca64")
+	)
+	(segment
+		(start 161.515 67.497)
+		(end 161.515 69.112)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 12)
+		(uuid "26c8b818-356f-4fc1-b274-9c5d3e82a2c7")
+	)
+	(segment
+		(start 161.515 69.112)
+		(end 162.015 69.612)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 12)
+		(uuid "33ad68ed-837e-4782-8a29-18dd1b689401")
+	)
+	(segment
+		(start 72.015 89.247)
+		(end 71.515 88.747)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 13)
+		(uuid "14ee3a61-ea46-4329-af9e-38d79278fc8f")
+	)
+	(segment
+		(start 72.015 92.547)
+		(end 72.015 89.247)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 13)
+		(uuid "e3fd6318-cda4-4727-aa2a-4682ea001ce1")
+	)
+	(segment
+		(start 90.015 90.862)
+		(end 90.015 89.247)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 14)
+		(uuid "8c64ec6a-9336-4537-8372-ae0bb2662bdc")
+	)
+	(segment
+		(start 90.015 89.247)
+		(end 89.515 88.747)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 14)
+		(uuid "cb93cfac-5b90-4e55-97cc-cc84d0f31fa2")
+	)
+	(segment
+		(start 108.015 84.997)
+		(end 107.515 84.497)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 15)
+		(uuid "4731c653-6372-4107-b3d8-2a3499b2968a")
+	)
+	(segment
+		(start 108.015 88.297)
+		(end 108.015 84.997)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 15)
+		(uuid "dd6cbbd5-1cae-4ffe-a334-bd2a28584cee")
+	)
+	(segment
+		(start 125.515 80.247)
+		(end 125.515 83.987)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 16)
+		(uuid "3fe3ed8a-2876-433a-a8b0-d329ea10759f")
+	)
+	(segment
+		(start 125.515 83.987)
+		(end 126.015 84.487)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 16)
+		(uuid "9a10fa62-2614-472b-b0f3-7c2381c5429b")
+	)
+	(segment
+		(start 143.515 84.497)
+		(end 143.515 86.552)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 17)
+		(uuid "9b8ead9b-c53a-4f38-8166-5d0ab1f9f397")
+	)
+	(segment
+		(start 143.515 86.552)
+		(end 144.015 87.052)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 17)
+		(uuid "a079645c-09dc-4076-b430-e6e07302a991")
+	)
+	(segment
+		(start 161.515 84.497)
+		(end 161.515 86.112)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 18)
+		(uuid "477504fa-422a-488c-9ec1-0db6f7c8181b")
+	)
+	(segment
+		(start 161.515 86.112)
+		(end 162.015 86.612)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 18)
+		(uuid "97c62be6-3c26-4a38-b907-10264f41cbf2")
+	)
+	(segment
+		(start 71.515 107.802)
+		(end 72.015 108.302)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 19)
+		(uuid "85398701-c9a6-4caf-b6f6-e83d87920604")
+	)
+	(segment
+		(start 71.515 105.747)
+		(end 71.515 107.802)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 19)
+		(uuid "b95c095c-c06b-4eea-94d7-d3288f0ff201")
+	)
+	(segment
+		(start 89.515 105.747)
+		(end 89.515 107.362)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 20)
+		(uuid "09e01332-5d6a-4801-951a-9ae12089c551")
+	)
+	(segment
+		(start 89.515 107.362)
+		(end 90.015 107.862)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 20)
+		(uuid "0d1689c4-426c-4297-bd92-a30c8afa23d5")
+	)
+	(segment
+		(start 107.515 101.497)
+		(end 107.515 102.672)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 21)
+		(uuid "4ddf1b88-c206-4872-a964-e3174a0ec3d0")
+	)
+	(segment
+		(start 107.515 102.672)
+		(end 108.015 103.172)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 21)
+		(uuid "e4f91145-0032-48d4-9eed-108e9cbf8d0e")
+	)
+	(segment
+		(start 125.515 97.247)
+		(end 125.515 98.862)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 22)
+		(uuid "503600af-5825-45f8-ae43-a55889c69510")
+	)
+	(segment
+		(start 125.515 98.862)
+		(end 126.015 99.362)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 22)
+		(uuid "83cfa494-6eb0-48a5-b69b-f0e11cdd7b26")
+	)
+	(segment
+		(start 143.515 103.112)
+		(end 144.015 103.612)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 23)
+		(uuid "003c5b26-fd64-43d2-84d4-e738d5306678")
+	)
+	(segment
+		(start 143.515 101.497)
+		(end 143.515 103.112)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 23)
+		(uuid "cd88ce99-a26d-4b14-aacc-e3e19500c1f5")
+	)
+	(segment
+		(start 161.515 103.112)
+		(end 162.015 103.612)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 24)
+		(uuid "194d57fe-c8d8-4219-9649-cffef32a103b")
+	)
+	(segment
+		(start 161.515 101.497)
+		(end 161.515 103.112)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 24)
+		(uuid "43934775-9090-48b7-8775-bb8377f48fce")
+	)
+	(segment
+		(start 71.515 122.747)
+		(end 71.515 126.487)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "30d66777-77b8-4972-b784-c5e5ca7e3c2c")
+	)
+	(segment
+		(start 71.515 126.487)
+		(end 72.015 126.987)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 25)
+		(uuid "c128092c-ef93-4886-a508-25e71b6c97af")
+	)
+	(segment
+		(start 89.515 122.747)
+		(end 89.515 126.047)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 26)
+		(uuid "762b6813-83cc-489a-9507-737f1e3172db")
+	)
+	(segment
+		(start 89.515 126.047)
+		(end 90.015 126.547)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 26)
+		(uuid "a373a53d-86ef-4f9e-a747-a14620d71ef6")
+	)
+	(segment
+		(start 107.515 118.497)
+		(end 107.515 121.797)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 27)
+		(uuid "07de9b10-c588-4b83-b3b3-c79e0bdecf11")
+	)
+	(segment
+		(start 107.515 121.797)
+		(end 108.015 122.297)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 27)
+		(uuid "e117e5c8-e1db-4fc5-a256-cd57a50ff183")
+	)
+	(segment
+		(start 125.515 114.247)
+		(end 125.515 117.987)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 28)
+		(uuid "19b093db-5675-4bdb-850b-84bdf1f14bd2")
+	)
+	(segment
+		(start 125.515 117.987)
+		(end 126.015 118.487)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 28)
+		(uuid "d252661e-cdbe-4414-bae8-a6dffc9d7615")
+	)
+	(segment
+		(start 143.515 120.112)
+		(end 144.015 120.612)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 29)
+		(uuid "4c578681-d36d-4cfd-b67d-5f814d207b3e")
+	)
+	(segment
+		(start 143.515 118.497)
+		(end 143.515 120.112)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 29)
+		(uuid "fb0e8219-aa46-4a1e-9f1d-d54487c3952d")
+	)
+	(segment
+		(start 161.515 118.497)
+		(end 161.515 122.237)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 30)
+		(uuid "c2736e40-aba3-448d-85a1-499f3d839d81")
+	)
+	(segment
+		(start 161.515 122.237)
+		(end 162.015 122.737)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 30)
+		(uuid "e6be2735-f0d8-423b-a340-2946f457d34a")
+	)
+	(segment
+		(start 141.9 139.747)
+		(end 144.015 141.862)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 31)
+		(uuid "c8cdf2a0-a4c8-49d0-9a05-f5f76bd79ab0")
+	)
+	(segment
+		(start 141.765 139.747)
+		(end 141.9 139.747)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 31)
+		(uuid "e1087123-69a7-4889-bfbd-6ea9aed18b73")
+	)
+	(segment
+		(start 168.694914 151.603708)
+		(end 168.694914 149.521828)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 32)
+		(uuid "18a7d505-2766-4248-8eee-337a564ef221")
+	)
+	(segment
+		(start 168.694914 149.521828)
+		(end 167.38428 148.211194)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 32)
+		(uuid "802ad585-0600-4d68-9a6d-5cbe7af2df2c")
+	)
+	(segment
+		(start 187.135498 170.333357)
+		(end 187.135498 167.550241)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 33)
+		(uuid "60eda258-c3df-468d-a77e-11d3281bb9a3")
+	)
+	(segment
+		(start 187.135498 167.550241)
+		(end 189.065968 165.619771)
+		(width 0.2)
+		(layer "B.Cu")
+		(net 33)
+		(uuid "c542cfb4-9550-412c-bd53-152a294f2d20")
+	)
+	(segment
+		(start 160.915 66.022)
+		(end 162.015 64.922)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 34)
+		(uuid "0918a5e1-8fc9-475f-8212-d9807d84d5f7")
+	)
+	(segment
+		(start 112.265 74.667)
+		(end 126.015 74.667)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 34)
+		(uuid "185b627f-5dff-456b-8511-ec7114c89e7f")
+	)
+	(segment
+		(start 144.015 79.357)
+		(end 159.89 79.357)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 34)
+		(uuid "1ab3c913-f084-4b38-9260-ccbbb4dca07a")
+	)
+	(segment
+		(start 162.015 64.922)
+		(end 164.265 64.922)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 34)
+		(uuid "2402d5af-0ce9-4a59-8f8b-466ae636fbf2")
+	)
+	(segment
+		(start 165.145 65.802)
+		(end 167.465 65.802)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 34)
+		(uuid "2b3cd7e5-4f13-4cb1-8764-a5e1d9d728a1")
+	)
+	(segment
+		(start 164.265 64.922)
+		(end 165.145 65.802)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 34)
+		(uuid "4fd0f197-ce34-4248-a041-7c1829fae50c")
+	)
+	(segment
+		(start 72.015 83.607)
+		(end 90.015 83.607)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 34)
+		(uuid "629d1730-d25e-482e-869a-726eb6893c7d")
+	)
+	(segment
+		(start 139.325 74.667)
+		(end 144.015 79.357)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 34)
+		(uuid "6f0d9557-5a54-4ea5-aea2-ec9aee5e77a1")
+	)
+	(segment
+		(start 159.89 79.357)
+		(end 162.015 77.232)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 34)
+		(uuid "7049129b-b14a-4284-80c2-cbed8fcae54b")
+	)
+	(segment
+		(start 160.915 76.132)
+		(end 160.915 66.022)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 34)
+		(uuid "7e35b428-6b7e-44ec-8c3c-0110cb9612ed")
+	)
+	(segment
+		(start 126.015 74.667)
+		(end 139.325 74.667)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 34)
+		(uuid "89e77243-5104-460f-85c9-bde4b904c1e4")
+	)
+	(segment
+		(start 162.015 77.232)
+		(end 160.915 76.132)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 34)
+		(uuid "b6d7ffe6-41fc-49de-89f0-e32df82ebb45")
+	)
+	(segment
+		(start 108.015 78.917)
+		(end 112.265 74.667)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 34)
+		(uuid "dad6eb88-c7e1-4a63-893c-585a9e547a71")
+	)
+	(segment
+		(start 90.015 83.607)
+		(end 94.705 78.917)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 34)
+		(uuid "e94fae5c-6594-4247-95ad-6c5b0d289d61")
+	)
+	(segment
+		(start 94.705 78.917)
+		(end 108.015 78.917)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 34)
+		(uuid "ffaa6190-3150-4015-8e06-995128666860")
+	)
+	(segment
+		(start 92.58 95.917)
+		(end 108.015 95.917)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 35)
+		(uuid "1dc6c134-ce08-4922-8f32-505fbc02e261")
+	)
+	(segment
+		(start 166.635 69.172)
+		(end 167.465 68.342)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 35)
+		(uuid "2c307786-c6a3-4766-8ae9-a1098d0272af")
+	)
+	(segment
+		(start 144.015 94.672)
+		(end 161.575 94.672)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 35)
+		(uuid "39e9b8f4-5a92-4154-911b-cf4dd426ef6f")
+	)
+	(segment
+		(start 161.575 94.672)
+		(end 162.015 94.232)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 35)
+		(uuid "3a687919-1f79-47f9-a298-ba1ee72a477f")
+	)
+	(segment
+		(start 108.015 95.917)
+		(end 111.825 92.107)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 35)
+		(uuid "54e7447a-413b-4951-8424-87c06a268aa7")
+	)
+	(segment
+		(start 134.759136 92.107)
+		(end 137.324136 94.672)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 35)
+		(uuid "5c5bad06-eda9-4023-94e0-5a84221f0844")
+	)
+	(segment
+		(start 90.015 98.482)
+		(end 92.58 95.917)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 35)
+		(uuid "6477078a-0893-43c2-8340-a2a57ccb95e2")
+	)
+	(segment
+		(start 126.015 92.107)
+		(end 134.759136 92.107)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 35)
+		(uuid "745cdc02-be05-4575-81e1-64908332d96c")
+	)
+	(segment
+		(start 164.265 69.172)
+		(end 166.635 69.172)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 35)
+		(uuid "790497c1-11a4-40a6-a4bd-1b8f8cb7f42c")
+	)
+	(segment
+		(start 111.825 92.107)
+		(end 126.015 92.107)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 35)
+		(uuid "80b6bc5d-c63d-4f2a-8350-436f21b650d2")
+	)
+	(segment
+		(start 72.015 100.167)
+		(end 88.33 100.167)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 35)
+		(uuid "a7fdecd3-fe11-45c9-bcd1-a0e2928d55b3")
+	)
+	(segment
+		(start 137.324136 94.672)
+		(end 144.015 94.672)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 35)
+		(uuid "b12aea31-7e85-4929-8cd2-5f6257177a1c")
+	)
+	(segment
+		(start 88.33 100.167)
+		(end 90.015 98.482)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 35)
+		(uuid "c7df8605-a831-43d4-b37b-bd98e65d1b08")
+	)
+	(segment
+		(start 164.265 91.982)
+		(end 164.265 69.172)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 35)
+		(uuid "d812cbab-51fb-4ecf-b846-2bfa46b3905f")
+	)
+	(segment
+		(start 108.015 95.917)
+		(end 109.210864 95.917)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 35)
+		(uuid "dbbe9fc4-37d7-4d82-8da0-a034ac879a23")
+	)
+	(segment
+		(start 162.015 94.232)
+		(end 164.265 91.982)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 35)
+		(uuid "fec439e0-dd4c-447d-8220-a419b40e99e1")
+	)
+	(segment
+		(start 90.015 115.482)
+		(end 91.015 115.482)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 36)
+		(uuid "0f232ab7-3910-4c33-ba36-374467ebf3e5")
+	)
+	(segment
+		(start 128.176346 106.982)
+		(end 132.426346 111.232)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 36)
+		(uuid "27d8c508-4f0a-4017-ab79-972cc751894b")
+	)
+	(segment
+		(start 162.015 111.232)
+		(end 164.665 108.582)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 36)
+		(uuid "2e9a28f1-fef4-4472-ba3d-528b4376e6cc")
+	)
+	(segment
+		(start 164.665 71.297)
+		(end 167.05 71.297)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 36)
+		(uuid "45378c0e-f4ba-4506-9c61-3f18604a90c6")
+	)
+	(segment
+		(start 89.575 115.922)
+		(end 90.015 115.482)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 36)
+		(uuid "49e52dce-97d4-42f6-b8c3-692cf3fd1319")
+	)
+	(segment
+		(start 72.015 115.922)
+		(end 89.575 115.922)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 36)
+		(uuid "6fd18de5-b575-4da2-b90b-f379c8b34076")
+	)
+	(segment
+		(start 119.52835 106.982)
+		(end 126.015 106.982)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 36)
+		(uuid "7ab30be5-6625-4404-941a-afba4f511be4")
+	)
+	(segment
+		(start 144.015 111.232)
+		(end 144.38 111.597)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 36)
+		(uuid "8658c4f0-95dc-4b37-aa1c-1319b243027f")
+	)
+	(segment
+		(start 164.665 108.582)
+		(end 164.665 71.297)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 36)
+		(uuid "8dfc4961-3c7f-4567-bd0c-be1dfb778d5c")
+	)
+	(segment
+		(start 95.705 110.792)
+		(end 108.015 110.792)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 36)
+		(uuid "9bc05a85-2caa-4e72-8352-143e16df29b2")
+	)
+	(segment
+		(start 91.015 115.482)
+		(end 95.705 110.792)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 36)
+		(uuid "a13ee573-5f2a-4215-bfe9-89d6f4a81838")
+	)
+	(segment
+		(start 126.015 106.982)
+		(end 128.176346 106.982)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 36)
+		(uuid "ae5f3202-a9f2-499e-bc95-3bd8153a1b5a")
+	)
+	(segment
+		(start 167.05 71.297)
+		(end 167.465 70.882)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 36)
+		(uuid "be4d9d81-6cfb-408a-981e-0b0c0f884469")
+	)
+	(segment
+		(start 115.71835 110.792)
+		(end 119.52835 106.982)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 36)
+		(uuid "c284e493-9488-4a9f-869a-6b11a6d98c25")
+	)
+	(segment
+		(start 108.015 110.792)
+		(end 115.71835 110.792)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 36)
+		(uuid "cd3b9327-984a-4c69-a6e5-9b615b2dd7e7")
+	)
+	(segment
+		(start 144.38 111.597)
+		(end 161.65 111.597)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 36)
+		(uuid "ed9b52de-e550-41ac-a6e3-112f8df8b0c8")
+	)
+	(segment
+		(start 132.426346 111.232)
+		(end 144.015 111.232)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 36)
+		(uuid "f6ebd7c4-29bb-496a-95da-72e1af3ea19b")
+	)
+	(segment
+		(start 161.65 111.597)
+		(end 162.015 111.232)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 36)
+		(uuid "f78ceeab-8ed9-4623-b5e3-7f2b935263a1")
+	)
+	(segment
+		(start 162.015 130.357)
+		(end 165.065 127.307)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 37)
+		(uuid "0ff72844-c675-4a28-9160-37d23bb83a5d")
+	)
+	(segment
+		(start 126.015 126.107)
+		(end 141.89 126.107)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 37)
+		(uuid "164b7b9d-4e13-42b8-ad1e-83d448a08f4d")
+	)
+	(segment
+		(start 141.89 126.107)
+		(end 144.015 128.232)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 37)
+		(uuid "20c2fae3-8ff9-41a0-8242-03a5fbb9084c")
+	)
+	(segment
+		(start 103.765 134.167)
+		(end 108.015 129.917)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 37)
+		(uuid "287b32d5-4f4c-4783-95ce-58aa813d7882")
+	)
+	(segment
+		(start 108.015 129.917)
+		(end 122.205 129.917)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 37)
+		(uuid "43ec0780-1aeb-4b4b-b618-ca851e82a8e0")
+	)
+	(segment
+		(start 90.015 134.167)
+		(end 103.765 134.167)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 37)
+		(uuid "5ecd4954-8bca-484a-a19c-14b1d5c4d585")
+	)
+	(segment
+		(start 72.015 134.607)
+		(end 89.575 134.607)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 37)
+		(uuid "6eb0be4e-cec4-47a3-8cec-ff06b49cb840")
+	)
+	(segment
+		(start 165.065 73.422)
+		(end 167.465 73.422)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 37)
+		(uuid "739fb9c0-52e1-4deb-b507-89b46645411e")
+	)
+	(segment
+		(start 122.205 129.917)
+		(end 126.015 126.107)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 37)
+		(uuid "85accd2a-5d6a-4d74-a57e-b4da678b2f7d")
+	)
+	(segment
+		(start 89.575 134.607)
+		(end 90.015 134.167)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 37)
+		(uuid "9c5d4b5a-9109-47ea-87ea-0e35693f7109")
+	)
+	(segment
+		(start 165.065 127.307)
+		(end 165.065 73.422)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 37)
+		(uuid "b5e251cd-854f-4be5-955b-8f67b0319e98")
+	)
+	(segment
+		(start 146.14 130.357)
+		(end 162.015 130.357)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 37)
+		(uuid "bb2c769d-2810-4eab-aee9-e09936b4794f")
+	)
+	(segment
+		(start 144.015 128.232)
+		(end 146.14 130.357)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 37)
+		(uuid "c4cb7bef-989f-4220-9876-8bc6f07d23ab")
+	)
+	(segment
+		(start 145.09 149.482)
+		(end 144.015 149.482)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 38)
+		(uuid "3195b50b-b031-42f3-8078-a4ebdc2bb29c")
+	)
+	(segment
+		(start 181.747344 174.612148)
+		(end 181.747344 175.721511)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 38)
+		(uuid "488a6dce-d604-4d8e-8ae8-7230bf4e73ae")
+	)
+	(segment
+		(start 170.765 81.922)
+		(end 170.765 80.047)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 38)
+		(uuid "79f51190-9191-4e29-aec9-844063e9925b")
+	)
+	(segment
+		(start 171.015 76.377)
+		(end 171.015 79.797)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 38)
+		(uuid "88291f4c-faaf-444a-bdd2-3a6ed3ac9288")
+	)
+	(segment
+		(start 155.11167 158.64367)
+		(end 165.778866 158.64367)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 38)
+		(uuid "a819d0a2-d29d-4f70-91f2-e86751302c81")
+	)
+	(segment
+		(start 165.778866 158.64367)
+		(end 181.747344 174.612148)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 38)
+		(uuid "c0d328a2-d6ad-417b-bd13-6e2bf9a69087")
+	)
+	(segment
+		(start 170.6 75.962)
+		(end 171.015 76.377)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 38)
+		(uuid "c4b1e781-1afa-4b60-917c-033a80e9a3bd")
+	)
+	(segment
+		(start 144.015 149.482)
+		(end 145.95 149.482)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 38)
+		(uuid "c6aff39e-bda7-45f8-9c00-45d08513756e")
+	)
+	(segment
+		(start 145.95 149.482)
+		(end 155.11167 158.64367)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 38)
+		(uuid "cbb7fdad-dac3-4cf7-9692-956df8c05e26")
+	)
+	(segment
+		(start 166.515 128.057)
+		(end 145.09 149.482)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 38)
+		(uuid "d5313c64-7e64-4f5c-bb89-34608631fc35")
+	)
+	(segment
+		(start 168.765 75.962)
+		(end 170.6 75.962)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 38)
+		(uuid "e6742588-a176-40d7-9dbd-adb39a37b3da")
+	)
+	(segment
+		(start 170.765 81.922)
+		(end 166.515 86.172)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 38)
+		(uuid "f0a33a50-b57b-49e7-b857-10a362377db8")
+	)
+	(segment
+		(start 170.765 80.047)
+		(end 171.015 79.797)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 38)
+		(uuid "f5d1dfa3-e580-4502-a96c-afbc304a1588")
+	)
+	(segment
+		(start 166.515 86.172)
+		(end 166.515 128.057)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 38)
+		(uuid "f8c39fe0-64f5-4581-b3a9-6a236ee38538")
+	)
+	(segment
+		(start 174.265 75.542)
+		(end 184.005 65.802)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 39)
+		(uuid "6fc6f895-2af7-42d6-9f20-38e080e9535b")
+	)
+	(segment
+		(start 174.265 96.822)
+		(end 174.265 75.542)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 39)
+		(uuid "e3c89b83-cfc6-4b4c-a167-1019b5ea940a")
+	)
+	(segment
+		(start 187.054999 68.342)
+		(end 185.305 68.342)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 40)
+		(uuid "1ebb8075-aa29-4f0c-95c5-adf024d0a93f")
+	)
+	(segment
+		(start 183.808503 101.022)
+		(end 187.355 97.475503)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 40)
+		(uuid "6a39936c-000e-4404-a724-43b860116ac4")
+	)
+	(segment
+		(start 187.355 97.475503)
+		(end 187.355 68.642001)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 40)
+		(uuid "79540b57-fdbc-493e-95f0-c0ba5c97c29e")
+	)
+	(segment
+		(start 187.355 68.642001)
+		(end 187.054999 68.342)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 40)
+		(uuid "920f61d2-381d-479a-a969-7d4e82682fd3")
+	)
+	(segment
+		(start 182.765 101.022)
+		(end 183.808503 101.022)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 40)
+		(uuid "b70842b7-d9d8-4567-9cde-d3796d826fa2")
+	)
+	(segment
+		(start 175.765 101.022)
+		(end 175.765 100.672)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 41)
+		(uuid "006e3581-462e-4e91-82e8-a3b1ff0d81a6")
+	)
+	(segment
+		(start 175.765 100.672)
+		(end 176.465 99.972)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 41)
+		(uuid "6ae42dfe-88e4-4822-b3f4-b4bfb8ee4848")
+	)
+	(segment
+		(start 176.465 80.962)
+		(end 184.005 73.422)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 41)
+		(uuid "a027195f-5c6c-4db9-9d2d-f3ca2e87bc2f")
+	)
+	(segment
+		(start 176.465 99.972)
+		(end 176.465 80.962)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 41)
+		(uuid "f469f338-d3ed-4c27-aa91-b1fb19f9da8f")
+	)
+	(segment
+		(start 179.765 80.202)
+		(end 184.005 75.962)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 42)
+		(uuid "b218e3e6-8c6e-4e5b-9b62-7aed2e9e9031")
+	)
+	(segment
+		(start 179.765 101.022)
+		(end 179.765 80.202)
+		(width 0.2)
+		(layer "F.Cu")
+		(net 42)
+		(uuid "ecfb990e-2874-4185-a576-0418ba365bb8")
 	)
 )
