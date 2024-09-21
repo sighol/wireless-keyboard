@@ -1,4 +1,4 @@
-![](./blueprint.png)
+![](./keyboard.png)
 # Installation
 
 
