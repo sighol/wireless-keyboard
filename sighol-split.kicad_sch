@@ -874,12 +874,184 @@
 				)
 			)
 		)
+		(symbol "sighol:nice!view"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Display"
+				(at 0 12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify bottom)
+				)
+			)
+			(property "Value" "nice!view"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "nice_view:nice_view"
+				(at 0 16.51 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://nicekeyboards.com/docs/nice-view/pinout-schematic"
+				(at 2.54 -25.4 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Sharp LS011B7DH03 Memory in Pixel 160x68"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "display MIP 36x14"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "nice*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "nice!view_0_1"
+				(rectangle
+					(start -6.35 11.43)
+					(end 6.35 -10.16)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "nice!view_1_1"
+				(pin input line
+					(at -5.08 -12.7 90)
+					(length 2.54)
+					(name "MOSI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input clock
+					(at -2.54 -12.7 90)
+					(length 2.54)
+					(name "SCK"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -12.7 90)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 2.54 -12.7 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -12.7 90)
+					(length 2.54)
+					(name "CS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "sighol:nice_nano"
 			(exclude_from_sim no)
 			(in_bom no)
 			(on_board yes)
-			(property "Reference" "U"
-				(at 0 22.86 0)
+			(property "Reference" "U1"
+				(at 0 24.13 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -887,7 +1059,7 @@
 				)
 			)
 			(property "Value" "nice_nano"
-				(at 0 20.32 0)
+				(at 0 21.59 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -1107,7 +1279,7 @@
 				(pin bidirectional line
 					(at 19.05 3.81 180)
 					(length 2.54)
-					(name "D20"
+					(name "D21"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1685,14 +1857,6 @@
 		(uuid "2d9a0a0a-a689-43db-8bb2-60341f3df5a2")
 	)
 	(no_connect
-		(at 245.11 50.8)
-		(uuid "314f31c3-aaa8-405a-9ddb-9872628e1cfd")
-	)
-	(no_connect
-		(at 245.11 48.26)
-		(uuid "6fa2b397-3a18-46dd-9e64-a31aad0c4aa1")
-	)
-	(no_connect
 		(at 245.11 55.88)
 		(uuid "71009bb9-2328-4e81-873d-1a4612d21dd0")
 	)
@@ -1715,10 +1879,6 @@
 	(no_connect
 		(at 245.11 60.96)
 		(uuid "9cc36ec9-757c-4039-bd63-faa351b449a6")
-	)
-	(no_connect
-		(at 245.11 53.34)
-		(uuid "bb9e947c-8cc8-440f-91e5-23567100b591")
 	)
 	(no_connect
 		(at 245.11 63.5)
@@ -1837,6 +1997,16 @@
 			(type default)
 		)
 		(uuid "1d7dc549-0132-444d-a1c0-c0cc98e85ace")
+	)
+	(wire
+		(pts
+			(xy 248.92 128.27) (xy 248.92 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d818954-44a0-4f4b-8ae3-473a91fcbabf")
 	)
 	(wire
 		(pts
@@ -1977,6 +2147,16 @@
 			(type default)
 		)
 		(uuid "55f7ca86-104c-4b2b-8f8a-f82c80b21557")
+	)
+	(wire
+		(pts
+			(xy 251.46 128.27) (xy 251.46 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59f82a47-89ff-460b-ac5e-1a62d47eb871")
 	)
 	(wire
 		(pts
@@ -2130,6 +2310,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 127) (xy 215.9 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9d09aa2d-1899-49a7-b626-53eba30480e3")
+	)
+	(wire
+		(pts
 			(xy 93.98 130.81) (xy 106.68 130.81)
 		)
 		(stroke
@@ -2227,6 +2417,16 @@
 			(type default)
 		)
 		(uuid "d9a0df4c-9dbf-4c4c-b0ac-5a2ad554108c")
+	)
+	(wire
+		(pts
+			(xy 218.44 127) (xy 218.44 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dae21bd3-91bb-46e8-9030-15f77fab602d")
 	)
 	(wire
 		(pts
@@ -2344,9 +2544,9 @@
 			)
 		)
 	)
-	(global_label "Row 2"
+	(global_label "MOSI"
 		(shape input)
-		(at 207.01 48.26 180)
+		(at 243.84 128.27 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2354,9 +2554,75 @@
 			)
 			(justify right)
 		)
-		(uuid "3a2ff7e7-ccf4-435f-942a-42cb40e415ba")
+		(uuid "23458ad5-7d6d-4035-a055-e7b3eefd48e7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.0982 48.26 0)
+			(at 243.84 135.8514 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOSI"
+		(shape input)
+		(at 210.82 127 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "2e6d2475-2a0a-4ef6-a704-89534dcb4bdd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 210.82 134.5814 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CS"
+		(shape input)
+		(at 245.11 53.34 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "33e843e7-cc46-4543-a38b-4d30a4a1a0fa")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 250.5747 53.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "CS"
+		(shape input)
+		(at 220.98 127 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3d9bfd69-2ae3-4a28-a887-c8d636b0828c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 220.98 132.4647 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2410,6 +2676,28 @@
 			)
 		)
 	)
+	(global_label "CS"
+		(shape input)
+		(at 254 128.27 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "5a37dc6e-d54f-48e1-b36e-4b1b1b4af82f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254 133.7347 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Row 3"
 		(shape input)
 		(at 130.81 130.81 0)
@@ -2450,6 +2738,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "BAT"
+		(shape input)
+		(at 248.92 132.08 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6d802f58-c8b9-4139-998e-7423ab340390")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 248.92 138.3914 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2522,22 +2832,22 @@
 	)
 	(global_label "Row 3"
 		(shape input)
-		(at 207.01 50.8 180)
+		(at 245.11 50.8 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "81c01f42-d553-4459-b711-e7249b957f24")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.0982 50.8 0)
+			(at 254.0218 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2586,6 +2896,28 @@
 			)
 		)
 	)
+	(global_label "BAT"
+		(shape input)
+		(at 215.9 130.81 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "992e6457-df0f-4abf-9ab1-13db526553d2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 215.9 137.1214 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Col 5"
 		(shape input)
 		(at 207.01 66.04 180)
@@ -2599,6 +2931,50 @@
 		(uuid "9b30b3b7-9e62-4073-98d3-701d22fbeff1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 198.7635 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCK"
+		(shape input)
+		(at 207.01 50.8 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a48dcda5-570e-42b8-a957-af98cd59483a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 200.2753 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SCK"
+		(shape input)
+		(at 213.36 127 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "acd51686-226a-40a7-a34b-a5b7493afc6c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 213.36 133.7347 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2630,6 +3006,28 @@
 			)
 		)
 	)
+	(global_label "SCK"
+		(shape input)
+		(at 246.38 128.27 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bcb94a99-c371-4f42-80b3-0d3c41fe1227")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 246.38 135.0047 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "RST"
 		(shape input)
 		(at 245.11 43.18 0)
@@ -2648,6 +3046,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "MOSI"
+		(shape input)
+		(at 207.01 48.26 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bfa36f3c-2b44-44a0-95b3-d81644352c76")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 199.4286 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2806,6 +3226,28 @@
 			)
 		)
 	)
+	(global_label "Row 2"
+		(shape input)
+		(at 245.11 48.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e8e92624-caf5-4068-a771-a869ffb71d7f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 254.0218 48.26 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
 		(at 91.44 85.09 0)
@@ -2832,7 +3274,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sighol:Kailh_socket_PG1350_optional_reversible_clean"
+		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
 			(at 91.44 85.09 0)
 			(effects
 				(font
@@ -2966,7 +3408,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sighol:Kailh_socket_PG1350_optional_reversible_clean"
+		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
 			(at 53.34 66.04 0)
 			(effects
 				(font
@@ -3298,7 +3740,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sighol:Kailh_socket_PG1350_optional_reversible_clean"
+		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
 			(at 116.84 66.04 0)
 			(effects
 				(font
@@ -3366,7 +3808,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sighol:Kailh_socket_PG1350_optional_reversible_clean"
+		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
 			(at 91.44 104.14 0)
 			(effects
 				(font
@@ -3434,7 +3876,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sighol:Kailh_socket_PG1350_optional_reversible_clean"
+		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
 			(at 78.74 104.14 0)
 			(effects
 				(font
@@ -3854,7 +4296,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sighol:Kailh_socket_PG1350_optional_reversible_clean"
+		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
 			(at 53.34 85.09 0)
 			(effects
 				(font
@@ -3988,7 +4430,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sighol:Kailh_socket_PG1350_optional_reversible_clean"
+		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
 			(at 116.84 123.19 0)
 			(effects
 				(font
@@ -4144,7 +4586,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sighol:Kailh_socket_PG1350_optional_reversible_clean"
+		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
 			(at 116.84 85.09 0)
 			(effects
 				(font
@@ -4300,7 +4742,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sighol:Kailh_socket_PG1350_optional_reversible_clean"
+		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
 			(at 104.14 85.09 0)
 			(effects
 				(font
@@ -4580,6 +5022,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 218.44 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "659b94c5-6c5a-4788-98ff-bdcbe2bbb86a")
+		(property "Reference" "#PWR04"
+			(at 218.44 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 218.44 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 218.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 218.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 218.44 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "149ce10e-1ac6-4a02-8449-61c2db091f38")
+		)
+		(instances
+			(project "sighol-split"
+				(path "/3a5263d6-bb17-463f-8bd2-2620b5add140"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
 		(at 106.68 71.12 90)
 		(unit 1)
@@ -4693,7 +5201,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sighol:Kailh_socket_PG1350_optional_reversible_clean"
+		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
 			(at 104.14 66.04 0)
 			(effects
 				(font
@@ -4849,7 +5357,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sighol:Kailh_socket_PG1350_optional_reversible_clean"
+		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
 			(at 116.84 104.14 0)
 			(effects
 				(font
@@ -4917,7 +5425,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sighol:Kailh_socket_PG1350_optional_reversible_clean"
+		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
 			(at 66.04 104.14 0)
 			(effects
 				(font
@@ -4985,7 +5493,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sighol:Kailh_socket_PG1350_optional_reversible_clean"
+		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
 			(at 66.04 66.04 0)
 			(effects
 				(font
@@ -5141,7 +5649,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sighol:Kailh_socket_PG1350_optional_reversible_clean"
+		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
 			(at 66.04 85.09 0)
 			(effects
 				(font
@@ -5453,7 +5961,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sighol:Kailh_socket_PG1350_optional_reversible_clean"
+		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
 			(at 104.14 123.19 0)
 			(effects
 				(font
@@ -5521,7 +6029,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sighol:Kailh_socket_PG1350_optional_reversible_clean"
+		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
 			(at 78.74 123.19 0)
 			(effects
 				(font
@@ -5747,7 +6255,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sighol:Kailh_socket_PG1350_optional_reversible_clean"
+		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
 			(at 91.44 123.19 0)
 			(effects
 				(font
@@ -5815,7 +6323,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sighol:Kailh_socket_PG1350_optional_reversible_clean"
+		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
 			(at 78.74 66.04 0)
 			(effects
 				(font
@@ -6122,6 +6630,85 @@
 		)
 	)
 	(symbol
+		(lib_id "sighol:nice!view")
+		(at 248.92 115.57 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c0e6bb01-c637-4a2e-a920-ffa69266d67c")
+		(property "Reference" "Display2"
+			(at 256.54 113.6649 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "nice!view"
+			(at 256.54 116.2049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "sighol:nice_view"
+			(at 248.92 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nicekeyboards.com/docs/nice-view/pinout-schematic"
+			(at 251.46 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Sharp LS011B7DH03 Memory in Pixel 160x68"
+			(at 248.92 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "aa4ac6de-170c-426b-b2bf-dd7c59a97972")
+		)
+		(pin "1"
+			(uuid "969b807a-f56e-41b9-90e8-969e6054b7b9")
+		)
+		(pin "2"
+			(uuid "791da9ab-15a7-4b9a-9e60-232a88d93695")
+		)
+		(pin "5"
+			(uuid "84b7ba45-1610-499f-b0f4-6b478dfd17a6")
+		)
+		(pin "3"
+			(uuid "ff88f5cf-8a9b-4ace-926b-112f219f45b4")
+		)
+		(instances
+			(project "sighol-split"
+				(path "/3a5263d6-bb17-463f-8bd2-2620b5add140"
+					(reference "Display2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
 		(at 104.14 104.14 0)
 		(unit 1)
@@ -6147,7 +6734,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sighol:Kailh_socket_PG1350_optional_reversible_clean"
+		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
 			(at 104.14 104.14 0)
 			(effects
 				(font
@@ -6303,7 +6890,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sighol:Kailh_socket_PG1350_optional_reversible_clean"
+		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
 			(at 78.74 85.09 0)
 			(effects
 				(font
@@ -6459,7 +7046,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sighol:Kailh_socket_PG1350_optional_reversible_clean"
+		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
 			(at 91.44 66.04 0)
 			(effects
 				(font
@@ -6727,7 +7314,7 @@
 				)
 			)
 		)
-		(property "Footprint" "sighol:Kailh_socket_PG1350_optional_reversible_clean"
+		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
 			(at 53.34 104.14 0)
 			(effects
 				(font
@@ -6764,6 +7351,151 @@
 			(project "sighol-split2"
 				(path "/3a5263d6-bb17-463f-8bd2-2620b5add140"
 					(reference "CH19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 251.46 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f1fafe64-5c48-4607-9fc4-fcec84bb9d39")
+		(property "Reference" "#PWR06"
+			(at 251.46 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 251.46 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 251.46 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 251.46 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 251.46 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "c27cd13e-ae67-4ea1-a110-d4ce23dcb817")
+		)
+		(instances
+			(project "sighol-split"
+				(path "/3a5263d6-bb17-463f-8bd2-2620b5add140"
+					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "sighol:nice!view")
+		(at 215.9 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f41389c1-a97f-4895-8bac-35769a7252dc")
+		(property "Reference" "Display1"
+			(at 223.52 112.3949 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "nice!view"
+			(at 223.52 114.9349 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "sighol:nice_view"
+			(at 215.9 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://nicekeyboards.com/docs/nice-view/pinout-schematic"
+			(at 218.44 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Sharp LS011B7DH03 Memory in Pixel 160x68"
+			(at 215.9 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "86b5b2f0-b015-4503-9abb-c3e0fb6b32fb")
+		)
+		(pin "1"
+			(uuid "0e5f5099-4770-430e-905f-3d219a7d18cc")
+		)
+		(pin "2"
+			(uuid "1bbff81b-2309-4ac8-a294-abb411987382")
+		)
+		(pin "5"
+			(uuid "c5bf4853-247a-4819-a3a1-b326bb1cf22d")
+		)
+		(pin "3"
+			(uuid "4e9c791a-23bf-43ce-b7bc-74e9cf5fa47c")
+		)
+		(instances
+			(project ""
+				(path "/3a5263d6-bb17-463f-8bd2-2620b5add140"
+					(reference "Display1")
 					(unit 1)
 				)
 			)
