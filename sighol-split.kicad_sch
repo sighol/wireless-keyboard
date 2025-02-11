@@ -1743,6 +1743,12 @@
 		(uuid "813f4e9d-f068-4d1c-9ce5-4714e0ca70f0")
 	)
 	(junction
+		(at 147.32 36.83)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "895ac06e-27fc-445b-a155-9ea91056e0b5")
+	)
+	(junction
 		(at 106.68 111.76)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1857,12 +1863,8 @@
 		(uuid "2d9a0a0a-a689-43db-8bb2-60341f3df5a2")
 	)
 	(no_connect
-		(at 203.2 49.53)
+		(at 165.1 34.29)
 		(uuid "71009bb9-2328-4e81-873d-1a4612d21dd0")
-	)
-	(no_connect
-		(at 203.2 29.21)
-		(uuid "809fae39-ad59-4488-a5c5-b75ffbdc2e47")
 	)
 	(no_connect
 		(at 181.61 64.77)
@@ -1881,12 +1883,12 @@
 		(uuid "9cc36ec9-757c-4039-bd63-faa351b449a6")
 	)
 	(no_connect
-		(at 203.2 57.15)
-		(uuid "e7e5176e-c8e7-4b96-9223-4dec2a5f3fe9")
+		(at 203.2 29.21)
+		(uuid "9ef540d7-bbfc-405d-9bef-c0cdde496e73")
 	)
 	(no_connect
-		(at 165.1 29.21)
-		(uuid "eca9627f-4719-4e04-bf8c-1c42505bb8a9")
+		(at 203.2 57.15)
+		(uuid "e7e5176e-c8e7-4b96-9223-4dec2a5f3fe9")
 	)
 	(wire
 		(pts
@@ -2090,7 +2092,7 @@
 	)
 	(wire
 		(pts
-			(xy 149.86 73.66) (xy 152.4 73.66)
+			(xy 241.3 60.96) (xy 243.84 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2300,6 +2302,16 @@
 	)
 	(wire
 		(pts
+			(xy 147.32 29.21) (xy 165.1 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1370793-0dc0-44d6-a58a-626938d9cb9e")
+	)
+	(wire
+		(pts
 			(xy 93.98 130.81) (xy 106.68 130.81)
 		)
 		(stroke
@@ -2307,6 +2319,16 @@
 			(type default)
 		)
 		(uuid "a2fc113a-4e8c-4a4b-aeb6-16e4d14d7ef2")
+	)
+	(wire
+		(pts
+			(xy 147.32 36.83) (xy 147.32 29.21)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aea85bbe-1c94-4ef0-94f0-757155c7462b")
 	)
 	(wire
 		(pts
@@ -2440,7 +2462,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 73.66) (xy 165.1 73.66)
+			(xy 254 60.96) (xy 256.54 60.96)
 		)
 		(stroke
 			(width 0)
@@ -2457,6 +2479,26 @@
 			(type default)
 		)
 		(uuid "f00ce5e3-3e74-4539-af8e-dcb664772872")
+	)
+	(text "NiceNano resets when \nGND and RST are shorted"
+		(exclude_from_sim no)
+		(at 241.3 65.532 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "963337a3-63ba-4328-acab-0119844d72bf")
+	)
+	(text "the BAT pins are connected\non the footprint"
+		(exclude_from_sim no)
+		(at 213.868 25.654 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "d88f16a8-eb00-47ed-97ca-426ca0d8ee44")
 	)
 	(global_label "Col 1"
 		(shape input)
@@ -2504,22 +2546,22 @@
 	)
 	(global_label "Row 0"
 		(shape input)
-		(at 165.1 34.29 180)
+		(at 203.2 41.91 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "18d25af4-7ede-406c-aea4-b0937abdc89c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.1882 34.29 0)
+			(at 212.1118 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -2548,22 +2590,22 @@
 	)
 	(global_label "CS"
 		(shape input)
-		(at 203.2 46.99 0)
+		(at 165.1 31.75 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "33e843e7-cc46-4543-a38b-4d30a4a1a0fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 208.6647 46.99 0)
+			(at 159.6353 31.75 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -2702,7 +2744,7 @@
 	)
 	(global_label "RST"
 		(shape input)
-		(at 149.86 73.66 180)
+		(at 241.3 60.96 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2712,7 +2754,7 @@
 		)
 		(uuid "7b4c427c-f91f-4cec-a886-ea9c7c277c07")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 143.4277 73.66 0)
+			(at 234.8677 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2746,7 +2788,7 @@
 	)
 	(global_label "Row 3"
 		(shape input)
-		(at 203.2 44.45 0)
+		(at 203.2 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2756,7 +2798,7 @@
 		)
 		(uuid "81c01f42-d553-4459-b711-e7249b957f24")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.1118 44.45 0)
+			(at 212.1118 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2856,7 +2898,7 @@
 	)
 	(global_label "SCK"
 		(shape input)
-		(at 165.1 44.45 180)
+		(at 165.1 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2866,7 +2908,7 @@
 		)
 		(uuid "a48dcda5-570e-42b8-a957-af98cd59483a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.3653 44.45 0)
+			(at 158.3653 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2944,7 +2986,7 @@
 	)
 	(global_label "MOSI"
 		(shape input)
-		(at 165.1 41.91 180)
+		(at 165.1 44.45 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2954,7 +2996,7 @@
 		)
 		(uuid "bfa36f3c-2b44-44a0-95b3-d81644352c76")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.5186 41.91 0)
+			(at 157.5186 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3054,22 +3096,22 @@
 	)
 	(global_label "Row 1"
 		(shape input)
-		(at 165.1 31.75 180)
+		(at 203.2 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "ce82144f-2198-47c2-ba65-80535a6ba4dc")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 156.1882 31.75 0)
+			(at 212.1118 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -3120,7 +3162,7 @@
 	)
 	(global_label "Row 2"
 		(shape input)
-		(at 203.2 41.91 0)
+		(at 203.2 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3130,7 +3172,7 @@
 		)
 		(uuid "e8e92624-caf5-4068-a771-a869ffb71d7f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 212.1118 41.91 0)
+			(at 212.1118 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5769,7 +5811,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9e2ba2c1-fcd8-44ee-9624-5108df9c400a")
-		(property "Reference" "SW1"
+		(property "Reference" "SW_PW_FG1"
 			(at 194.31 72.39 0)
 			(effects
 				(font
@@ -5821,7 +5863,7 @@
 		(instances
 			(project ""
 				(path "/3a5263d6-bb17-463f-8bd2-2620b5add140"
-					(reference "SW1")
+					(reference "SW_PW_FG1")
 					(unit 1)
 				)
 			)
@@ -6903,7 +6945,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 165.1 73.66 0)
+		(at 256.54 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6912,7 +6954,7 @@
 		(fields_autoplaced yes)
 		(uuid "ec7cadc0-3d18-4eaf-9e4a-436f24cf73d8")
 		(property "Reference" "#PWR02"
-			(at 165.1 80.01 0)
+			(at 256.54 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6921,7 +6963,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 165.1 78.74 0)
+			(at 256.54 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6929,7 +6971,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 165.1 73.66 0)
+			(at 256.54 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6938,7 +6980,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 165.1 73.66 0)
+			(at 256.54 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6947,7 +6989,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 165.1 73.66 0)
+			(at 256.54 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7035,7 +7077,7 @@
 	)
 	(symbol
 		(lib_id "Switch:SW_Push")
-		(at 157.48 73.66 0)
+		(at 248.92 60.96 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7043,8 +7085,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eefcf387-18b6-4cab-a85a-f23ccb6a81d3")
-		(property "Reference" "SW2"
-			(at 157.48 66.04 0)
+		(property "Reference" "SW_RST1"
+			(at 248.92 53.34 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7052,7 +7094,7 @@
 			)
 		)
 		(property "Value" "SW_Push"
-			(at 157.48 68.58 0)
+			(at 248.92 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7060,7 +7102,7 @@
 			)
 		)
 		(property "Footprint" "PCM_marbastlib-various:SW_SKHLLCA010"
-			(at 157.48 68.58 0)
+			(at 248.92 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7069,7 +7111,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 157.48 68.58 0)
+			(at 248.92 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7078,7 +7120,7 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, two pins"
-			(at 157.48 73.66 0)
+			(at 248.92 60.96 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7095,7 +7137,7 @@
 		(instances
 			(project ""
 				(path "/3a5263d6-bb17-463f-8bd2-2620b5add140"
-					(reference "SW2")
+					(reference "SW_RST1")
 					(unit 1)
 				)
 			)
