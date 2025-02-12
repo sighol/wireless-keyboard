@@ -45,4 +45,5 @@ Total: 93.95 EUR on 42keebs.eu.
 - Lage reversible footprint for power switch.
 - Redo edge cut in inkscape. Use radius path and then offset to get nice corners everywhere.
 - Add TRRS so that the same PCB can be used wired with QMK.
-- Figure out if I need a screen protector for thr nice nano.
+- Figure out if I need a screen protector for the nice nano.
+- Look for batteries and find one that fits.
