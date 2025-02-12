@@ -5827,7 +5827,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:SW_MSK12C02-HB"
+		(property "Footprint" "sighol:SW_MSK12C02-HB_reversible"
 			(at 194.31 80.01 0)
 			(effects
 				(font
