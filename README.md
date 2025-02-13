@@ -37,6 +37,7 @@ https://nicekeyboards.com/docs/nice-view/pinout-schematic#default-pins
 - 1 x [Nice!view](https://42keebs.eu/shop/parts/niceview-power-efficient-lcd-display/). I only need one for the left half.
 - 2 x [SDM power switch](https://42keebs.eu/shop/parts/components/power-switch/?attribute_type=Micro+SMD+SPDT).
 - 2 x [reset switch](https://42keebs.eu/shop/parts/components/reset-switch/).
+- [Batteries](https://www.aliexpress.com/item/1005007625961666.html?spm=a2g0o.productlist.main.59.9ca11d420CydvJ&algo_pvid=120edaba-9165-4a9c-8ff5-5bade77d414c&algo_exp_id=120edaba-9165-4a9c-8ff5-5bade77d414c-29&pdp_ext_f=%7B%22order%22%3A%223%22%2C%22eval%22%3A%221%22%7D&pdp_npi=4%40dis%21NOK%2189.36%2178.63%21%21%2156.90%2150.07%21%40211b628117393867808432677e90e9%2112000041552681850%21sea%21NO%210%21ABX&curPageLogUid=lpMMqd58MoUq&utparam-url=scene%3Asearch%7Cquery_from%3A#nav-specification)
 
 Total: 93.95 EUR on 42keebs.eu.
 
