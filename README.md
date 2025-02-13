@@ -44,3 +44,4 @@ Total: 93.95 EUR on 42keebs.eu.
 # TODO:
 
 - Look for batteries and find one that fits.
+- Check that the footprint for the RESET switch matches keeb42
