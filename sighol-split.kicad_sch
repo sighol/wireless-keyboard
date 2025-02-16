@@ -1855,10 +1855,6 @@
 		(uuid "00ccce9a-2665-4820-987c-13978c3db078")
 	)
 	(no_connect
-		(at 203.2 39.37)
-		(uuid "216a78fc-0b23-458a-83ac-2272d4b6ab8a")
-	)
-	(no_connect
 		(at 203.2 59.69)
 		(uuid "2d9a0a0a-a689-43db-8bb2-60341f3df5a2")
 	)
@@ -2292,16 +2288,6 @@
 	)
 	(wire
 		(pts
-			(xy 173.99 120.65) (xy 173.99 124.46)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "9d09aa2d-1899-49a7-b626-53eba30480e3")
-	)
-	(wire
-		(pts
 			(xy 147.32 29.21) (xy 165.1 29.21)
 		)
 		(stroke
@@ -2720,6 +2706,28 @@
 			)
 		)
 	)
+	(global_label "3V3"
+		(shape input)
+		(at 203.2 39.37 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6d852e9a-eb0f-48ea-b05f-fe89b0b4911f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.6928 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Col 3"
 		(shape input)
 		(at 165.1 54.61 180)
@@ -2852,9 +2860,9 @@
 			)
 		)
 	)
-	(global_label "BAT"
+	(global_label "3V3"
 		(shape input)
-		(at 173.99 124.46 270)
+		(at 173.99 120.65 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2864,7 +2872,7 @@
 		)
 		(uuid "992e6457-df0f-4abf-9ab1-13db526553d2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 173.99 130.7714 90)
+			(at 173.99 127.1428 90)
 			(effects
 				(font
 					(size 1.27 1.27)
