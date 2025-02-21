@@ -7109,7 +7109,7 @@
 				)
 			)
 		)
-		(property "Footprint" "PCM_marbastlib-various:SW_SKHLLCA010"
+		(property "Footprint" "sighol:SWITRONIC_0343HIM-180G"
 			(at 248.92 55.88 0)
 			(effects
 				(font
