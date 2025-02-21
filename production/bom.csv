@@ -1,0 +1,7 @@
+﻿Designator,Footprint,Quantity,Value,LCSC Part #
+BAT1,JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical,1,Battery,
+"CH10, CH11, CH12, CH13, CH14, CH15, CH16, CH17, CH18, CH19, CH20, CH21, CH22, CH23, CH24, CH25, CH28, CH29, CH30, CH7, CH8, CH9",Kailh_socket_PG1350 reversible HS-only,22,KS33_SW_HS,
+"D10, D11, D12, D13, D14, D15, D16, D17, D18, D19, D20, D21, D22, D23, D24, D25, D28, D29, D30, D7, D8, D9",D_DO-35_SOD27_P7.62mm_Horizontal,22,D_Small,
+DISPLAY1,nice_view,1,nice!view,
+SW_PW_FG1,SW_MSK12C02-HB_reversible,1,SW_DIP_x01,
+SW_RST1,SWITRONIC_0343HIM-180G,1,SW_Push,
