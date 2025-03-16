@@ -239,6 +239,204 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Device:D_Capacitance"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D_Capacitance"
+				(at 0 -3.302 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Variable capacitance diode"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "capacitance diode varicap varactor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "D_Capacitance_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 0) (xy 1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -1.778) (xy -0.1524 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -0.1524 -1.27) (xy -0.1524 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.1524 -1.27) (xy 0.1524 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.1524 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_Capacitance_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:D_Small"
 			(pin_numbers
 				(hide yes)
@@ -392,6 +590,385 @@
 					(at 2.54 0 180)
 					(length 1.778)
 					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Device:R"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R"
+				(at 0 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "R res resistor"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "LED:WS2812B"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 5.08 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right bottom)
+				)
+			)
+			(property "Value" "WS2812B"
+				(at 1.27 -5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+				(at 1.27 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+				(at 2.54 -9.525 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "RGB LED with integrated controller"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "RGB LED NeoPixel addressable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "LED*WS2812*PLCC*5.0x5.0mm*P3.2mm*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "WS2812B_0_0"
+				(text "RGB"
+					(at 2.286 -4.191 0)
+					(effects
+						(font
+							(size 0.762 0.762)
+						)
+					)
+				)
+			)
+			(symbol "WS2812B_0_1"
+				(polyline
+					(pts
+						(xy 1.27 -2.54) (xy 1.778 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -3.556) (xy 1.778 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -1.524) (xy 1.27 -2.54) (xy 1.27 -2.032)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.286 -2.54) (xy 1.27 -3.556) (xy 1.27 -3.048)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 3.683 -1.016) (xy 3.683 -3.556) (xy 3.683 -4.064)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -1.524) (xy 2.667 -1.524) (xy 3.683 -3.556) (xy 4.699 -1.524)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 4.699 -3.556) (xy 2.667 -3.556)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 5.08 5.08)
+					(end -5.08 -5.08)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "WS2812B_1_1"
+				(pin input line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "DIN"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VDD"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "VSS"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "DOUT"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1163,212 +1740,208 @@
 		)
 	)
 	(junction
-		(at 93.98 73.66)
+		(at 71.12 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "073361a1-219a-4d1e-9db7-f1cd95542c94")
 	)
 	(junction
-		(at 68.58 111.76)
+		(at 45.72 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "073707f4-28b6-4c1c-adbd-a60badc37a36")
 	)
 	(junction
-		(at 50.8 63.5)
+		(at 27.94 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0bffd8da-7a1c-47f8-9272-009c5b1a6ccf")
 	)
 	(junction
-		(at 119.38 73.66)
+		(at 96.52 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "0e684a5c-6ae7-45b5-b9bd-e72535912f4c")
 	)
 	(junction
-		(at 114.3 101.6)
+		(at 91.44 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1537dbd9-386b-4373-bff3-d60100c31900")
 	)
 	(junction
-		(at 81.28 73.66)
+		(at 58.42 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1f133618-abfa-4fff-bafe-c171bc5f7da2")
 	)
 	(junction
-		(at 114.3 82.55)
+		(at 91.44 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2e1f007d-a84c-4377-b617-0858abb0095a")
 	)
 	(junction
-		(at 81.28 111.76)
+		(at 58.42 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2f8966da-0bfc-4cb8-b71e-cc172638c76a")
 	)
 	(junction
-		(at 88.9 101.6)
+		(at 66.04 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "393505be-6510-4093-b7ef-66e3fa8e43d0")
 	)
 	(junction
-		(at 93.98 111.76)
+		(at 71.12 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3be35518-0617-4376-8168-7b6219c6fe6f")
 	)
 	(junction
-		(at 101.6 101.6)
+		(at 78.74 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "42696de2-5c52-4c27-9718-5a422a53111d")
 	)
 	(junction
-		(at 76.2 63.5)
+		(at 53.34 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "429daa90-3c25-4706-931a-b967d16f10a3")
 	)
 	(junction
-		(at 106.68 130.81)
+		(at 83.82 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c704978-29df-44b1-b9d3-dcfa5ce64509")
 	)
 	(junction
-		(at 106.68 73.66)
+		(at 83.82 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "653a2553-2884-4743-86e8-10f425351ad5")
 	)
 	(junction
-		(at 81.28 92.71)
+		(at 58.42 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "6d73a03b-879c-47d1-9d16-43d5110440db")
 	)
 	(junction
-		(at 88.9 63.5)
+		(at 66.04 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "7a7bb7ec-299a-4712-8eec-471ef53f8b46")
 	)
 	(junction
-		(at 68.58 73.66)
+		(at 45.72 48.26)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "813f4e9d-f068-4d1c-9ce5-4714e0ca70f0")
 	)
 	(junction
-		(at 106.68 111.76)
+		(at 83.82 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8b59b15d-7222-4868-8e14-b044542357cd")
 	)
 	(junction
-		(at 119.38 130.81)
+		(at 96.52 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "99121650-25df-4c88-a55e-b9d5e815d567")
 	)
 	(junction
-		(at 63.5 82.55)
+		(at 40.64 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9a6df5d3-a2fb-46df-bcd3-766c3a0ae9c9")
 	)
 	(junction
-		(at 76.2 82.55)
+		(at 53.34 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "9d6c1132-e7f6-449f-9ebe-5ef2974371c9")
 	)
 	(junction
-		(at 50.8 82.55)
+		(at 27.94 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b443f9a4-4aa2-44fe-9c88-f6e3a27d263b")
 	)
 	(junction
-		(at 63.5 63.5)
+		(at 40.64 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b5b7bf67-c53b-4bb4-9480-066550c8f5be")
 	)
 	(junction
-		(at 119.38 92.71)
+		(at 96.52 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d9425e3d-fd09-4ab0-817b-29c613955dbe")
 	)
 	(junction
-		(at 101.6 63.5)
+		(at 78.74 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "dc6178eb-1dea-4ca4-ad29-13b75ac10a7f")
 	)
 	(junction
-		(at 114.3 63.5)
+		(at 91.44 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e5b81737-4f36-4e18-b310-fba728352bb8")
 	)
 	(junction
-		(at 76.2 101.6)
+		(at 53.34 76.2)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e73c90d5-eb3e-4b18-b341-34a87ab8faa1")
 	)
 	(junction
-		(at 68.58 92.71)
+		(at 45.72 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ebf29b0b-e3a4-4fde-b427-1c6b716e4ec4")
 	)
 	(junction
-		(at 88.9 82.55)
+		(at 66.04 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f387ded2-b8e5-4ee9-a1f4-8854b40903f3")
 	)
 	(junction
-		(at 101.6 82.55)
+		(at 78.74 57.15)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f72f7568-f9d3-413c-b12c-885d82547710")
 	)
 	(junction
-		(at 93.98 130.81)
+		(at 71.12 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f8840b5c-8a06-468b-84af-cf18d045b3aa")
 	)
 	(junction
-		(at 93.98 92.71)
+		(at 71.12 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "faaab7cb-9f8a-4b64-a73c-bec5a579f94d")
 	)
 	(junction
-		(at 106.68 92.71)
+		(at 83.82 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fddd0225-cd3f-4e5b-8f79-7e326edc8ef1")
 	)
 	(junction
-		(at 119.38 111.76)
+		(at 96.52 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "fe30a68b-1e46-4a51-8b12-d703f67a2839")
-	)
-	(no_connect
-		(at 199.39 58.42)
-		(uuid "21d6fb44-07a1-40b0-bf79-19b320a323e6")
 	)
 	(no_connect
 		(at 185.42 39.37)
@@ -1395,16 +1968,16 @@
 		(uuid "83cb8e1e-6998-4308-806a-6571e93d332f")
 	)
 	(no_connect
+		(at 199.39 60.96)
+		(uuid "a179d10f-603a-4282-b7ce-dd32826944d2")
+	)
+	(no_connect
 		(at 199.39 45.72)
 		(uuid "b8d000b7-eb1f-40f6-a32e-5335b7a6d8f2")
 	)
-	(no_connect
-		(at 199.39 60.96)
-		(uuid "dfb11102-c2ab-4c55-97ec-5840e151cba2")
-	)
 	(wire
 		(pts
-			(xy 81.28 111.76) (xy 93.98 111.76)
+			(xy 58.42 86.36) (xy 71.12 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1414,7 +1987,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 73.66) (xy 119.38 73.66)
+			(xy 83.82 48.26) (xy 96.52 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1424,7 +1997,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 101.6) (xy 88.9 120.65)
+			(xy 66.04 76.2) (xy 66.04 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1434,7 +2007,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 130.81) (xy 130.81 130.81)
+			(xy 96.52 105.41) (xy 107.95 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1444,7 +2017,17 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 92.71) (xy 119.38 92.71)
+			(xy 107.95 157.48) (xy 44.45 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "114ab651-2cef-4c9e-ac9a-066d7e9864ec")
+	)
+	(wire
+		(pts
+			(xy 83.82 67.31) (xy 96.52 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1454,7 +2037,17 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 53.34) (xy 88.9 63.5)
+			(xy 86.36 142.24) (xy 92.71 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "11fd6884-e40b-492c-952f-7dedcc69ba14")
+	)
+	(wire
+		(pts
+			(xy 66.04 27.94) (xy 66.04 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1464,7 +2057,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 82.55) (xy 114.3 101.6)
+			(xy 91.44 57.15) (xy 91.44 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1474,7 +2067,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 82.55) (xy 63.5 101.6)
+			(xy 57.15 148.59) (xy 21.59 148.59)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1b9d5c0a-ac30-4824-baa7-2fe84019e616")
+	)
+	(wire
+		(pts
+			(xy 40.64 57.15) (xy 40.64 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1484,7 +2087,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 111.76) (xy 106.68 111.76)
+			(xy 71.12 86.36) (xy 83.82 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1494,7 +2097,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 101.6) (xy 114.3 120.65)
+			(xy 91.44 76.2) (xy 91.44 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1504,7 +2107,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 92.71) (xy 93.98 92.71)
+			(xy 58.42 67.31) (xy 71.12 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1514,7 +2117,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 63.5) (xy 50.8 82.55)
+			(xy 27.94 38.1) (xy 27.94 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1524,7 +2127,7 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 82.55) (xy 88.9 101.6)
+			(xy 66.04 57.15) (xy 66.04 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1534,7 +2137,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 82.55) (xy 101.6 101.6)
+			(xy 78.74 57.15) (xy 78.74 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1544,7 +2147,7 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 63.5) (xy 63.5 82.55)
+			(xy 40.64 38.1) (xy 40.64 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1554,7 +2157,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 53.34) (xy 114.3 63.5)
+			(xy 91.44 27.94) (xy 91.44 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1564,7 +2167,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 82.55) (xy 50.8 101.6)
+			(xy 27.94 57.15) (xy 27.94 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1574,7 +2177,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 63.5) (xy 101.6 82.55)
+			(xy 78.74 38.1) (xy 78.74 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1584,7 +2187,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 92.71) (xy 130.81 92.71)
+			(xy 96.52 67.31) (xy 107.95 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1594,7 +2197,17 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 63.5) (xy 88.9 82.55)
+			(xy 57.15 134.62) (xy 21.59 134.62)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6e1e3ed9-da9e-457a-8fbb-ca5946494ca3")
+	)
+	(wire
+		(pts
+			(xy 66.04 38.1) (xy 66.04 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1604,7 +2217,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 111.76) (xy 68.58 111.76)
+			(xy 33.02 86.36) (xy 45.72 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1614,7 +2227,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 73.66) (xy 132.08 73.66)
+			(xy 96.52 48.26) (xy 109.22 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1624,7 +2237,17 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 53.34) (xy 50.8 63.5)
+			(xy 21.59 134.62) (xy 21.59 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "78292729-7189-4942-a5f8-55b22cf08695")
+	)
+	(wire
+		(pts
+			(xy 27.94 27.94) (xy 27.94 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1634,7 +2257,7 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 111.76) (xy 130.81 111.76)
+			(xy 96.52 86.36) (xy 107.95 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1644,7 +2267,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 111.76) (xy 81.28 111.76)
+			(xy 45.72 86.36) (xy 58.42 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1654,7 +2277,7 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 130.81) (xy 93.98 130.81)
+			(xy 58.42 105.41) (xy 71.12 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1664,7 +2287,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 53.34) (xy 101.6 63.5)
+			(xy 78.74 27.94) (xy 78.74 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1674,7 +2297,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 101.6) (xy 76.2 120.65)
+			(xy 53.34 76.2) (xy 53.34 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1684,7 +2307,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 73.66) (xy 68.58 73.66)
+			(xy 33.02 48.26) (xy 45.72 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1694,7 +2317,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 53.34) (xy 76.2 63.5)
+			(xy 53.34 27.94) (xy 53.34 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1704,7 +2327,17 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 73.66) (xy 93.98 73.66)
+			(xy 44.45 127) (xy 44.45 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "95388bce-7326-41f8-b7c3-e7b9d1acc2c6")
+	)
+	(wire
+		(pts
+			(xy 58.42 48.26) (xy 71.12 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1714,7 +2347,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 92.71) (xy 106.68 92.71)
+			(xy 71.12 67.31) (xy 83.82 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1724,7 +2357,7 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 130.81) (xy 106.68 130.81)
+			(xy 71.12 105.41) (xy 83.82 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1734,7 +2367,17 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 111.76) (xy 119.38 111.76)
+			(xy 64.77 142.24) (xy 71.12 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a359a81a-d93c-4313-93d1-ad6786fec301")
+	)
+	(wire
+		(pts
+			(xy 83.82 86.36) (xy 96.52 86.36)
 		)
 		(stroke
 			(width 0)
@@ -1744,7 +2387,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 63.5) (xy 114.3 82.55)
+			(xy 91.44 38.1) (xy 91.44 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1754,7 +2397,7 @@
 	)
 	(wire
 		(pts
-			(xy 106.68 130.81) (xy 119.38 130.81)
+			(xy 83.82 105.41) (xy 96.52 105.41)
 		)
 		(stroke
 			(width 0)
@@ -1764,7 +2407,7 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 92.71) (xy 81.28 92.71)
+			(xy 45.72 67.31) (xy 58.42 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1774,7 +2417,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 63.5) (xy 76.2 82.55)
+			(xy 53.34 38.1) (xy 53.34 57.15)
 		)
 		(stroke
 			(width 0)
@@ -1784,7 +2427,7 @@
 	)
 	(wire
 		(pts
-			(xy 76.2 82.55) (xy 76.2 101.6)
+			(xy 53.34 57.15) (xy 53.34 76.2)
 		)
 		(stroke
 			(width 0)
@@ -1794,7 +2437,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 101.6) (xy 101.6 120.65)
+			(xy 78.74 76.2) (xy 78.74 95.25)
 		)
 		(stroke
 			(width 0)
@@ -1804,7 +2447,17 @@
 	)
 	(wire
 		(pts
-			(xy 93.98 73.66) (xy 106.68 73.66)
+			(xy 44.45 142.24) (xy 49.53 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c785e76f-a4d7-4453-927d-9d0c77e4c75b")
+	)
+	(wire
+		(pts
+			(xy 71.12 48.26) (xy 83.82 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1814,7 +2467,17 @@
 	)
 	(wire
 		(pts
-			(xy 68.58 73.66) (xy 81.28 73.66)
+			(xy 107.95 142.24) (xy 107.95 157.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d22c6607-b0c4-4e91-9368-3f9bb5729fe0")
+	)
+	(wire
+		(pts
+			(xy 45.72 48.26) (xy 58.42 48.26)
 		)
 		(stroke
 			(width 0)
@@ -1824,7 +2487,7 @@
 	)
 	(wire
 		(pts
-			(xy 55.88 92.71) (xy 68.58 92.71)
+			(xy 33.02 67.31) (xy 45.72 67.31)
 		)
 		(stroke
 			(width 0)
@@ -1834,7 +2497,17 @@
 	)
 	(wire
 		(pts
-			(xy 63.5 53.34) (xy 63.5 63.5)
+			(xy 44.45 157.48) (xy 44.45 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e946b1c1-ca90-4c76-b43c-612b92f51c6c")
+	)
+	(wire
+		(pts
+			(xy 40.64 27.94) (xy 40.64 38.1)
 		)
 		(stroke
 			(width 0)
@@ -1842,9 +2515,29 @@
 		)
 		(uuid "ea4c096f-9959-4dde-83b3-ec163116bb8c")
 	)
+	(wire
+		(pts
+			(xy 21.59 148.59) (xy 21.59 146.05)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f56a5cec-5b9a-44ba-8adf-826525b3fbe6")
+	)
+	(wire
+		(pts
+			(xy 44.45 172.72) (xy 49.53 172.72)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fc12f3e2-37fb-4e2c-949a-6b97d75c7648")
+	)
 	(global_label "Col 1"
 		(shape input)
-		(at 63.5 53.34 90)
+		(at 40.64 27.94 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1854,7 +2547,7 @@
 		)
 		(uuid "07594f52-551a-4390-a0ce-49cf74474eed")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 63.5 45.0935 90)
+			(at 40.64 19.6935 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1932,7 +2625,7 @@
 	)
 	(global_label "Col 0"
 		(shape input)
-		(at 50.8 53.34 90)
+		(at 27.94 27.94 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1942,7 +2635,7 @@
 		)
 		(uuid "46ab9bb5-517b-4416-a556-a075bca787fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 50.8 45.0935 90)
+			(at 27.94 19.6935 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1976,7 +2669,7 @@
 	)
 	(global_label "VCC"
 		(shape input)
-		(at 224.79 111.76 0)
+		(at 265.43 44.45 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1986,7 +2679,7 @@
 		)
 		(uuid "5f165c7c-0921-4ddc-88ab-ae9569fc8e2f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 231.4038 111.76 0)
+			(at 272.0438 44.45 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1998,7 +2691,7 @@
 	)
 	(global_label "Row 3"
 		(shape input)
-		(at 130.81 130.81 0)
+		(at 107.95 105.41 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2008,7 +2701,7 @@
 		)
 		(uuid "63122141-d41e-4551-b094-d2456c5db595")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7218 130.81 0)
+			(at 116.8618 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2020,7 +2713,7 @@
 	)
 	(global_label "Row 2"
 		(shape input)
-		(at 130.81 111.76 0)
+		(at 107.95 86.36 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2030,7 +2723,7 @@
 		)
 		(uuid "6b8e790d-b58e-4af8-ad02-fa179f16f574")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7218 111.76 0)
+			(at 116.8618 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2086,7 +2779,7 @@
 	)
 	(global_label "Row 0"
 		(shape input)
-		(at 132.08 73.66 0)
+		(at 109.22 48.26 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2096,7 +2789,7 @@
 		)
 		(uuid "7f9b2245-529c-4b06-a3ba-80d5b909fa14")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 140.9918 73.66 0)
+			(at 118.1318 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2108,7 +2801,7 @@
 	)
 	(global_label "TX"
 		(shape input)
-		(at 224.79 114.3 0)
+		(at 265.43 46.99 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2118,7 +2811,7 @@
 		)
 		(uuid "801441cf-ac4c-4257-92b5-7d9ee0522791")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 229.9523 114.3 0)
+			(at 270.5923 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2174,7 +2867,7 @@
 	)
 	(global_label "Col 4"
 		(shape input)
-		(at 101.6 53.34 90)
+		(at 78.74 27.94 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2184,7 +2877,51 @@
 		)
 		(uuid "8b47895b-686b-48e8-bea1-1ed930ad54ac")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 101.6 45.0935 90)
+			(at 78.74 19.6935 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 100.33 134.62 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "8c0bd311-04da-4966-afb0-a25f88b041b1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 100.33 128.0062 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 78.74 134.62 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "98308fa4-c8a2-49ea-8253-1e2c2401ebc1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 78.74 128.0062 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2218,7 +2955,7 @@
 	)
 	(global_label "Col 2"
 		(shape input)
-		(at 76.2 53.34 90)
+		(at 53.34 27.94 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2228,7 +2965,7 @@
 		)
 		(uuid "acde0055-1e7f-49b5-9fbb-40765be9db2c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 76.2 45.0935 90)
+			(at 53.34 19.6935 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2240,7 +2977,7 @@
 	)
 	(global_label "RX"
 		(shape input)
-		(at 224.79 116.84 0)
+		(at 265.43 49.53 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2250,7 +2987,7 @@
 		)
 		(uuid "c2e912b6-dfe3-4213-a343-bfbae659c7e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 230.2547 116.84 0)
+			(at 270.8947 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2262,7 +2999,7 @@
 	)
 	(global_label "Col 3"
 		(shape input)
-		(at 88.9 53.34 90)
+		(at 66.04 27.94 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2272,7 +3009,29 @@
 		)
 		(uuid "c825b195-1412-486f-a1bb-ef430f8df5af")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 88.9 45.0935 90)
+			(at 66.04 19.6935 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "VCC"
+		(shape input)
+		(at 57.15 134.62 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cb44f5d3-b70b-4775-9fdd-4474d2b8b196")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.15 128.0062 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2306,7 +3065,7 @@
 	)
 	(global_label "Col 5"
 		(shape input)
-		(at 114.3 53.34 90)
+		(at 91.44 27.94 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2316,7 +3075,7 @@
 		)
 		(uuid "ce6a0b43-437d-4759-969c-3abbd0a5f14a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 114.3 45.0935 90)
+			(at 91.44 19.6935 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2348,9 +3107,31 @@
 			)
 		)
 	)
+	(global_label "LED_DIN"
+		(shape input)
+		(at 44.45 119.38 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d33a5239-5847-4aab-9547-d8b1e6de7a2e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 44.45 108.7748 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Row 1"
 		(shape input)
-		(at 130.81 92.71 0)
+		(at 107.95 67.31 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -2360,7 +3141,7 @@
 		)
 		(uuid "e4d951b5-af5d-4fce-a91c-221529c216e3")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7218 92.71 0)
+			(at 116.8618 67.31 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2414,9 +3195,53 @@
 			)
 		)
 	)
+	(global_label "VCC"
+		(shape input)
+		(at 57.15 165.1 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f1b20731-1b86-4c16-8e8f-c57246fbc363")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 57.15 158.4862 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LED_DIN"
+		(shape input)
+		(at 199.39 58.42 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "faf91997-b70a-4d81-8918-7b9fb0faa70f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 209.9952 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
-		(at 91.44 85.09 0)
+		(at 68.58 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2425,7 +3250,7 @@
 		(fields_autoplaced yes)
 		(uuid "00696258-14bf-4328-951e-833cf22bde8b")
 		(property "Reference" "CH16"
-			(at 91.44 77.47 0)
+			(at 68.58 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2433,7 +3258,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 91.44 80.01 0)
+			(at 68.58 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2441,7 +3266,7 @@
 			)
 		)
 		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
-			(at 91.44 85.09 0)
+			(at 68.58 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2450,7 +3275,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 85.09 0)
+			(at 68.58 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2459,7 +3284,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 91.44 85.09 0)
+			(at 68.58 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2484,7 +3309,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
-		(at 53.34 66.04 0)
+		(at 30.48 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2493,7 +3318,7 @@
 		(fields_autoplaced yes)
 		(uuid "04dc41b5-d729-4828-ae4b-c2b5344dcb12")
 		(property "Reference" "CH7"
-			(at 53.34 58.42 0)
+			(at 30.48 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2501,7 +3326,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 53.34 60.96 0)
+			(at 30.48 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2509,7 +3334,7 @@
 			)
 		)
 		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
-			(at 53.34 66.04 0)
+			(at 30.48 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2518,7 +3343,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 66.04 0)
+			(at 30.48 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2527,7 +3352,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 53.34 66.04 0)
+			(at 30.48 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2552,7 +3377,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 106.68 90.17 90)
+		(at 83.82 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2561,7 +3386,7 @@
 		(fields_autoplaced yes)
 		(uuid "07a0da04-4a58-46a7-a001-99868641d2a8")
 		(property "Reference" "D17"
-			(at 109.22 88.8999 90)
+			(at 86.36 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2570,7 +3395,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 109.22 91.4399 90)
+			(at 86.36 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2579,7 +3404,7 @@
 			)
 		)
 		(property "Footprint" "sighol:SOD-123 reversible"
-			(at 106.68 90.17 90)
+			(at 83.82 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2588,7 +3413,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 90.17 90)
+			(at 83.82 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2597,7 +3422,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 106.68 90.17 0)
+			(at 83.82 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2606,7 +3431,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 106.68 90.17 0)
+			(at 83.82 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2615,7 +3440,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 106.68 90.17 0)
+			(at 83.82 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2640,7 +3465,7 @@
 	)
 	(symbol
 		(lib_id "Connector_Audio:AudioPlug4")
-		(at 209.55 114.3 0)
+		(at 250.19 46.99 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2649,7 +3474,7 @@
 		(fields_autoplaced yes)
 		(uuid "10f29036-f9c2-4ee7-a5b6-cbe501592425")
 		(property "Reference" "J1"
-			(at 209.55 105.41 0)
+			(at 250.19 38.1 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2657,7 +3482,7 @@
 			)
 		)
 		(property "Value" "AudioPlug4"
-			(at 209.55 107.95 0)
+			(at 250.19 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2665,7 +3490,7 @@
 			)
 		)
 		(property "Footprint" "sighol:TRRS-PJ-320A"
-			(at 218.44 116.84 0)
+			(at 259.08 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2674,7 +3499,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 218.44 116.84 0)
+			(at 259.08 49.53 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2683,7 +3508,7 @@
 			)
 		)
 		(property "Description" "Audio Jack, 4 Poles (Stereo / TRRS)"
-			(at 209.55 114.3 0)
+			(at 250.19 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2714,7 +3539,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 119.38 109.22 90)
+		(at 96.52 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2723,7 +3548,7 @@
 		(fields_autoplaced yes)
 		(uuid "168993fd-49de-4ae8-940e-7d79acba18a0")
 		(property "Reference" "D24"
-			(at 121.92 107.9499 90)
+			(at 99.06 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2732,7 +3557,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 121.92 110.4899 90)
+			(at 99.06 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2741,7 +3566,7 @@
 			)
 		)
 		(property "Footprint" "sighol:SOD-123 reversible"
-			(at 119.38 109.22 90)
+			(at 96.52 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2750,7 +3575,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 109.22 90)
+			(at 96.52 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2759,7 +3584,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 119.38 109.22 0)
+			(at 96.52 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2768,7 +3593,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 119.38 109.22 0)
+			(at 96.52 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2777,7 +3602,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 119.38 109.22 0)
+			(at 96.52 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2802,7 +3627,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 93.98 90.17 90)
+		(at 71.12 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2811,7 +3636,7 @@
 		(fields_autoplaced yes)
 		(uuid "1cc658dc-a718-4921-9da7-51418baae5eb")
 		(property "Reference" "D16"
-			(at 96.52 88.8999 90)
+			(at 73.66 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2820,7 +3645,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 96.52 91.4399 90)
+			(at 73.66 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2829,7 +3654,7 @@
 			)
 		)
 		(property "Footprint" "sighol:SOD-123 reversible"
-			(at 93.98 90.17 90)
+			(at 71.12 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2838,7 +3663,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 90.17 90)
+			(at 71.12 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2847,7 +3672,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 93.98 90.17 0)
+			(at 71.12 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2856,7 +3681,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 93.98 90.17 0)
+			(at 71.12 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2865,7 +3690,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 93.98 90.17 0)
+			(at 71.12 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2890,7 +3715,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
-		(at 116.84 66.04 0)
+		(at 93.98 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2899,7 +3724,7 @@
 		(fields_autoplaced yes)
 		(uuid "255e72f8-bf7d-4a77-95d7-124982be8f1b")
 		(property "Reference" "CH12"
-			(at 116.84 58.42 0)
+			(at 93.98 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2907,7 +3732,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 116.84 60.96 0)
+			(at 93.98 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2915,7 +3740,7 @@
 			)
 		)
 		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
-			(at 116.84 66.04 0)
+			(at 93.98 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2924,7 +3749,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 66.04 0)
+			(at 93.98 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2933,7 +3758,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 116.84 66.04 0)
+			(at 93.98 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2958,7 +3783,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
-		(at 91.44 104.14 0)
+		(at 68.58 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2967,7 +3792,7 @@
 		(fields_autoplaced yes)
 		(uuid "2ad4d3f3-1b26-4388-812d-797c78fbc4eb")
 		(property "Reference" "CH22"
-			(at 91.44 96.52 0)
+			(at 68.58 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2975,7 +3800,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 91.44 99.06 0)
+			(at 68.58 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2983,7 +3808,7 @@
 			)
 		)
 		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
-			(at 91.44 104.14 0)
+			(at 68.58 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2992,7 +3817,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 104.14 0)
+			(at 68.58 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3001,7 +3826,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 91.44 104.14 0)
+			(at 68.58 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3025,8 +3850,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 57.15 180.34 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2d4a368f-a0da-4014-a777-a5e1e3375e6b")
+		(property "Reference" "#PWR08"
+			(at 57.15 186.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b23a33c8-20cc-436c-a664-540ae9f9a4bb")
+		)
+		(instances
+			(project "sighol-split"
+				(path "/3a5263d6-bb17-463f-8bd2-2620b5add140"
+					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
-		(at 78.74 104.14 0)
+		(at 55.88 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3035,7 +3926,7 @@
 		(fields_autoplaced yes)
 		(uuid "2d51861e-be27-4a25-9cf8-a859f39a6774")
 		(property "Reference" "CH21"
-			(at 78.74 96.52 0)
+			(at 55.88 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3043,7 +3934,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 78.74 99.06 0)
+			(at 55.88 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3051,7 +3942,7 @@
 			)
 		)
 		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
-			(at 78.74 104.14 0)
+			(at 55.88 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3060,7 +3951,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 104.14 0)
+			(at 55.88 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3069,7 +3960,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 78.74 104.14 0)
+			(at 55.88 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3094,7 +3985,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 106.68 109.22 90)
+		(at 83.82 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3103,7 +3994,7 @@
 		(fields_autoplaced yes)
 		(uuid "2fc18f97-3c35-49d3-8a76-a5070d97cd87")
 		(property "Reference" "D23"
-			(at 109.22 107.9499 90)
+			(at 86.36 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3112,7 +4003,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 109.22 110.4899 90)
+			(at 86.36 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3121,7 +4012,7 @@
 			)
 		)
 		(property "Footprint" "sighol:SOD-123 reversible"
-			(at 106.68 109.22 90)
+			(at 83.82 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3130,7 +4021,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 109.22 90)
+			(at 83.82 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3139,7 +4030,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 106.68 109.22 0)
+			(at 83.82 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3148,7 +4039,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 106.68 109.22 0)
+			(at 83.82 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3157,7 +4048,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 106.68 109.22 0)
+			(at 83.82 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3182,7 +4073,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 81.28 109.22 90)
+		(at 58.42 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3191,7 +4082,7 @@
 		(fields_autoplaced yes)
 		(uuid "332f0e7f-52c6-457d-a7ab-4c62c1fedcce")
 		(property "Reference" "D21"
-			(at 83.82 107.9499 90)
+			(at 60.96 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3200,7 +4091,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 83.82 110.4899 90)
+			(at 60.96 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3209,7 +4100,7 @@
 			)
 		)
 		(property "Footprint" "sighol:SOD-123 reversible"
-			(at 81.28 109.22 90)
+			(at 58.42 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3218,7 +4109,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 109.22 90)
+			(at 58.42 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3227,7 +4118,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 81.28 109.22 0)
+			(at 58.42 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3236,7 +4127,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 81.28 109.22 0)
+			(at 58.42 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3245,7 +4136,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 81.28 109.22 0)
+			(at 58.42 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3270,7 +4161,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 68.58 71.12 90)
+		(at 45.72 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3279,7 +4170,7 @@
 		(fields_autoplaced yes)
 		(uuid "34995797-53f3-49e0-b8e6-0b1bacaac616")
 		(property "Reference" "D8"
-			(at 71.12 69.8499 90)
+			(at 48.26 44.4499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3288,7 +4179,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 71.12 72.3899 90)
+			(at 48.26 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3297,7 +4188,7 @@
 			)
 		)
 		(property "Footprint" "sighol:SOD-123 reversible"
-			(at 68.58 71.12 90)
+			(at 45.72 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3306,7 +4197,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 71.12 90)
+			(at 45.72 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3315,7 +4206,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 68.58 71.12 0)
+			(at 45.72 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3324,7 +4215,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 68.58 71.12 0)
+			(at 45.72 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3333,7 +4224,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 68.58 71.12 0)
+			(at 45.72 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3358,7 +4249,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 93.98 109.22 90)
+		(at 71.12 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3367,7 +4258,7 @@
 		(fields_autoplaced yes)
 		(uuid "35fea7a3-0e20-4cd9-83e0-1473e0d9a170")
 		(property "Reference" "D22"
-			(at 96.52 107.9499 90)
+			(at 73.66 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3376,7 +4267,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 96.52 110.4899 90)
+			(at 73.66 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3385,7 +4276,7 @@
 			)
 		)
 		(property "Footprint" "sighol:SOD-123 reversible"
-			(at 93.98 109.22 90)
+			(at 71.12 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3394,7 +4285,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 109.22 90)
+			(at 71.12 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3403,7 +4294,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 93.98 109.22 0)
+			(at 71.12 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3412,7 +4303,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 93.98 109.22 0)
+			(at 71.12 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3421,7 +4312,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 93.98 109.22 0)
+			(at 71.12 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3446,7 +4337,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
-		(at 53.34 85.09 0)
+		(at 30.48 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3455,7 +4346,7 @@
 		(fields_autoplaced yes)
 		(uuid "36b88b17-cd5a-47e1-ae0a-e2d3fd5b6657")
 		(property "Reference" "CH13"
-			(at 53.34 77.47 0)
+			(at 30.48 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3463,7 +4354,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 53.34 80.01 0)
+			(at 30.48 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3471,7 +4362,7 @@
 			)
 		)
 		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
-			(at 53.34 85.09 0)
+			(at 30.48 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3480,7 +4371,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 85.09 0)
+			(at 30.48 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3489,7 +4380,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 53.34 85.09 0)
+			(at 30.48 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3513,33 +4404,187 @@
 		)
 	)
 	(symbol
-		(lib_id "PCM_marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
-		(at 116.84 123.19 0)
+		(lib_id "LED:WS2812B")
+		(at 78.74 142.24 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "4817f203-a493-442c-8a9a-d14e368ed9d1")
-		(property "Reference" "CH30"
-			(at 116.84 115.57 0)
+		(uuid "43a532c9-f966-49ff-a50a-2e2af404e0f2")
+		(property "Reference" "D3"
+			(at 90.17 135.8198 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "KS33_SW_HS"
-			(at 116.84 118.11 0)
+		(property "Value" "WS2812B"
+			(at 90.17 138.3598 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
-			(at 116.84 123.19 0)
+		(property "Footprint" "sighol:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm_reversible"
+			(at 80.01 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 81.28 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 78.74 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "fba18659-259f-4108-a5e3-c757c7fc104c")
+		)
+		(pin "3"
+			(uuid "b13d2267-8bae-4b67-bc5c-52f32a5998f6")
+		)
+		(pin "4"
+			(uuid "d16ccf64-6389-41c8-8e49-0f6a66f7ab48")
+		)
+		(pin "1"
+			(uuid "b42bf8f5-3b2b-4c83-96e6-dbd7bbe764b1")
+		)
+		(instances
+			(project "sighol-split"
+				(path "/3a5263d6-bb17-463f-8bd2-2620b5add140"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "LED:WS2812B")
+		(at 57.15 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "45ef3e23-6732-4105-85c9-d7ea1cc41b20")
+		(property "Reference" "D1"
+			(at 68.58 135.8198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 68.58 138.3598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+			(at 58.42 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 59.69 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 57.15 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2ce20e13-525f-44f5-9eaf-b124d5e0d878")
+		)
+		(pin "3"
+			(uuid "fdd255e8-0344-4769-8054-8f0986e6048a")
+		)
+		(pin "4"
+			(uuid "f287a1c2-8f3f-44c4-987d-44b209c88ba5")
+		)
+		(pin "1"
+			(uuid "98994fcb-9a7e-4fcd-aacb-1d680fd4bba2")
+		)
+		(instances
+			(project ""
+				(path "/3a5263d6-bb17-463f-8bd2-2620b5add140"
+					(reference "D1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D_Capacitance")
+		(at 21.59 142.24 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "47b32493-2fde-4933-856d-0159fb1201dc")
+		(property "Reference" "D2"
+			(at 25.4 140.9699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "D_Capacitance"
+			(at 25.4 143.5099 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
+			(at 21.59 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3548,7 +4593,75 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 123.19 0)
+			(at 21.59 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Variable capacitance diode"
+			(at 21.59 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "84a807d8-5ae7-44cd-b107-2f16008df79f")
+		)
+		(pin "1"
+			(uuid "ed81fe4e-5ceb-4cd0-bddb-7b6e33aedec4")
+		)
+		(instances
+			(project ""
+				(path "/3a5263d6-bb17-463f-8bd2-2620b5add140"
+					(reference "D2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
+		(at 93.98 97.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4817f203-a493-442c-8a9a-d14e368ed9d1")
+		(property "Reference" "CH30"
+			(at 93.98 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "KS33_SW_HS"
+			(at 93.98 92.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
+			(at 93.98 97.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 93.98 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3557,7 +4670,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 116.84 123.19 0)
+			(at 93.98 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3581,8 +4694,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 78.74 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "483a2e1a-b141-484a-92b9-4f3705b59b0f")
+		(property "Reference" "#PWR04"
+			(at 78.74 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 78.74 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 78.74 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 78.74 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 78.74 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5ffbb53a-3d3d-4bf5-b52f-3de2798ea8db")
+		)
+		(instances
+			(project "sighol-split"
+				(path "/3a5263d6-bb17-463f-8bd2-2620b5add140"
+					(reference "#PWR04")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
-		(at 55.88 109.22 90)
+		(at 33.02 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3591,7 +4770,7 @@
 		(fields_autoplaced yes)
 		(uuid "4f7078c0-ee78-4b87-b82c-9a95f32092bf")
 		(property "Reference" "D19"
-			(at 58.42 107.9499 90)
+			(at 35.56 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3600,7 +4779,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 58.42 110.4899 90)
+			(at 35.56 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3609,7 +4788,7 @@
 			)
 		)
 		(property "Footprint" "sighol:SOD-123 reversible"
-			(at 55.88 109.22 90)
+			(at 33.02 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3618,7 +4797,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 109.22 90)
+			(at 33.02 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3627,7 +4806,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 55.88 109.22 0)
+			(at 33.02 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3636,7 +4815,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 55.88 109.22 0)
+			(at 33.02 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3645,7 +4824,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 55.88 109.22 0)
+			(at 33.02 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3670,7 +4849,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
-		(at 116.84 85.09 0)
+		(at 93.98 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3679,7 +4858,7 @@
 		(fields_autoplaced yes)
 		(uuid "53a46da5-ffc2-4372-be3e-dcca4ea20a48")
 		(property "Reference" "CH18"
-			(at 116.84 77.47 0)
+			(at 93.98 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3687,7 +4866,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 116.84 80.01 0)
+			(at 93.98 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3695,7 +4874,7 @@
 			)
 		)
 		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
-			(at 116.84 85.09 0)
+			(at 93.98 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3704,7 +4883,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 85.09 0)
+			(at 93.98 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3713,7 +4892,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 116.84 85.09 0)
+			(at 93.98 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3738,7 +4917,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 93.98 128.27 90)
+		(at 71.12 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3747,7 +4926,7 @@
 		(fields_autoplaced yes)
 		(uuid "57064b68-7abc-4d33-8b23-b57d6a410e20")
 		(property "Reference" "D28"
-			(at 96.52 126.9999 90)
+			(at 73.66 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3756,7 +4935,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 96.52 129.5399 90)
+			(at 73.66 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3765,7 +4944,7 @@
 			)
 		)
 		(property "Footprint" "sighol:SOD-123 reversible"
-			(at 93.98 128.27 90)
+			(at 71.12 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3774,7 +4953,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 128.27 90)
+			(at 71.12 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3783,7 +4962,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 93.98 128.27 0)
+			(at 71.12 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3792,7 +4971,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 93.98 128.27 0)
+			(at 71.12 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3801,7 +4980,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 93.98 128.27 0)
+			(at 71.12 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3826,7 +5005,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
-		(at 104.14 85.09 0)
+		(at 81.28 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3835,7 +5014,7 @@
 		(fields_autoplaced yes)
 		(uuid "60931cb6-3798-40a0-8a35-105ddb02d0ec")
 		(property "Reference" "CH17"
-			(at 104.14 77.47 0)
+			(at 81.28 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3843,7 +5022,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 104.14 80.01 0)
+			(at 81.28 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3851,7 +5030,7 @@
 			)
 		)
 		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
-			(at 104.14 85.09 0)
+			(at 81.28 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3860,7 +5039,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 85.09 0)
+			(at 81.28 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3869,7 +5048,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 104.14 85.09 0)
+			(at 81.28 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3894,7 +5073,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 55.88 90.17 90)
+		(at 33.02 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3903,7 +5082,7 @@
 		(fields_autoplaced yes)
 		(uuid "656a9933-6c5d-4c32-8fa4-5b1e3c631b2a")
 		(property "Reference" "D13"
-			(at 58.42 88.8999 90)
+			(at 35.56 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3912,7 +5091,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 58.42 91.4399 90)
+			(at 35.56 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3921,7 +5100,7 @@
 			)
 		)
 		(property "Footprint" "sighol:SOD-123 reversible"
-			(at 55.88 90.17 90)
+			(at 33.02 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3930,7 +5109,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 90.17 90)
+			(at 33.02 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3939,7 +5118,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 55.88 90.17 0)
+			(at 33.02 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3948,7 +5127,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 55.88 90.17 0)
+			(at 33.02 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3957,7 +5136,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 55.88 90.17 0)
+			(at 33.02 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3981,8 +5160,85 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:WS2812B")
+		(at 57.15 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "6b283575-5ff0-4f79-8189-b52515537ce3")
+		(property "Reference" "D5"
+			(at 68.58 166.2998 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 68.58 168.8398 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" "sighol:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm_reversible"
+			(at 58.42 180.34 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 59.69 182.245 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 57.15 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "71c8716f-c6b2-4333-b4ec-8050d7a00fad")
+		)
+		(pin "3"
+			(uuid "eab8927a-05ee-46ce-bf15-9782205bb83e")
+		)
+		(pin "4"
+			(uuid "6ce0394a-8234-4754-b3ac-42dcc6803c52")
+		)
+		(pin "1"
+			(uuid "ffe47cb5-a03c-43c2-b998-e9f73a125422")
+		)
+		(instances
+			(project "sighol-split"
+				(path "/3a5263d6-bb17-463f-8bd2-2620b5add140"
+					(reference "D5")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
-		(at 106.68 71.12 90)
+		(at 83.82 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3991,7 +5247,7 @@
 		(fields_autoplaced yes)
 		(uuid "6c3fba27-3086-4c3a-a4b2-7ae6bac8e988")
 		(property "Reference" "D11"
-			(at 109.22 69.8499 90)
+			(at 86.36 44.4499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4000,7 +5256,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 109.22 72.3899 90)
+			(at 86.36 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4009,7 +5265,7 @@
 			)
 		)
 		(property "Footprint" "sighol:SOD-123 reversible"
-			(at 106.68 71.12 90)
+			(at 83.82 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4018,7 +5274,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 71.12 90)
+			(at 83.82 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4027,7 +5283,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 106.68 71.12 0)
+			(at 83.82 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4036,7 +5292,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 106.68 71.12 0)
+			(at 83.82 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4045,7 +5301,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 106.68 71.12 0)
+			(at 83.82 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4070,7 +5326,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
-		(at 104.14 66.04 0)
+		(at 81.28 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4079,7 +5335,7 @@
 		(fields_autoplaced yes)
 		(uuid "6e853c6f-4c4e-45d8-9315-3eaa80f18b9f")
 		(property "Reference" "CH11"
-			(at 104.14 58.42 0)
+			(at 81.28 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4087,7 +5343,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 104.14 60.96 0)
+			(at 81.28 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4095,7 +5351,7 @@
 			)
 		)
 		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
-			(at 104.14 66.04 0)
+			(at 81.28 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4104,7 +5360,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 66.04 0)
+			(at 81.28 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4113,7 +5369,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 104.14 66.04 0)
+			(at 81.28 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4138,7 +5394,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 68.58 90.17 90)
+		(at 45.72 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4147,7 +5403,7 @@
 		(fields_autoplaced yes)
 		(uuid "711dd6c0-0f15-4034-a33c-c46f47c9adae")
 		(property "Reference" "D14"
-			(at 71.12 88.8999 90)
+			(at 48.26 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4156,7 +5412,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 71.12 91.4399 90)
+			(at 48.26 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4165,7 +5421,7 @@
 			)
 		)
 		(property "Footprint" "sighol:SOD-123 reversible"
-			(at 68.58 90.17 90)
+			(at 45.72 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4174,7 +5430,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 90.17 90)
+			(at 45.72 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4183,7 +5439,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 68.58 90.17 0)
+			(at 45.72 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4192,7 +5448,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 68.58 90.17 0)
+			(at 45.72 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4201,7 +5457,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 68.58 90.17 0)
+			(at 45.72 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4226,7 +5482,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
-		(at 116.84 104.14 0)
+		(at 93.98 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4235,7 +5491,7 @@
 		(fields_autoplaced yes)
 		(uuid "7557c71d-d865-44f2-bd4d-437f94581665")
 		(property "Reference" "CH24"
-			(at 116.84 96.52 0)
+			(at 93.98 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4243,7 +5499,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 116.84 99.06 0)
+			(at 93.98 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4251,7 +5507,7 @@
 			)
 		)
 		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
-			(at 116.84 104.14 0)
+			(at 93.98 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4260,7 +5516,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 116.84 104.14 0)
+			(at 93.98 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4269,7 +5525,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 116.84 104.14 0)
+			(at 93.98 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4294,7 +5550,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
-		(at 66.04 104.14 0)
+		(at 43.18 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4303,7 +5559,7 @@
 		(fields_autoplaced yes)
 		(uuid "75c81d16-455a-47d0-a16a-2be5aa9bf049")
 		(property "Reference" "CH20"
-			(at 66.04 96.52 0)
+			(at 43.18 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4311,7 +5567,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 66.04 99.06 0)
+			(at 43.18 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4319,7 +5575,7 @@
 			)
 		)
 		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
-			(at 66.04 104.14 0)
+			(at 43.18 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4328,7 +5584,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 104.14 0)
+			(at 43.18 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4337,7 +5593,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 66.04 104.14 0)
+			(at 43.18 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4362,7 +5618,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
-		(at 66.04 66.04 0)
+		(at 43.18 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4371,7 +5627,7 @@
 		(fields_autoplaced yes)
 		(uuid "79afdd8a-0395-4df8-b0f8-6e536496c0f3")
 		(property "Reference" "CH8"
-			(at 66.04 58.42 0)
+			(at 43.18 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4379,7 +5635,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 66.04 60.96 0)
+			(at 43.18 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4387,7 +5643,7 @@
 			)
 		)
 		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
-			(at 66.04 66.04 0)
+			(at 43.18 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4396,7 +5652,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 66.04 0)
+			(at 43.18 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4405,7 +5661,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 66.04 66.04 0)
+			(at 43.18 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4430,7 +5686,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 106.68 128.27 90)
+		(at 83.82 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4439,7 +5695,7 @@
 		(fields_autoplaced yes)
 		(uuid "80374ea2-08cc-458f-9e3b-f2db229ad833")
 		(property "Reference" "D29"
-			(at 109.22 126.9999 90)
+			(at 86.36 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4448,7 +5704,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 109.22 129.5399 90)
+			(at 86.36 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4457,7 +5713,7 @@
 			)
 		)
 		(property "Footprint" "sighol:SOD-123 reversible"
-			(at 106.68 128.27 90)
+			(at 83.82 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4466,7 +5722,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 106.68 128.27 90)
+			(at 83.82 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4475,7 +5731,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 106.68 128.27 0)
+			(at 83.82 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4484,7 +5740,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 106.68 128.27 0)
+			(at 83.82 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4493,7 +5749,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 106.68 128.27 0)
+			(at 83.82 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4518,7 +5774,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
-		(at 66.04 85.09 0)
+		(at 43.18 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4527,7 +5783,7 @@
 		(fields_autoplaced yes)
 		(uuid "80b7c79d-89ba-414e-b350-4ed805595f55")
 		(property "Reference" "CH14"
-			(at 66.04 77.47 0)
+			(at 43.18 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4535,7 +5791,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 66.04 80.01 0)
+			(at 43.18 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4543,7 +5799,7 @@
 			)
 		)
 		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
-			(at 66.04 85.09 0)
+			(at 43.18 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4552,7 +5808,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 66.04 85.09 0)
+			(at 43.18 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4561,7 +5817,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 66.04 85.09 0)
+			(at 43.18 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4586,7 +5842,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 93.98 71.12 90)
+		(at 71.12 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4595,7 +5851,7 @@
 		(fields_autoplaced yes)
 		(uuid "8eecf09c-abea-40fa-ac26-f57d086c8723")
 		(property "Reference" "D10"
-			(at 96.52 69.8499 90)
+			(at 73.66 44.4499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4604,7 +5860,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 96.52 72.3899 90)
+			(at 73.66 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4613,7 +5869,7 @@
 			)
 		)
 		(property "Footprint" "sighol:SOD-123 reversible"
-			(at 93.98 71.12 90)
+			(at 71.12 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4622,7 +5878,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 93.98 71.12 90)
+			(at 71.12 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4631,7 +5887,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 93.98 71.12 0)
+			(at 71.12 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4640,7 +5896,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 93.98 71.12 0)
+			(at 71.12 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4649,7 +5905,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 93.98 71.12 0)
+			(at 71.12 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4674,7 +5930,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 119.38 128.27 90)
+		(at 96.52 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4683,7 +5939,7 @@
 		(fields_autoplaced yes)
 		(uuid "91c11324-d41b-457e-93ae-c048a58d648b")
 		(property "Reference" "D30"
-			(at 121.92 126.9999 90)
+			(at 99.06 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4692,7 +5948,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 121.92 129.5399 90)
+			(at 99.06 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4701,7 +5957,7 @@
 			)
 		)
 		(property "Footprint" "sighol:SOD-123 reversible"
-			(at 119.38 128.27 90)
+			(at 96.52 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4710,7 +5966,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 128.27 90)
+			(at 96.52 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4719,7 +5975,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 119.38 128.27 0)
+			(at 96.52 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4728,7 +5984,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 119.38 128.27 0)
+			(at 96.52 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4737,7 +5993,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 119.38 128.27 0)
+			(at 96.52 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4762,7 +6018,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
-		(at 104.14 123.19 0)
+		(at 81.28 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4771,7 +6027,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2b48a8d-5170-46f6-8b71-7784b7d4f83b")
 		(property "Reference" "CH29"
-			(at 104.14 115.57 0)
+			(at 81.28 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4779,7 +6035,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 104.14 118.11 0)
+			(at 81.28 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4787,7 +6043,7 @@
 			)
 		)
 		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
-			(at 104.14 123.19 0)
+			(at 81.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4796,7 +6052,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 123.19 0)
+			(at 81.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4805,7 +6061,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 104.14 123.19 0)
+			(at 81.28 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4830,7 +6086,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
-		(at 78.74 123.19 0)
+		(at 55.88 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4839,7 +6095,7 @@
 		(fields_autoplaced yes)
 		(uuid "a2cc9871-112a-4aa5-91bb-efd457355078")
 		(property "Reference" "CH25"
-			(at 78.74 115.57 0)
+			(at 55.88 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4847,7 +6103,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 78.74 118.11 0)
+			(at 55.88 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4855,7 +6111,7 @@
 			)
 		)
 		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
-			(at 78.74 123.19 0)
+			(at 55.88 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4864,7 +6120,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 123.19 0)
+			(at 55.88 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4873,7 +6129,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 78.74 123.19 0)
+			(at 55.88 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4898,7 +6154,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 81.28 90.17 90)
+		(at 58.42 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4907,7 +6163,7 @@
 		(fields_autoplaced yes)
 		(uuid "ac916195-8c60-483b-95d8-918b79ff665e")
 		(property "Reference" "D15"
-			(at 83.82 88.8999 90)
+			(at 60.96 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4916,7 +6172,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 83.82 91.4399 90)
+			(at 60.96 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4925,7 +6181,7 @@
 			)
 		)
 		(property "Footprint" "sighol:SOD-123 reversible"
-			(at 81.28 90.17 90)
+			(at 58.42 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4934,7 +6190,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 90.17 90)
+			(at 58.42 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4943,7 +6199,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 81.28 90.17 0)
+			(at 58.42 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4952,7 +6208,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 81.28 90.17 0)
+			(at 58.42 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4961,7 +6217,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 81.28 90.17 0)
+			(at 58.42 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4986,7 +6242,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
-		(at 91.44 123.19 0)
+		(at 68.58 97.79 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4995,7 +6251,7 @@
 		(fields_autoplaced yes)
 		(uuid "b06ab708-421a-4510-8c3e-d5f65d1d64ad")
 		(property "Reference" "CH28"
-			(at 91.44 115.57 0)
+			(at 68.58 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5003,7 +6259,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 91.44 118.11 0)
+			(at 68.58 92.71 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5011,7 +6267,7 @@
 			)
 		)
 		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
-			(at 91.44 123.19 0)
+			(at 68.58 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5020,7 +6276,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 123.19 0)
+			(at 68.58 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5029,7 +6285,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 91.44 123.19 0)
+			(at 68.58 97.79 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5054,7 +6310,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
-		(at 78.74 66.04 0)
+		(at 55.88 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5063,7 +6319,7 @@
 		(fields_autoplaced yes)
 		(uuid "b0c3c373-1b43-4128-b0e8-8d1dfb39e21b")
 		(property "Reference" "CH9"
-			(at 78.74 58.42 0)
+			(at 55.88 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5071,7 +6327,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 78.74 60.96 0)
+			(at 55.88 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5079,7 +6335,7 @@
 			)
 		)
 		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
-			(at 78.74 66.04 0)
+			(at 55.88 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5088,7 +6344,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 66.04 0)
+			(at 55.88 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5097,7 +6353,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 78.74 66.04 0)
+			(at 55.88 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5122,7 +6378,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 68.58 109.22 90)
+		(at 45.72 83.82 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5131,7 +6387,7 @@
 		(fields_autoplaced yes)
 		(uuid "b482a4f9-6c44-439d-a1bd-1d3a1c11e589")
 		(property "Reference" "D20"
-			(at 71.12 107.9499 90)
+			(at 48.26 82.5499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5140,7 +6396,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 71.12 110.4899 90)
+			(at 48.26 85.0899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5149,7 +6405,7 @@
 			)
 		)
 		(property "Footprint" "sighol:SOD-123 reversible"
-			(at 68.58 109.22 90)
+			(at 45.72 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5158,7 +6414,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 68.58 109.22 90)
+			(at 45.72 83.82 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5167,7 +6423,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 68.58 109.22 0)
+			(at 45.72 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5176,7 +6432,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 68.58 109.22 0)
+			(at 45.72 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5185,7 +6441,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 68.58 109.22 0)
+			(at 45.72 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5210,7 +6466,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 119.38 71.12 90)
+		(at 96.52 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5219,7 +6475,7 @@
 		(fields_autoplaced yes)
 		(uuid "b4a5de6d-5df1-4111-8787-98e9f2617bbe")
 		(property "Reference" "D12"
-			(at 121.92 69.8499 90)
+			(at 99.06 44.4499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5228,7 +6484,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 121.92 72.3899 90)
+			(at 99.06 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5237,7 +6493,7 @@
 			)
 		)
 		(property "Footprint" "sighol:SOD-123 reversible"
-			(at 119.38 71.12 90)
+			(at 96.52 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5246,7 +6502,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 71.12 90)
+			(at 96.52 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5255,7 +6511,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 119.38 71.12 0)
+			(at 96.52 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5264,7 +6520,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 119.38 71.12 0)
+			(at 96.52 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5273,7 +6529,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 119.38 71.12 0)
+			(at 96.52 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5298,7 +6554,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 224.79 119.38 0)
+		(at 265.43 52.07 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5307,7 +6563,7 @@
 		(fields_autoplaced yes)
 		(uuid "b93dfd7c-99d8-41ca-9d30-a97c9ccd2d73")
 		(property "Reference" "#PWR02"
-			(at 224.79 125.73 0)
+			(at 265.43 58.42 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5316,7 +6572,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 224.79 124.46 0)
+			(at 265.43 57.15 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5324,7 +6580,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 224.79 119.38 0)
+			(at 265.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5333,7 +6589,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 224.79 119.38 0)
+			(at 265.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5342,7 +6598,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 224.79 119.38 0)
+			(at 265.43 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5364,7 +6620,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 81.28 71.12 90)
+		(at 58.42 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5373,7 +6629,7 @@
 		(fields_autoplaced yes)
 		(uuid "bda83b45-5a9b-45f0-b8f3-9ed5263707eb")
 		(property "Reference" "D9"
-			(at 83.82 69.8499 90)
+			(at 60.96 44.4499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5382,7 +6638,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 83.82 72.3899 90)
+			(at 60.96 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5391,7 +6647,7 @@
 			)
 		)
 		(property "Footprint" "sighol:SOD-123 reversible"
-			(at 81.28 71.12 90)
+			(at 58.42 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5400,7 +6656,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 71.12 90)
+			(at 58.42 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5409,7 +6665,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 81.28 71.12 0)
+			(at 58.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5418,7 +6674,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 81.28 71.12 0)
+			(at 58.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5427,7 +6683,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 81.28 71.12 0)
+			(at 58.42 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5452,7 +6708,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
-		(at 104.14 104.14 0)
+		(at 81.28 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5461,7 +6717,7 @@
 		(fields_autoplaced yes)
 		(uuid "cd7d3761-bdbf-430f-8ce3-be758abf4134")
 		(property "Reference" "CH23"
-			(at 104.14 96.52 0)
+			(at 81.28 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5469,7 +6725,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 104.14 99.06 0)
+			(at 81.28 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5477,7 +6733,7 @@
 			)
 		)
 		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
-			(at 104.14 104.14 0)
+			(at 81.28 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5486,7 +6742,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 104.14 0)
+			(at 81.28 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5495,7 +6751,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 104.14 104.14 0)
+			(at 81.28 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5520,7 +6776,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 119.38 90.17 90)
+		(at 96.52 64.77 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5529,7 +6785,7 @@
 		(fields_autoplaced yes)
 		(uuid "d1465258-b5b5-496f-8c88-a1116e901864")
 		(property "Reference" "D18"
-			(at 121.92 88.8999 90)
+			(at 99.06 63.4999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5538,7 +6794,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 121.92 91.4399 90)
+			(at 99.06 66.0399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5547,7 +6803,7 @@
 			)
 		)
 		(property "Footprint" "sighol:SOD-123 reversible"
-			(at 119.38 90.17 90)
+			(at 96.52 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5556,7 +6812,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 119.38 90.17 90)
+			(at 96.52 64.77 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5565,7 +6821,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 119.38 90.17 0)
+			(at 96.52 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5574,7 +6830,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 119.38 90.17 0)
+			(at 96.52 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5583,7 +6839,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 119.38 90.17 0)
+			(at 96.52 64.77 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5607,8 +6863,74 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 100.33 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d3eea629-d0aa-4df8-9bfc-b61fa7ca2b5f")
+		(property "Reference" "#PWR05"
+			(at 100.33 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 100.33 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 100.33 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 100.33 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 100.33 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0f0c496b-8652-4f04-a40d-5db7a50da87b")
+		)
+		(instances
+			(project "sighol-split"
+				(path "/3a5263d6-bb17-463f-8bd2-2620b5add140"
+					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
-		(at 78.74 85.09 0)
+		(at 55.88 59.69 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5617,7 +6939,7 @@
 		(fields_autoplaced yes)
 		(uuid "d41eef50-501c-42ed-80ce-3930561d30ae")
 		(property "Reference" "CH15"
-			(at 78.74 77.47 0)
+			(at 55.88 52.07 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5625,7 +6947,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 78.74 80.01 0)
+			(at 55.88 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5633,7 +6955,7 @@
 			)
 		)
 		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
-			(at 78.74 85.09 0)
+			(at 55.88 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5642,7 +6964,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 78.74 85.09 0)
+			(at 55.88 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5651,7 +6973,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 78.74 85.09 0)
+			(at 55.88 59.69 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5676,7 +6998,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Small")
-		(at 55.88 71.12 90)
+		(at 33.02 45.72 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5685,7 +7007,7 @@
 		(fields_autoplaced yes)
 		(uuid "dc1dd176-a05b-4cc7-b752-d25b18d699ee")
 		(property "Reference" "D7"
-			(at 58.42 69.8499 90)
+			(at 35.56 44.4499 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5694,7 +7016,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 58.42 72.3899 90)
+			(at 35.56 46.9899 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5703,7 +7025,7 @@
 			)
 		)
 		(property "Footprint" "sighol:SOD-123 reversible"
-			(at 55.88 71.12 90)
+			(at 33.02 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5712,7 +7034,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 71.12 90)
+			(at 33.02 45.72 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5721,7 +7043,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 55.88 71.12 0)
+			(at 33.02 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5730,7 +7052,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 55.88 71.12 0)
+			(at 33.02 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5739,7 +7061,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 55.88 71.12 0)
+			(at 33.02 45.72 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5764,7 +7086,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
-		(at 91.44 66.04 0)
+		(at 68.58 40.64 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5773,7 +7095,7 @@
 		(fields_autoplaced yes)
 		(uuid "e970049e-1d75-48dd-94d0-059d71ac53db")
 		(property "Reference" "CH10"
-			(at 91.44 58.42 0)
+			(at 68.58 33.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5781,7 +7103,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 91.44 60.96 0)
+			(at 68.58 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5789,7 +7111,7 @@
 			)
 		)
 		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
-			(at 91.44 66.04 0)
+			(at 68.58 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5798,7 +7120,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 91.44 66.04 0)
+			(at 68.58 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5807,7 +7129,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 91.44 66.04 0)
+			(at 68.58 40.64 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5832,7 +7154,7 @@
 	)
 	(symbol
 		(lib_id "PCM_marbastlib-gateron_lp:KS33_SW_HS_KS-2P02B01-02")
-		(at 53.34 104.14 0)
+		(at 30.48 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5841,7 +7163,7 @@
 		(fields_autoplaced yes)
 		(uuid "f0cbba82-81f8-47c5-9a93-d5beebdd1eb7")
 		(property "Reference" "CH19"
-			(at 53.34 96.52 0)
+			(at 30.48 71.12 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5849,7 +7171,7 @@
 			)
 		)
 		(property "Value" "KS33_SW_HS"
-			(at 53.34 99.06 0)
+			(at 30.48 73.66 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5857,7 +7179,7 @@
 			)
 		)
 		(property "Footprint" "sighol:Kailh_socket_PG1350 reversible HS-only"
-			(at 53.34 104.14 0)
+			(at 30.48 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5866,7 +7188,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 53.34 104.14 0)
+			(at 30.48 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5875,7 +7197,7 @@
 			)
 		)
 		(property "Description" "Push button switch, normally open, two pins, 45° tilted"
-			(at 53.34 104.14 0)
+			(at 30.48 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5893,6 +7215,142 @@
 			(project "sighol-split2"
 				(path "/3a5263d6-bb17-463f-8bd2-2620b5add140"
 					(reference "CH19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 44.45 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f13654d7-41d1-439c-9f35-c868ebbd0d40")
+		(property "Reference" "R1"
+			(at 46.99 121.9199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "R"
+			(at 46.99 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+			(at 42.672 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 44.45 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 44.45 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "ba0e0125-ac86-4fe8-a5c4-673701e68944")
+		)
+		(pin "1"
+			(uuid "68a3d78e-5c28-4e3c-8b88-26749e81ceff")
+		)
+		(instances
+			(project ""
+				(path "/3a5263d6-bb17-463f-8bd2-2620b5add140"
+					(reference "R1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 57.15 149.86 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f2dc2b84-7e7f-405e-810d-58398850beca")
+		(property "Reference" "#PWR03"
+			(at 57.15 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 57.15 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 57.15 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 57.15 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b15caf47-3c4a-40d0-a041-881db206b272")
+		)
+		(instances
+			(project "sighol-split"
+				(path "/3a5263d6-bb17-463f-8bd2-2620b5add140"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6032,8 +7490,84 @@
 		)
 	)
 	(symbol
+		(lib_id "LED:WS2812B")
+		(at 100.33 142.24 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fa0768e7-31b9-48e6-8c58-092a4861b74b")
+		(property "Reference" "D4"
+			(at 111.76 135.8198 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "WS2812B"
+			(at 111.76 138.3598 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "sighol:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm_reversible"
+			(at 101.6 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf"
+			(at 102.87 151.765 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "RGB LED with integrated controller"
+			(at 100.33 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "66746943-78c0-4e1e-839e-6eab8e52a1ec")
+		)
+		(pin "3"
+			(uuid "7ac0bbdf-f555-46b2-8e39-37133f29a28f")
+		)
+		(pin "4"
+			(uuid "adce07a6-cf81-489b-9632-000e235e9a0f")
+		)
+		(pin "1"
+			(uuid "fba3629d-ab87-4994-877f-9e3acde3f3ee")
+		)
+		(instances
+			(project "sighol-split"
+				(path "/3a5263d6-bb17-463f-8bd2-2620b5add140"
+					(reference "D4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:D_Small")
-		(at 81.28 128.27 90)
+		(at 58.42 102.87 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6042,7 +7576,7 @@
 		(fields_autoplaced yes)
 		(uuid "fbeed748-fc7a-4902-8b4e-f5f0a40c1914")
 		(property "Reference" "D25"
-			(at 83.82 126.9999 90)
+			(at 60.96 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6051,7 +7585,7 @@
 			)
 		)
 		(property "Value" "D_Small"
-			(at 83.82 129.5399 90)
+			(at 60.96 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6060,7 +7594,7 @@
 			)
 		)
 		(property "Footprint" "sighol:SOD-123 reversible"
-			(at 81.28 128.27 90)
+			(at 58.42 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6069,7 +7603,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 81.28 128.27 90)
+			(at 58.42 102.87 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6078,7 +7612,7 @@
 			)
 		)
 		(property "Description" "Diode, small symbol"
-			(at 81.28 128.27 0)
+			(at 58.42 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6087,7 +7621,7 @@
 			)
 		)
 		(property "Sim.Device" "D"
-			(at 81.28 128.27 0)
+			(at 58.42 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6096,7 +7630,7 @@
 			)
 		)
 		(property "Sim.Pins" "1=K 2=A"
-			(at 81.28 128.27 0)
+			(at 58.42 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
