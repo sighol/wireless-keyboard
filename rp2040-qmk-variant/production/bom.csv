@@ -1,5 +1,8 @@
 ﻿Designator,Footprint,Quantity,Value,LCSC Part #
 "CH10, CH11, CH12, CH13, CH14, CH15, CH16, CH17, CH18, CH19, CH20, CH21, CH22, CH23, CH24, CH25, CH28, CH29, CH30, CH7, CH8, CH9",Kailh_socket_PG1350 reversible HS-only,22,KS33_SW_HS,
-"D10, D11, D12, D13, D14, D15, D16, D17, D18, D19, D20, D21, D22, D23, D24, D25, D28, D29, D30, D7, D8, D9",D_DO-35_SOD27_P7.62mm_Horizontal,22,D_Small,
+"D1, D3, D4, D5",LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm_reversible,4,WS2812B,
+"D10, D11, D12, D13, D14, D15, D16, D17, D18, D19, D20, D21, D22, D23, D24, D25, D28, D29, D30, D7, D8, D9",SOD-123 reversible,22,D_Small,
+D2,CP_Radial_D5.0mm_P2.00mm,1,D_Capacitance,
 J1,TRRS-PJ-320A,1,AudioPlug4,
-RZ1,RP2040-Zero,1,RP2040-Zero,
+R1,R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical,1,R,
+RZ1,RP2040 Zero,1,RP2040-Zero,

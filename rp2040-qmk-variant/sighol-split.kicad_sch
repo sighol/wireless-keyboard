@@ -1830,6 +1830,12 @@
 		(uuid "6d73a03b-879c-47d1-9d16-43d5110440db")
 	)
 	(junction
+		(at 57.15 149.86)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "719bf950-6f14-4d2c-96b5-694493484029")
+	)
+	(junction
 		(at 66.04 38.1)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2067,16 +2073,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 148.59) (xy 21.59 148.59)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1b9d5c0a-ac30-4824-baa7-2fe84019e616")
-	)
-	(wire
-		(pts
 			(xy 40.64 57.15) (xy 40.64 76.2)
 		)
 		(stroke
@@ -2197,7 +2193,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 134.62) (xy 21.59 134.62)
+			(xy 57.15 134.62) (xy 35.56 134.62)
 		)
 		(stroke
 			(width 0)
@@ -2237,7 +2233,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 134.62) (xy 21.59 138.43)
+			(xy 35.56 134.62) (xy 35.56 138.43)
 		)
 		(stroke
 			(width 0)
@@ -2274,6 +2270,16 @@
 			(type default)
 		)
 		(uuid "825dcd11-707f-406c-adf1-c82c61fd781d")
+	)
+	(wire
+		(pts
+			(xy 35.56 149.86) (xy 57.15 149.86)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "88dcaee7-1d17-4a05-abb5-1ed7da0c2524")
 	)
 	(wire
 		(pts
@@ -2517,7 +2523,7 @@
 	)
 	(wire
 		(pts
-			(xy 21.59 148.59) (xy 21.59 146.05)
+			(xy 35.56 146.05) (xy 35.56 149.86)
 		)
 		(stroke
 			(width 0)
@@ -2534,6 +2540,16 @@
 			(type default)
 		)
 		(uuid "fc12f3e2-37fb-4e2c-949a-6b97d75c7648")
+	)
+	(wire
+		(pts
+			(xy 57.15 149.86) (xy 57.15 151.13)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fe42fffb-3377-4fbf-a652-0a84400128e1")
 	)
 	(global_label "Col 1"
 		(shape input)
@@ -4505,7 +4521,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm"
+		(property "Footprint" "sighol:LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm_reversible"
 			(at 58.42 149.86 0)
 			(effects
 				(font
@@ -4557,7 +4573,7 @@
 	)
 	(symbol
 		(lib_id "Device:D_Capacitance")
-		(at 21.59 142.24 90)
+		(at 35.56 142.24 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4566,7 +4582,7 @@
 		(fields_autoplaced yes)
 		(uuid "47b32493-2fde-4933-856d-0159fb1201dc")
 		(property "Reference" "D2"
-			(at 25.4 140.9699 90)
+			(at 39.37 140.9699 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4575,7 +4591,7 @@
 			)
 		)
 		(property "Value" "D_Capacitance"
-			(at 25.4 143.5099 90)
+			(at 39.37 143.5099 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4584,7 +4600,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_THT:CP_Radial_D5.0mm_P2.00mm"
-			(at 21.59 142.24 0)
+			(at 35.56 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4593,7 +4609,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 21.59 142.24 0)
+			(at 35.56 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4602,7 +4618,7 @@
 			)
 		)
 		(property "Description" "Variable capacitance diode"
-			(at 21.59 142.24 0)
+			(at 35.56 142.24 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7248,7 +7264,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
+		(property "Footprint" "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P2.54mm_Vertical"
 			(at 42.672 123.19 90)
 			(effects
 				(font
@@ -7292,7 +7308,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 57.15 149.86 0)
+		(at 57.15 151.13 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7301,7 +7317,7 @@
 		(fields_autoplaced yes)
 		(uuid "f2dc2b84-7e7f-405e-810d-58398850beca")
 		(property "Reference" "#PWR03"
-			(at 57.15 156.21 0)
+			(at 57.15 157.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7310,7 +7326,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 57.15 154.94 0)
+			(at 57.15 156.21 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7318,7 +7334,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 57.15 149.86 0)
+			(at 57.15 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7327,7 +7343,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 57.15 149.86 0)
+			(at 57.15 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7336,7 +7352,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 57.15 149.86 0)
+			(at 57.15 151.13 0)
 			(effects
 				(font
 					(size 1.27 1.27)
