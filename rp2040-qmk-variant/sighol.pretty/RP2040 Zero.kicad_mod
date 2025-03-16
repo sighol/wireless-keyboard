@@ -65,6 +65,28 @@
 		(layer "Dwgs.User")
 		(uuid "180245d9-4a3f-4d1b-adcc-b4eafac722e0")
 	)
+	(fp_rect
+		(start -6.3 2.25)
+		(end -2.9 6.55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "2ab51059-ee87-46d4-9d1e-6b102903805d")
+	)
+	(fp_rect
+		(start 2.8 2.25)
+		(end 6.2 6.55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "edf179f1-974c-4150-a77a-5e8e6fbdcc05")
+	)
 	(fp_text user "3V3"
 		(at -7 -4.5 0)
 		(unlocked yes)
@@ -92,7 +114,7 @@
 		)
 	)
 	(fp_text user "GP5"
-		(at 4 3 0)
+		(at 4.1 2.624116 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "1258420c-2d8f-46ee-a8f8-4237424dba39")
@@ -170,7 +192,7 @@
 		)
 	)
 	(fp_text user "GP7"
-		(at 4 8 0)
+		(at 3.9 8.8 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "67e877a4-2efb-4942-bf14-5de540537d96")
@@ -300,7 +322,7 @@
 		)
 	)
 	(fp_text user "GP15"
-		(at -7 8 0)
+		(at -6.9 8.9 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "a827e129-1ca5-4819-b39e-51e3ab714ab4")
@@ -326,7 +348,7 @@
 		)
 	)
 	(fp_text user "GP6"
-		(at 4 5.5 0)
+		(at 9.3 5.7 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "c6c4fed4-bebd-47a5-9d22-e73fd4ab0567")
@@ -339,7 +361,7 @@
 		)
 	)
 	(fp_text user "GP27"
-		(at -7 3 0)
+		(at -7.2 2.6 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "cf5ac3e1-aced-40b1-874b-4ef58c101153")
@@ -352,7 +374,7 @@
 		)
 	)
 	(fp_text user "GP26"
-		(at -7 5.5 0)
+		(at -13.3 5.8 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "d2c9001d-2d51-4d44-807a-5654dd17fb8d")

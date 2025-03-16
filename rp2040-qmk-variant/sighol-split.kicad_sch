@@ -2578,7 +2578,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "sighol:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "sighol:SOD-123 reversible"
 			(at 106.68 90.17 90)
 			(effects
 				(font
@@ -2740,7 +2740,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "sighol:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "sighol:SOD-123 reversible"
 			(at 119.38 109.22 90)
 			(effects
 				(font
@@ -2828,7 +2828,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "sighol:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "sighol:SOD-123 reversible"
 			(at 93.98 90.17 90)
 			(effects
 				(font
@@ -3120,7 +3120,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "sighol:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "sighol:SOD-123 reversible"
 			(at 106.68 109.22 90)
 			(effects
 				(font
@@ -3208,7 +3208,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "sighol:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "sighol:SOD-123 reversible"
 			(at 81.28 109.22 90)
 			(effects
 				(font
@@ -3296,7 +3296,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "sighol:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "sighol:SOD-123 reversible"
 			(at 68.58 71.12 90)
 			(effects
 				(font
@@ -3384,7 +3384,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "sighol:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "sighol:SOD-123 reversible"
 			(at 93.98 109.22 90)
 			(effects
 				(font
@@ -3608,7 +3608,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "sighol:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "sighol:SOD-123 reversible"
 			(at 55.88 109.22 90)
 			(effects
 				(font
@@ -3764,7 +3764,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "sighol:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "sighol:SOD-123 reversible"
 			(at 93.98 128.27 90)
 			(effects
 				(font
@@ -3920,7 +3920,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "sighol:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "sighol:SOD-123 reversible"
 			(at 55.88 90.17 90)
 			(effects
 				(font
@@ -4008,7 +4008,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "sighol:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "sighol:SOD-123 reversible"
 			(at 106.68 71.12 90)
 			(effects
 				(font
@@ -4164,7 +4164,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "sighol:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "sighol:SOD-123 reversible"
 			(at 68.58 90.17 90)
 			(effects
 				(font
@@ -4456,7 +4456,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "sighol:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "sighol:SOD-123 reversible"
 			(at 106.68 128.27 90)
 			(effects
 				(font
@@ -4612,7 +4612,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "sighol:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "sighol:SOD-123 reversible"
 			(at 93.98 71.12 90)
 			(effects
 				(font
@@ -4700,7 +4700,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "sighol:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "sighol:SOD-123 reversible"
 			(at 119.38 128.27 90)
 			(effects
 				(font
@@ -4924,7 +4924,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "sighol:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "sighol:SOD-123 reversible"
 			(at 81.28 90.17 90)
 			(effects
 				(font
@@ -5148,7 +5148,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "sighol:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "sighol:SOD-123 reversible"
 			(at 68.58 109.22 90)
 			(effects
 				(font
@@ -5236,7 +5236,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "sighol:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "sighol:SOD-123 reversible"
 			(at 119.38 71.12 90)
 			(effects
 				(font
@@ -5390,7 +5390,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "sighol:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "sighol:SOD-123 reversible"
 			(at 81.28 71.12 90)
 			(effects
 				(font
@@ -5546,7 +5546,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "sighol:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "sighol:SOD-123 reversible"
 			(at 119.38 90.17 90)
 			(effects
 				(font
@@ -5702,7 +5702,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "sighol:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "sighol:SOD-123 reversible"
 			(at 55.88 71.12 90)
 			(effects
 				(font
@@ -6059,7 +6059,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "sighol:D_DO-35_SOD27_P7.62mm_Horizontal"
+		(property "Footprint" "sighol:SOD-123 reversible"
 			(at 81.28 128.27 90)
 			(effects
 				(font
